@@ -199,3 +199,6 @@ footer .links a{text-decoration:underline}
 .post-img img{width:auto;max-width:min(100%,520px);max-height:620px;height:auto;border:2px solid var(--ink);display:block}
 .article p a,.article ul.list li a,.qa a{color:var(--red);text-decoration:underline;text-underline-offset:3px;font-weight:700}
 .post h2{scroll-margin-top:12px}
+.near{display:flex;flex-wrap:wrap;gap:6px}
+.near a{border:2px solid var(--ink);padding:7px 12px;font-weight:800;background:var(--paper)}
+.near a:hover{background:var(--ink);color:#fff}

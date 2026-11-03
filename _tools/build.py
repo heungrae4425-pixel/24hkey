@@ -13,7 +13,7 @@ SITE = "https://xn--24-ji5jp6afzih4cnup.kr"   # 24시출장열쇠.kr
 NAME = "24시출장열쇠"
 TEL = "010-3664-5455"
 TEL_RAW = "01036645455"
-VER = "6"
+VER = "7"
 
 def w(n):
     return f"assets/work/w{n:02d}.jpg"
@@ -97,7 +97,7 @@ def href(slug):
 
 
 def head(title, desc, path, img="assets/og/home.jpg"):
-    url = SITE + "/" + path
+    url = SITE + "/" + (path[:-5] if path.endswith(".html") else path)
     robots = '<meta name="robots" content="noindex, nofollow">\n' if DRAFT else ""
     ld = json.dumps({"@context": "https://schema.org", "@type": "Locksmith", "name": NAME, "url": SITE,
                      "telephone": TEL, "areaServed": ["서울특별시", "경기도"], "openingHours": "Mo-Su 00:00-24:00"},
@@ -194,7 +194,13 @@ def body_html(blocks):
 
 
 def write(path, content):
-    with open(os.path.join(ROOT, path), "w", encoding="utf-8") as f:
+    import re as _re
+    if path.endswith(".html"):
+        # 사이트 안 링크는 .html 없이 (Cloudflare Pages 주소 형식, 중복 주소 방지)
+        content = _re.sub(r'href="(?!https?:|tel:|mailto:|#)([A-Za-z0-9_\-/]+)\.html(#[^"]*)?"', r'href="\1\2"', content)
+    full = os.path.join(ROOT, path)
+    os.makedirs(os.path.dirname(full), exist_ok=True)
+    with open(full, "w", encoding="utf-8") as f:
         f.write(content)
 
 
@@ -332,34 +338,108 @@ def region_posts(slug):
     return out
 
 
+from region_notes import NOTES, SPOTS
+NEIGHBORS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "neighbors.json"), encoding="utf-8"))
+
+
+def paras(text):
+    return "<p>" + "<br>".join(e(x.strip()) for x in text.split(" / ")) + "</p>"
+
+
+def city_ld(c, faqs):
+    url = f"{SITE}/{c['slug']}"
+    region = "서울특별시" if c["prov"] == "서울" else "경기도"
+    return [
+        {"@context": "https://schema.org", "@type": "Locksmith", "name": f"{NAME} {c['short']}",
+         "url": url, "telephone": TEL, "image": f"{SITE}/assets/og/{c['slug']}.jpg",
+         "openingHours": "Mo-Su 00:00-24:00", "priceRange": "작업 전 안내",
+         "areaServed": [{"@type": "City", "name": f"{region} {c['name']}"}] +
+                       [{"@type": "Place", "name": f"{c['name']} {d}"} for d in c["dongs"]],
+         "address": {"@type": "PostalAddress", "addressRegion": region, "addressLocality": c["name"], "addressCountry": "KR"}},
+        {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "홈", "item": SITE + "/"},
+            {"@type": "ListItem", "position": 2, "name": "출장 지역", "item": SITE + "/area"},
+            {"@type": "ListItem", "position": 3, "name": f"{c['name']} 출장열쇠", "item": url}]},
+        {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]},
+    ]
+
+
+def josa(word, a="은", b="는"):
+    ch = word[-1]
+    if "가" <= ch <= "힣":
+        return a if (ord(ch) - 0xAC00) % 28 else b
+    return a
+
+
+def pick(slug, k, options):
+    import hashlib
+    return options[int(hashlib.md5((slug + str(k)).encode()).hexdigest(), 16) % len(options)]
+
+
 def build_city(c):
+    sh, nm = c["short"], c["name"]
+    P = lambda k, *o: pick(c["slug"], k, o)
+    note1, note2 = NOTES[c["slug"]]
     rp = region_posts(c["slug"])
-    rp_html = ("<h2>" + c["name"] + " 관련 글</h2><ul class=\"list\">" + "".join(
+    rp_html = (f"<h2>{sh} 출장열쇠 관련 글</h2><ul class=\"list\">" + "".join(
         f'<li><a href="blog/{s}">{e(t)}</a></li>' for s, t in rp) + "</ul>") if rp else ""
     dongs = "".join(f"<li>{d}</li>" for d in c["dongs"])
-    svc = "".join(f'<li><a href="{s["slug"]}.html">{s["name"]}</a> — {s["short"]}</li>' for s in SERVICES)
-    intro = f"{c['feat']} {c['name']} 어디든 24시간 갑니다."
-    page = head(f"{c['full']} 출장열쇠 · 현관문 개문 · 도어락 수리 | {NAME}",
-                f"{c['short']} 출장열쇠 24시. {c['feat']} 어디든 갑니다. 못 열면 비용 없음."[:80], f"{c['slug']}.html",
-                f"assets/og/{c['slug']}.jpg")
-    crumb = f'<a href="./">홈</a> › <a href="area.html#{"seoul-map" if c["prov"] == "서울" else "gyeonggi"}">{c["prov"]}</a> › {c["name"]}'
-    page += page_top(crumb, f"{c['name']} 출장열쇠", intro)
+    d3 = ", ".join(c["dongs"][:3])
+    svc = "".join(f'<li><a href="{s["slug"]}.html">{sh} {s["name"]}</a></li>' for s in SERVICES)
+    near = [BY_SLUG[t] for t in NEIGHBORS.get(c["slug"], [])]
+    near_html = "".join(f'<a href="{n["slug"]}.html">{n["short"]} 출장열쇠</a>' for n in near)
+    faqs = [
+        (P(1, f"{sh} 어디까지 출장 오시나요?", f"{sh} 어느 동네까지 오시나요?", f"{nm} 끝쪽 동네도 오시나요?"),
+         f"{', '.join(c['dongs'][:6])} 등 {nm} 전 지역 갑니다. " + P(2, f"적혀 있지 않은 동네도 {nm} 안이면 출동합니다.",
+            "목록에 없는 동네도 전화로 위치만 알려주시면 됩니다.", f"{nm} 안이라면 동네 상관없이 갑니다.")),
+        (P(3, f"{sh}에서 밤늦게나 새벽에도 오시나요?", f"새벽에 {sh}에서 전화해도 되나요?", f"{sh} 늦은 시간 출장도 되나요?"),
+         P(4, "24시간 전화 받고 출동합니다. 위치를 알려주시면 도착 예상 시간을 먼저 말씀드립니다.",
+              "밤이든 새벽이든 받습니다. 어디인지 들으면 언제쯤 도착하는지 바로 말씀드립니다.",
+              "시간 상관없이 출동합니다. 주소를 받으면 도착 시간부터 알려드립니다.")),
+        (P(5, "문을 못 열면 비용을 내나요?", "끝내 못 열면 돈은 어떻게 되나요?", "개방에 실패해도 비용이 나오나요?"),
+         P(6, "못 열면 비용은 받지 않습니다. 비용은 작업 전에 먼저 말씀드리고, 괜찮다고 하시면 시작합니다.",
+              "못 열면 받지 않습니다. 얼마인지는 손대기 전에 먼저 말씀드립니다.",
+              "열지 못하면 비용은 없습니다. 작업 전에 금액을 듣고 정하시면 됩니다.")),
+        (P(7, "집주인이 아니어도 열어 주나요?", "세입자도 문을 열어 주시나요?", "본인 확인은 어떻게 하나요?"),
+         P(8, "사시는 분인지 신분증, 주소가 나온 우편물, 관리사무소 확인 중 하나로 확인한 뒤 엽니다.",
+              "사시는 분이 맞는지만 확인되면 됩니다. 신분증이나 우편물을 준비해 주세요.",
+              "거주하시는 분인지 확인한 뒤 엽니다. 신분증이 집 안에 있으면 관리사무소 확인도 됩니다.")),
+        (P(9, f"{sh} 도어락 수리나 교체도 하시나요?", f"{sh}에서 도어락 고장도 봐주시나요?", f"{sh} 도어락 새로 다는 것도 되나요?"),
+         P(10, "네, 문 열기와 함께 도어락 수리, 설치, 교체도 합니다. 고쳐서 되면 교체는 권하지 않습니다.",
+               "네, 수리와 설치, 교체 모두 합니다. 고쳐서 쓸 수 있으면 고치는 쪽을 먼저 말씀드립니다.",
+               "네, 합니다. 문에 맞는 제품인지 보고, 고칠 수 있으면 수리를 먼저 권합니다.")),
+    ]
+    title = f"{sh} 출장열쇠 24시 · {nm} 현관문 열기 도어락 수리 | {NAME}"
+    desc = f"{sh} 출장열쇠 24시간. {d3} 등 {nm} 전 지역 현관문 열기, 도어락 수리·교체. 못 열면 비용 없음."
+    page = head(title, desc, f"{c['slug']}.html", f"assets/og/{c['slug']}.jpg")
+    ld = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in city_ld(c, faqs))
+    page = page.replace("</head>", ld + "\n</head>", 1)
+    crumb = f'<a href="./">홈</a> › <a href="area.html#{"seoul-map" if c["prov"] == "서울" else "gyeonggi"}">{c["prov"]}</a> › {nm}'
+    page += page_top(crumb, f"{sh} 출장열쇠 24시", f"{c['feat']} {nm} 어디든 24시간 갑니다.")
     page += f"""
 <div class="wrap content">
   <article class="article">
-    <h2>{c['name']} 이런 동네 다닙니다</h2>
+    <h2>{P(12, f"{sh} 출장열쇠, 이런 동네입니다", f"{sh}{josa(sh)} 이런 곳입니다", f"{sh} 출장 다니며 보는 동네")}</h2>
+    {paras(note1)}
+    <figure class="post-img"><img src="assets/og/{c['slug']}-card.jpg" alt="{e(sh)} 24시 출장열쇠 {TEL}" width="600" height="760" loading="lazy"></figure>
+    <h2>{nm} 출장 가는 동네</h2>
     <ul class="dongs">{dongs}</ul>
-    <p>적혀 있지 않아도 {c['name']} 안이면 다 갑니다.</p>
-    <h2>{c['short']}에서 하는 일</h2>
+    <p>{e(c['dongs'][0])} 출장열쇠, {e(c['dongs'][1] if len(c['dongs']) > 1 else c['dongs'][0])} 열쇠집처럼 동네 이름으로 찾으셨어도 같은 곳입니다.<br>적혀 있지 않은 동네도 {nm} 안이면 다 갑니다.</p>
+    <h2>{P(14, f"{sh}에서 하는 일", f"{sh} 출장 작업 종류", f"{sh}에서 맡기실 수 있는 일")}</h2>
     <ul class="list">{svc}</ul>
-    <h2>전화하실 때 알려주시면 빨라요</h2>
-    <ul class="list"><li>주소와 건물 이름 (아파트면 동, 호수)</li><li>문 종류, 번호판이 켜지는지</li>
-      <li>사시는 걸 확인할 신분증이나 우편물이 있는지</li></ul>
+    <h2>{P(13, f"{sh} 출장 부르실 때", f"{sh}에서 전화 주실 때", f"{sh} 출장, 이렇게 알려주세요")}</h2>
+    {paras(note2)}
+    <p>{e(SPOTS[c['slug']])} 근처라고 말씀해 주셔도 위치 잡기가 쉬워집니다.<br>가까운 역이나 큰 건물, 단지 이름을 같이 알려주세요.</p>
+    {P(11, '<ul class="list"><li>주소와 건물 이름 (아파트면 동, 호수)</li><li>문 종류, 번호판이 켜지는지</li><li>사시는 걸 확인할 신분증이나 우편물이 있는지</li></ul>',
+         '<ul class="list"><li>정확한 주소, 아파트라면 동과 호수</li><li>번호판 상태 (꺼짐, 켜짐, 경고음)</li><li>거주 확인용 신분증이나 주소 나온 우편물</li></ul>',
+         '<ul class="list"><li>도로명 주소나 건물 이름</li><li>도어락 사진 한 장 (문자로)</li><li>신분증, 우편물 등 사시는 걸 확인할 것</li></ul>')}
+    <p>전화부터 작업까지 순서는 <a href="guide.html">이용안내</a>에 적어 두었습니다.</p>
     {rp_html}
-    <h2>진행 순서</h2>
-    {flow()}
-    <h2>많이 물어보시는 것</h2>
-    {qa([FAQ[0], FAQ[1], FAQ[4]])}
+    <h2>{sh} 출장열쇠 자주 묻는 질문</h2>
+    {qa(faqs)}
+    <h2>{sh} 가까운 지역</h2>
+    <div class="near">{near_html}</div>
   </article>
   {side(c['slug'], c['prov'])}
 </div>

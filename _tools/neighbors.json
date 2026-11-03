@@ -1,0 +1,426 @@
+{
+"yangpyeong": [
+"yeoju",
+"gapyeong",
+"gwangju",
+"namyangju"
+],
+"gapyeong": [
+"pocheon",
+"yangpyeong",
+"namyangju"
+],
+"yeoncheon": [
+"pocheon",
+"paju",
+"dongducheon",
+"yangju"
+],
+"yeoju": [
+"yangpyeong",
+"icheon",
+"gwangju"
+],
+"pocheon": [
+"gapyeong",
+"yeoncheon",
+"dongducheon",
+"namyangju",
+"yangju",
+"uijeongbu"
+],
+"yangju": [
+"paju",
+"uijeongbu",
+"goyang",
+"dongducheon",
+"pocheon",
+"yeoncheon",
+"seoul-dobong",
+"seoul-gangbuk"
+],
+"gwangju": [
+"yongin",
+"yangpyeong",
+"seongnam",
+"icheon",
+"hanam",
+"yeoju",
+"namyangju"
+],
+"hwaseong": [
+"pyeongtaek",
+"osan",
+"yongin",
+"suwon",
+"ansan"
+],
+"gimpo": [
+"goyang",
+"paju",
+"seoul-gangseo"
+],
+"anseong": [
+"yongin",
+"pyeongtaek",
+"icheon"
+],
+"icheon": [
+"yeoju",
+"yongin",
+"anseong",
+"gwangju"
+],
+"paju": [
+"yeoncheon",
+"goyang",
+"yangju",
+"gimpo"
+],
+"yongin": [
+"anseong",
+"gwangju",
+"suwon",
+"hwaseong",
+"icheon",
+"seongnam",
+"pyeongtaek",
+"uiwang"
+],
+"hanam": [
+"namyangju",
+"gwangju",
+"seoul-gangdong",
+"seoul-songpa",
+"seongnam",
+"guri"
+],
+"uiwang": [
+"suwon",
+"gunpo",
+"gwacheon",
+"seongnam",
+"anyang",
+"yongin",
+"ansan"
+],
+"gunpo": [
+"ansan",
+"anyang",
+"uiwang",
+"suwon"
+],
+"siheung": [
+"ansan",
+"gwangmyeong",
+"bucheon",
+"anyang"
+],
+"osan": [
+"hwaseong",
+"pyeongtaek"
+],
+"namyangju": [
+"gapyeong",
+"hanam",
+"yangpyeong",
+"pocheon",
+"guri",
+"uijeongbu",
+"seoul-nowon",
+"gwangju",
+"seoul-gangdong"
+],
+"guri": [
+"namyangju",
+"seoul-jungnang",
+"seoul-gangdong",
+"seoul-nowon",
+"seoul-gwangjin",
+"hanam"
+],
+"gwacheon": [
+"seoul-seocho",
+"uiwang",
+"anyang",
+"seoul-gwanak",
+"seongnam"
+],
+"goyang": [
+"paju",
+"gimpo",
+"yangju",
+"seoul-eunpyeong",
+"seoul-gangseo",
+"seoul-gangbuk",
+"seoul-mapo",
+"seoul-seongbuk",
+"seoul-jongno"
+],
+"ansan": [
+"siheung",
+"gunpo",
+"hwaseong",
+"suwon",
+"anyang",
+"uiwang"
+],
+"dongducheon": [
+"pocheon",
+"yangju",
+"yeoncheon"
+],
+"pyeongtaek": [
+"hwaseong",
+"anseong",
+"osan",
+"yongin"
+],
+"gwangmyeong": [
+"siheung",
+"seoul-geumcheon",
+"seoul-guro",
+"anyang",
+"bucheon"
+],
+"bucheon": [
+"seoul-gangseo",
+"siheung",
+"seoul-guro",
+"seoul-yangcheon",
+"gwangmyeong"
+],
+"anyang": [
+"gunpo",
+"gwacheon",
+"uiwang",
+"gwangmyeong",
+"seoul-gwanak",
+"seoul-geumcheon",
+"siheung",
+"ansan"
+],
+"uijeongbu": [
+"yangju",
+"namyangju",
+"pocheon",
+"seoul-dobong",
+"seoul-nowon"
+],
+"seongnam": [
+"gwangju",
+"yongin",
+"seoul-seocho",
+"uiwang",
+"hanam",
+"seoul-gangnam",
+"seoul-songpa",
+"gwacheon"
+],
+"suwon": [
+"yongin",
+"hwaseong",
+"uiwang",
+"ansan",
+"gunpo"
+],
+"seoul-gangdong": [
+"hanam",
+"guri",
+"seoul-songpa",
+"seoul-gwangjin",
+"namyangju"
+],
+"seoul-songpa": [
+"seoul-gangnam",
+"hanam",
+"seoul-gwangjin",
+"seoul-gangdong",
+"seongnam"
+],
+"seoul-gangnam": [
+"seoul-seocho",
+"seoul-songpa",
+"seoul-seongdong",
+"seongnam",
+"seoul-yongsan",
+"seoul-gwangjin"
+],
+"seoul-seocho": [
+"seoul-gangnam",
+"gwacheon",
+"seongnam",
+"seoul-yongsan",
+"seoul-dongjak",
+"seoul-gwanak"
+],
+"seoul-gwanak": [
+"seoul-dongjak",
+"seoul-geumcheon",
+"anyang",
+"gwacheon",
+"seoul-seocho",
+"seoul-guro",
+"seoul-yeongdeungpo"
+],
+"seoul-dongjak": [
+"seoul-gwanak",
+"seoul-yeongdeungpo",
+"seoul-seocho",
+"seoul-yongsan",
+"seoul-guro",
+"seoul-geumcheon"
+],
+"seoul-yeongdeungpo": [
+"seoul-dongjak",
+"seoul-mapo",
+"seoul-guro",
+"seoul-yangcheon",
+"seoul-yongsan",
+"seoul-gangseo",
+"seoul-gwanak",
+"seoul-geumcheon"
+],
+"seoul-geumcheon": [
+"gwangmyeong",
+"seoul-gwanak",
+"anyang",
+"seoul-guro",
+"seoul-yeongdeungpo",
+"seoul-dongjak"
+],
+"seoul-guro": [
+"seoul-yangcheon",
+"gwangmyeong",
+"seoul-yeongdeungpo",
+"bucheon",
+"seoul-geumcheon",
+"seoul-gwanak",
+"seoul-dongjak"
+],
+"seoul-gangseo": [
+"seoul-yangcheon",
+"goyang",
+"bucheon",
+"seoul-mapo",
+"gimpo",
+"seoul-yeongdeungpo"
+],
+"seoul-yangcheon": [
+"seoul-gangseo",
+"seoul-guro",
+"bucheon",
+"seoul-yeongdeungpo"
+],
+"seoul-mapo": [
+"seoul-seodaemun",
+"seoul-yeongdeungpo",
+"seoul-gangseo",
+"goyang",
+"seoul-yongsan",
+"seoul-eunpyeong",
+"seoul-jung"
+],
+"seoul-seodaemun": [
+"seoul-mapo",
+"seoul-eunpyeong",
+"seoul-jongno",
+"seoul-jung"
+],
+"seoul-eunpyeong": [
+"goyang",
+"seoul-seodaemun",
+"seoul-jongno",
+"seoul-mapo",
+"seoul-seongbuk"
+],
+"seoul-nowon": [
+"namyangju",
+"seoul-dobong",
+"seoul-jungnang",
+"uijeongbu",
+"seoul-seongbuk",
+"guri",
+"seoul-gangbuk"
+],
+"seoul-dobong": [
+"seoul-gangbuk",
+"seoul-nowon",
+"uijeongbu",
+"yangju"
+],
+"seoul-gangbuk": [
+"seoul-seongbuk",
+"seoul-dobong",
+"goyang",
+"yangju",
+"seoul-nowon"
+],
+"seoul-seongbuk": [
+"seoul-jongno",
+"seoul-gangbuk",
+"seoul-dongdaemun",
+"seoul-nowon",
+"goyang",
+"seoul-jungnang",
+"seoul-eunpyeong"
+],
+"seoul-jungnang": [
+"guri",
+"seoul-dongdaemun",
+"seoul-nowon",
+"seoul-gwangjin",
+"seoul-seongbuk"
+],
+"seoul-dongdaemun": [
+"seoul-seongbuk",
+"seoul-seongdong",
+"seoul-jungnang",
+"seoul-gwangjin",
+"seoul-jongno",
+"seoul-jung"
+],
+"seoul-gwangjin": [
+"seoul-songpa",
+"seoul-seongdong",
+"seoul-jungnang",
+"seoul-gangdong",
+"guri",
+"seoul-dongdaemun",
+"seoul-gangnam"
+],
+"seoul-seongdong": [
+"seoul-dongdaemun",
+"seoul-gangnam",
+"seoul-gwangjin",
+"seoul-jung",
+"seoul-yongsan",
+"seoul-jongno"
+],
+"seoul-yongsan": [
+"seoul-jung",
+"seoul-seocho",
+"seoul-dongjak",
+"seoul-mapo",
+"seoul-seongdong",
+"seoul-gangnam",
+"seoul-yeongdeungpo"
+],
+"seoul-jung": [
+"seoul-jongno",
+"seoul-yongsan",
+"seoul-seongdong",
+"seoul-seodaemun",
+"seoul-mapo",
+"seoul-dongdaemun"
+],
+"seoul-jongno": [
+"seoul-seongbuk",
+"seoul-jung",
+"seoul-seodaemun",
+"seoul-eunpyeong",
+"seoul-dongdaemun",
+"goyang",
+"seoul-seongdong"
+]
+}

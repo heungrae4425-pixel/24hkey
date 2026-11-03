@@ -68,27 +68,10 @@ SERVICES = [
 ]
 
 # ── 지역 ─────────────────────────────────────────────────
-CITIES = [
-  dict(slug="suwon", name="수원", full="수원시",
-       intro="영통, 광교 아파트부터 권선, 장안 주택가, 인계동 상가까지 수원 어디든 갑니다.",
-       dongs=["영통동","매탄동","원천동","망포동","광교동","이의동","인계동","권선동","세류동","곡선동","정자동","조원동",
-              "율전동","천천동","화서동","호매실동","금곡동","우만동","파장동","연무동","송죽동","매교동","고등동","행궁동"]),
-  dict(slug="hwaseong", name="화성", full="화성시",
-       intro="동탄 아파트 단지, 병점, 봉담, 향남 주택가, 남양까지 화성 어디든 갑니다.",
-       dongs=["동탄 반송동","동탄 능동","동탄 청계동","동탄 영천동","동탄 오산동","동탄 목동","동탄 산척동","동탄 장지동",
-              "병점동","진안동","기배동","새솔동","봉담읍","향남읍","남양읍","송산동","화산동"]),
-  dict(slug="yongin", name="용인", full="용인시",
-       intro="수지, 기흥 아파트 단지부터 처인구 주택가, 상가까지 용인 어디든 갑니다.",
-       dongs=["풍덕천동","상현동","성복동","죽전동","동천동","신봉동","구갈동","보정동","동백동","영덕동","서농동",
-              "상갈동","마북동","신갈동","역북동","김량장동","고림동","유림동","포곡읍","모현읍","남사읍"]),
-  dict(slug="osan", name="오산", full="오산시",
-       intro="세교 아파트부터 오산동, 원동 주택가와 상가까지 오산 어디든 갑니다.",
-       dongs=["오산동","원동","궐동","세교동","신장동","대원동","남촌동","초평동","수청동","갈곶동","누읍동","부산동"]),
-  dict(slug="seongnam", name="성남", full="성남시",
-       intro="분당, 판교 아파트와 사무실, 수정구, 중원구 주택가, 위례까지 성남 어디든 갑니다.",
-       dongs=["분당 정자동","서현동","수내동","야탑동","이매동","금곡동","구미동","판교 백현동","삼평동","운중동",
-              "태평동","신흥동","단대동","위례동","금광동","은행동","상대원동","도촌동"]),
-]
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from regions import all_regions
+CITIES = all_regions()
 
 STEPS = [("전화", "어디인지, 어떤 상황인지"), ("확인", "문 종류와 증상을 여쭤봅니다"),
          ("출동", "도착 전에 전화드립니다"), ("비용 안내", "작업 전에 먼저 말씀드립니다"),
@@ -97,7 +80,7 @@ STEPS = [("전화", "어디인지, 어떤 상황인지"), ("확인", "문 종류
 FAQ = [
   ("문 못 열면 돈 내야 하나요?", "안 받습니다. 그리고 작업 전에 얼마인지 먼저 말씀드리고, 괜찮다고 하시면 시작합니다."),
   ("새벽에도 오시나요?", "24시간 받습니다. 시간 상관없이 전화 주세요."),
-  ("어디까지 오시나요?", "서울, 경기 다 갑니다. 수원, 화성, 용인, 오산, 성남은 아래에 동네별로 적어 뒀습니다."),
+  ("어디까지 오시나요?", "서울 25개 구, 경기 31개 시·군 다 갑니다. 지역별 페이지에 다니는 동네를 적어 뒀습니다."),
   ("문이나 도어락이 망가지진 않나요?", "덜 상하는 방법부터 해봅니다. 부품을 바꿔야 할 때는 미리 말씀드립니다."),
   ("집주인 아니어도 열어주나요?", "사시는 분이 맞는지 신분증이나 우편물로 확인하고 엽니다."),
   ("고장 나면 무조건 바꿔야 하나요?", "아닙니다. 고쳐서 될 것 같으면 수리를 먼저 말씀드립니다."),
@@ -110,10 +93,10 @@ e = html.escape
 
 
 def href(slug):
-    return "./#area" if slug == "area" else f"{slug}.html"
+    return f"{slug}.html"
 
 
-def head(title, desc, path, img="assets/work/w09.jpg"):
+def head(title, desc, path, img="assets/og/home.jpg"):
     url = SITE + "/" + path
     robots = '<meta name="robots" content="noindex, nofollow">\n' if DRAFT else ""
     ld = json.dumps({"@context": "https://schema.org", "@type": "Locksmith", "name": NAME, "url": SITE,
@@ -156,16 +139,15 @@ def head(title, desc, path, img="assets/work/w09.jpg"):
 
 def foot():
     svc = "".join(f'<a href="{s["slug"]}.html">{s["name"]}</a>' for s in SERVICES)
-    area = "".join(f'<a href="{c["slug"]}.html">{c["name"]}</a>' for c in CITIES)
     return f"""</main>
 <footer><div class="wrap">
   <div class="name">{NAME}</div>
   <div>전화 <b>{TEL}</b> · 24시간 · 서울, 경기 출장</div>
   <div class="links">{svc}<a href="guide.html">이용안내</a></div>
-  <div class="links">출장 지역: {area}</div>
+  <div class="links"><a href="area.html">출장 지역: 서울 25개 구 · 경기 31개 시·군</a></div>
   <div>문 못 열면 돈 안 받습니다. 비용은 작업 전에 먼저 말씀드립니다.</div>
 </div></footer>
-<div class="callbar"><a class="main" href="tel:{TEL_RAW}">전화 {TEL}</a><a class="sub" href="./#area">지역</a></div>
+<div class="callbar"><a class="main" href="tel:{TEL_RAW}">전화 {TEL}</a><a class="sub" href="area.html">지역</a></div>
 </body>
 </html>
 """
@@ -185,13 +167,18 @@ def qa(items):
         f'<div><p class="q">{e(q)}</p><p class="a">{e(a)}</p></div>' for q, a in items) + "</div>"
 
 
-def side(current=None):
+def side(current=None, prov=None):
     s = "".join(f'<li><a href="{x["slug"]}.html">{x["name"]}</a></li>' for x in SERVICES if x["slug"] != current)
-    c = "".join(f'<li><a href="{x["slug"]}.html">{x["name"]} 출장열쇠</a></li>' for x in CITIES if x["slug"] != current)
+    if prov:
+        rs = [x for x in CITIES if x["prov"] == prov and x["slug"] != current]
+        c = "".join(f'<li><a href="{x["slug"]}.html">{x["name"]}</a></li>' for x in rs)
+        box = f'<div class="box"><h3>{prov} 다른 지역</h3><ul class="two">{c}</ul></div>'
+    else:
+        box = '<div class="box"><h3>지역</h3><ul><li><a href="area.html#seoul">서울 25개 구</a></li><li><a href="area.html#gyeonggi">경기 31개 시·군</a></li></ul></div>'
     return f"""<aside class="side">
   <div class="call">24시간 받습니다<a href="tel:{TEL_RAW}">{TEL}</a>못 열면 돈 안 받습니다</div>
   <div class="box"><h3>하는 일</h3><ul>{s}</ul></div>
-  <div class="box"><h3>지역</h3><ul>{c}</ul></div>
+  {box}
 </aside>"""
 
 
@@ -224,8 +211,7 @@ def build_home():
     menu = "".join(f'<a href="{s["slug"]}.html"><img src="{w(s["pics"][0])}" alt="{s["name"]}" loading="lazy">'
                    f'<div><b>{s["name"]}</b><span>{s["short"]}</span></div><i>→</i></a>' for s in SERVICES)
     photos = "".join(f'<img src="{w(n)}" alt="작업한 도어락" loading="lazy" width="200" height="200">' for n in range(1, 21))
-    area = "".join(f'<a href="{c["slug"]}.html"><b>{c["name"]}</b><span>{", ".join(c["dongs"][:5])} …</span><i>동네 보기</i></a>'
-                   for c in CITIES)
+    area = area_blocks()
     page = head("24시출장열쇠 · 현관문 개문 · 도어락 수리",
                 "문 안 열리면 전화 주세요. 24시간 출장열쇠, 현관문 개문, 도어락 설치·교체·수리. 서울·경기 출장, 못 열면 비용 없음.", "")
     page += f"""
@@ -259,9 +245,8 @@ def build_home():
 
 <section class="sec paper" id="area"><div class="wrap">
   <h2>출장 지역</h2>
-  <p class="note">지역을 누르면 동네가 나옵니다.</p>
-  <div class="area">{area}</div>
-  <p class="area-more">여기 없는 곳도 서울, 경기면 갑니다. 전화로 위치만 말씀해 주세요.</p>
+  <p class="note">서울, 경기 전 지역 갑니다. 지역을 누르면 다니는 동네가 나옵니다.</p>
+  {area}
 </div></section>
 
 <section class="sec"><div class="wrap">
@@ -298,19 +283,37 @@ def build_service(s):
     write(f"{s['slug']}.html", page + foot())
 
 
+def area_blocks():
+    out = []
+    for prov, anchor, label in (("서울", "seoul", "서울 25개 구"), ("경기", "gyeonggi", "경기 31개 시·군")):
+        links = "".join(f'<a href="{c["slug"]}.html">{c["name"]}</a>' for c in CITIES if c["prov"] == prov)
+        out.append(f'<h3 class="prov" id="{anchor}">{label}</h3><div class="towns">{links}</div>')
+    return "".join(out)
+
+
+def build_area():
+    page = head(f"출장 지역 · 서울 경기 전 지역 | {NAME}", "서울 25개 구, 경기 31개 시·군 24시간 출장열쇠. 지역을 누르면 다니는 동네가 나옵니다.", "area.html")
+    page += page_top('<a href="./">홈</a> › 출장 지역', "출장 지역", "서울, 경기 전 지역 24시간 갑니다. 지역을 누르면 다니는 동네가 나옵니다.")
+    page += f'<div class="wrap" style="padding-block:36px">{area_blocks()}</div>'
+    write("area.html", page + foot())
+
+
 def build_city(c):
     dongs = "".join(f"<li>{d}</li>" for d in c["dongs"])
     svc = "".join(f'<li><a href="{s["slug"]}.html">{s["name"]}</a> — {s["short"]}</li>' for s in SERVICES)
-    page = head(f"{c['name']} 출장열쇠 · 현관문 개문 · 도어락 수리 | {NAME}",
-                f"{c['full']} 24시간 출장열쇠. {c['intro']}"[:80], f"{c['slug']}.html")
-    page += page_top(f'<a href="./">홈</a> › <a href="./#area">출장 지역</a> › {c["name"]}', f"{c['name']} 출장열쇠", c["intro"])
+    intro = f"{c['feat']} {c['name']} 어디든 24시간 갑니다."
+    page = head(f"{c['full']} 출장열쇠 · 현관문 개문 · 도어락 수리 | {NAME}",
+                f"{c['short']} 출장열쇠 24시. {c['feat']} 어디든 갑니다. 못 열면 비용 없음."[:80], f"{c['slug']}.html",
+                f"assets/og/{c['slug']}.jpg")
+    crumb = f'<a href="./">홈</a> › <a href="area.html#{"seoul" if c["prov"] == "서울" else "gyeonggi"}">{c["prov"]}</a> › {c["name"]}'
+    page += page_top(crumb, f"{c['name']} 출장열쇠", intro)
     page += f"""
 <div class="wrap content">
   <article class="article">
     <h2>{c['name']} 이런 동네 다닙니다</h2>
     <ul class="dongs">{dongs}</ul>
-    <p>적혀 있지 않아도 {c['full']}이면 다 갑니다.</p>
-    <h2>{c['name']}에서 하는 일</h2>
+    <p>적혀 있지 않아도 {c['name']} 안이면 다 갑니다.</p>
+    <h2>{c['short']}에서 하는 일</h2>
     <ul class="list">{svc}</ul>
     <h2>전화하실 때 알려주시면 빨라요</h2>
     <ul class="list"><li>주소와 건물 이름 (아파트면 동, 호수)</li><li>문 종류, 번호판이 켜지는지</li>
@@ -320,7 +323,7 @@ def build_city(c):
     <h2>많이 물어보시는 것</h2>
     {qa([FAQ[0], FAQ[1], FAQ[4]])}
   </article>
-  {side(c['slug'])}
+  {side(c['slug'], c['prov'])}
 </div>
 """
     write(f"{c['slug']}.html", page + foot())
@@ -341,7 +344,7 @@ def build_guide():
     <p>문을 여는 일이라 사시는 분이 맞는지 확인하고 엽니다.</p>
     <p>신분증, 주소 나온 우편물, 관리사무소 확인 중 하나면 됩니다.</p>
     <h2>출장 지역</h2>
-    <p>서울, 경기 다 갑니다. 수원, 화성, 용인, 오산, 성남은 지역 페이지에 동네를 적어 뒀습니다.</p>
+    <p>서울, 경기 다 갑니다. <a href="area.html">지역별 페이지</a>에 다니는 동네를 적어 뒀습니다.</p>
     <h2>많이 물어보시는 것</h2>
     {qa(FAQ)}
   </article>
@@ -355,7 +358,7 @@ def build_misc():
     write("assets/favicon.svg", '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#ffd400"/>'
           '<rect x="2" y="2" width="60" height="60" fill="none" stroke="#141414" stroke-width="4"/>'
           '<circle cx="24" cy="32" r="10" fill="none" stroke="#e3120b" stroke-width="6"/><path d="M33 32h21M47 32v9M54 32v6" stroke="#e3120b" stroke-width="6"/></svg>')
-    pages = [""] + [f"{s['slug']}.html" for s in SERVICES] + [f"{c['slug']}.html" for c in CITIES] + ["guide.html"]
+    pages = [""] + [f"{s['slug']}.html" for s in SERVICES] + ["area.html"] + [f"{c['slug']}.html" for c in CITIES] + ["guide.html"]
     write("robots.txt", "User-agent: *\nDisallow: /\n" if DRAFT else f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     urls = "".join(f"<url><loc>{SITE}/{p.replace('.html', '')}</loc></url>" for p in pages)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
@@ -369,6 +372,9 @@ if __name__ == "__main__":
         build_service(s)
     for c in CITIES:
         build_city(c)
+    build_area()
     build_guide()
     build_misc()
+    import thumbs
+    thumbs.make_all(ROOT, CITIES, TEL)
     print("done")

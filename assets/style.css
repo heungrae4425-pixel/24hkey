@@ -155,3 +155,14 @@ footer .links a{text-decoration:underline}
 
 .draft-flag{position:fixed;right:8px;bottom:72px;z-index:99;background:var(--ink);color:var(--sign);font-weight:900;font-size:.75rem;padding:2px 8px}
 @media(min-width:900px){.draft-flag{bottom:8px}}
+
+/* 지역 목록 */
+.prov{font-family:var(--display);font-weight:400;font-size:1.6rem;margin:26px 0 10px;padding-bottom:4px;border-bottom:3px solid var(--ink)}
+.prov:first-child{margin-top:0}
+.towns{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+@media(min-width:640px){.towns{grid-template-columns:repeat(5,1fr)}}
+@media(min-width:960px){.towns{grid-template-columns:repeat(7,1fr)}}
+.towns a{border:2px solid var(--ink);background:var(--paper);text-align:center;padding:9px 4px;font-weight:800}
+.towns a:hover{background:var(--sign)}
+.side ul.two{display:grid;grid-template-columns:1fr 1fr}
+.side ul.two li a{border-top:1px solid #ccc;font-size:.93rem;padding:6px 10px}

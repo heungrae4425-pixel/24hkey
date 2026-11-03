@@ -13,7 +13,7 @@ SITE = "https://xn--24-ji5jp6afzih4cnup.kr"   # 24시출장열쇠.kr
 NAME = "24시출장열쇠"
 TEL = "010-3664-5455"
 TEL_RAW = "01036645455"
-VER = "5"
+VER = "6"
 
 def w(n):
     return f"assets/work/w{n:02d}.jpg"
@@ -321,7 +321,21 @@ def build_area():
     write("area.html", page + foot())
 
 
+def region_posts(slug):
+    pdir = os.path.join(ROOT, "_posts")
+    out = []
+    for f in sorted(os.listdir(pdir)) if os.path.isdir(pdir) else []:
+        if f.endswith(".txt"):
+            meta = dict(l.split(": ", 1) for l in open(os.path.join(pdir, f), encoding="utf-8").read().split("\n---\n", 1)[0].strip().splitlines())
+            if meta.get("region") == slug:
+                out.append((f[:-4], meta["title"]))
+    return out
+
+
 def build_city(c):
+    rp = region_posts(c["slug"])
+    rp_html = ("<h2>" + c["name"] + " 관련 글</h2><ul class=\"list\">" + "".join(
+        f'<li><a href="blog/{s}">{e(t)}</a></li>' for s, t in rp) + "</ul>") if rp else ""
     dongs = "".join(f"<li>{d}</li>" for d in c["dongs"])
     svc = "".join(f'<li><a href="{s["slug"]}.html">{s["name"]}</a> — {s["short"]}</li>' for s in SERVICES)
     intro = f"{c['feat']} {c['name']} 어디든 24시간 갑니다."
@@ -341,6 +355,7 @@ def build_city(c):
     <h2>전화하실 때 알려주시면 빨라요</h2>
     <ul class="list"><li>주소와 건물 이름 (아파트면 동, 호수)</li><li>문 종류, 번호판이 켜지는지</li>
       <li>사시는 걸 확인할 신분증이나 우편물이 있는지</li></ul>
+    {rp_html}
     <h2>진행 순서</h2>
     {flow()}
     <h2>많이 물어보시는 것</h2>

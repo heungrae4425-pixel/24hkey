@@ -1,25 +1,30 @@
 """블로그 생성기.
 
-_posts/<slug>.txt 원고를 읽어 blog/<slug>.html, blog/index.html, 썸네일을 만든다.
+_posts/<slug>.txt 원고를 읽어 blog/<slug>.html, blog/index.html, 썸네일·본문 사진을 만든다.
 
 원고 형식
   머리말 (--- 위)
     title / date / place(썸네일 맨 위 동네 이름) / region(지역 페이지 slug) / photo(배경 사진 번호 1~20) / desc
   본문 (--- 아래)
-    # 소제목            → H2 (번호 자동)
+    # 소제목            → H2 (번호·목차 자동)
     문장 / 문장         → 문단 (/ 마다 줄바꿈)
+    [글자](주소)        → 링크 (사이트 안 페이지)
     - 항목              → 목록
     ? 질문 | 답         → 자주 묻는 질문
+    @ 사진 설명         → 본문 사진 (썸네일과 같은 문구, 크기·배경 사진은 매번 다름)
+
+사진은 모두 EXIF·ICC 같은 메타 정보 없이 저장한다.
 """
-import os, html
+import os, re, json
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
-import build
-from build import head, foot, page_top, side, write, e, ROOT, TEL, NAME, CITIES
+from build import head, foot, page_top, side, write, e, ROOT, TEL, NAME, CITIES, SITE
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT = "/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc"
 MINT = "#3fdca4"
+# 본문 사진 크기 (돌아가며 사용)
+BODY_SIZES = [(800, 800), (800, 450), (720, 960), (800, 600), (760, 760)]
 
 
 def parse(path):
@@ -32,71 +37,113 @@ def parse(path):
     return meta
 
 
-def render(body):
-    out, lst, faq, n = [], [], [], 0
+def inline(text):
+    """문장 안의 [글자](주소) 를 링크로 바꾼다."""
+    out, pos = [], 0
+    for m in re.finditer(r"\[([^\]]+)\]\(([^)]+)\)", text):
+        out.append(e(text[pos:m.start()]))
+        out.append(f'<a href="{e(m.group(2))}">{e(m.group(1))}</a>')
+        pos = m.end()
+    out.append(e(text[pos:]))
+    return "".join(out)
+
+
+def strip_links(text):
+    return re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+
+
+def render(p):
+    out, lst, faq, toc, n, img_no = [], [], [], [], 0, 0
+    slug = p["slug"]
 
     def flush():
         nonlocal lst, faq
         if lst:
-            out.append('<ul class="list">' + "".join(f"<li>{e(i)}</li>" for i in lst) + "</ul>")
+            out.append('<ul class="list">' + "".join(f"<li>{inline(i)}</li>" for i in lst) + "</ul>")
             lst = []
         if faq:
             out.append('<div class="qa">' + "".join(
-                f'<div><p class="q">{e(q)}</p><p class="a">{e(a)}</p></div>' for q, a in faq) + "</div>")
+                f'<div><p class="q">{e(q)}</p><p class="a">{inline(a)}</p></div>' for q, a in faq) + "</div>")
             faq = []
 
-    for line in body.strip().splitlines():
+    images = []
+    for line in p["body"].strip().splitlines():
         line = line.strip()
         if not line:
             continue
         if line.startswith("# "):
             flush()
             n += 1
-            out.append(f"<h2>{n}. {e(line[2:])}</h2>")
+            title = line[2:]
+            toc.append((n, title))
+            out.append(f'<h2 id="s{n}">{n}. {e(title)}</h2>')
         elif line.startswith("- "):
             lst.append(line[2:])
         elif line.startswith("? "):
             q, a = line[2:].split(" | ", 1)
             faq.append((q, a))
+        elif line.startswith("@"):
+            flush()
+            img_no += 1
+            alt = line[1:].strip() or f"{p['place']} 출장열쇠"
+            w, h = BODY_SIZES[(img_no - 1) % len(BODY_SIZES)]
+            name = f"{slug}-{img_no}.jpg"
+            images.append((name, w, h, img_no))
+            out.append(f'<figure class="post-img"><img src="blog/img/{name}" alt="{e(alt)}" width="{w}" height="{h}" loading="lazy"></figure>')
         else:
             flush()
-            out.append("<p>" + "<br>".join(e(s.strip()) for s in line.split(" / ")) + "</p>")
+            out.append("<p>" + "<br>".join(inline(s.strip()) for s in line.split(" / ")) + "</p>")
     flush()
-    return "\n".join(out)
+    toc_html = ('<nav class="toc" aria-label="목차"><b>목차</b><ol>' +
+                "".join(f'<li><a href="blog/{slug}#s{i}">{e(t)}</a></li>' for i, t in toc) + "</ol></nav>")
+    return toc_html, "\n".join(out), images
 
 
-# ── 썸네일 ───────────────────────────────────────────────
+# ── 사진 ─────────────────────────────────────────────────
 def _font(size):
     return ImageFont.truetype(FONT, size, index=1)
 
 
 def _fit(d, text, size, max_w):
     f = _font(size)
-    while d.textlength(text, font=f) > max_w and size > 40:
-        size -= 6
+    while d.textlength(text, font=f) > max_w and size > 30:
+        size -= 4
         f = _font(size)
     return f
 
 
-def thumb(out, place, photo, w, h, sizes):
+def save_clean(im, path, quality):
+    # 메타 정보(EXIF, ICC, 주석) 없이 새 이미지로 저장
+    clean = Image.new("RGB", im.size)
+    clean.paste(im)
+    clean.save(path, "JPEG", quality=quality, optimize=True, progressive=True)
+
+
+def card(out, place, photo, w, h, shift=0.5, bright=0.62, quality=84):
+    """동네 이름 / 24시 출장열쇠 / 전화번호 를 실제 사진 위에 얹는다."""
     bg = Image.open(os.path.join(HERE, "thumb_bg", f"bg{photo:02d}.jpg")).convert("RGB")
-    s = max(w / bg.width, h / bg.height)
+    s = max(w / bg.width, h / bg.height) * 1.08
     bg = bg.resize((int(bg.width * s) + 1, int(bg.height * s) + 1), Image.LANCZOS)
-    l, t = (bg.width - w) // 2, (bg.height - h) // 2
-    im = ImageEnhance.Brightness(bg.crop((l, t, l + w, t + h))).enhance(0.62)
+    l = int((bg.width - w) * shift)
+    t = int((bg.height - h) * (1 - shift))
+    im = ImageEnhance.Brightness(bg.crop((l, t, l + w, t + h))).enhance(bright)
     d = ImageDraw.Draw(im)
-    lines = [(place, sizes[0], MINT, sizes[0] // 11), ("24시 출장열쇠", sizes[1], "#ffffff", sizes[1] // 13),
-             (TEL, sizes[2], "#ffffff", sizes[2] // 13)]
-    fonts = [_fit(d, t, sz, w - 80) for t, sz, _, _ in lines]
+    base = min(w, h * 0.95)
+    lines = [(place, base * 0.284, MINT, 0.09), ("24시 출장열쇠", base * 0.185, "#ffffff", 0.08),
+             (TEL, base * 0.172, "#ffffff", 0.09)]
+    fonts = [_fit(d, t, int(sz), w - int(w * 0.09)) for t, sz, _, _ in lines]
     hs = [f.getbbox(t)[3] - f.getbbox(t)[1] for (t, *_), f in zip(lines, fonts)]
     gap = int(h * 0.045)
     y = (h - sum(hs) - gap * 2) // 2
-    for (text, _, color, stroke), f, hh in zip(lines, fonts, hs):
+    for i, ((text, _, color, sk), f, hh) in enumerate(zip(lines, fonts, hs)):
         bb = f.getbbox(text)
         x = (w - (bb[2] - bb[0])) // 2 - bb[0]
-        d.text((x, y - bb[1]), text, font=f, fill=color, stroke_width=stroke, stroke_fill="#0d0d0d")
+        stroke = max(3, int(f.size * sk))
+        d.text((x, y - bb[1]), text, font=f, fill=color, stroke_width=stroke, stroke_fill="#0b0b0b")
+        if i == 2:  # 전화번호는 한 번 더 굵게
+            d.text((x, y - bb[1]), text, font=f, fill=color, stroke_width=max(2, f.size // 28), stroke_fill=color)
         y += hh + gap
-    im.save(out, quality=84, optimize=True)
+    save_clean(im, out, quality)
 
 
 # ── 페이지 ───────────────────────────────────────────────
@@ -105,24 +152,48 @@ def with_base(page):
     return page.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<base href="/">', 1)
 
 
-def build_post(p):
+def article_ld(p):
+    return json.dumps({
+        "@context": "https://schema.org", "@type": "BlogPosting",
+        "headline": p["title"], "description": p["desc"],
+        "datePublished": p["date"], "dateModified": p["date"],
+        "image": f"{SITE}/blog/img/{p['slug']}-og.jpg",
+        "mainEntityOfPage": f"{SITE}/blog/{p['slug']}",
+        "author": {"@type": "Organization", "name": NAME, "url": SITE},
+        "publisher": {"@type": "Organization", "name": NAME, "url": SITE},
+    }, ensure_ascii=False)
+
+
+def build_post(p, posts):
     city = next((c for c in CITIES if c["slug"] == p["region"]), None)
     path = f"blog/{p['slug']}.html"
+    toc, body, images = render(p)
     page = head(f"{p['title']} | {NAME}", p["desc"], path.replace(".html", ""), f"blog/img/{p['slug']}-og.jpg")
+    page = page.replace('<meta property="og:type" content="website">', '<meta property="og:type" content="article">')
+    page = page.replace("</head>", f'<script type="application/ld+json">{article_ld(p)}</script>\n</head>', 1)
     crumb = '<a href="./">홈</a> › <a href="blog/">블로그</a>'
     if city:
         crumb += f' › <a href="{city["slug"]}.html">{city["name"]}</a>'
     page += page_top(crumb, e(p["title"]), p["date"].replace("-", ". ") + ".")
+    others = [o for o in posts if o["slug"] != p["slug"]][:4]
+    more = ""
+    if others:
+        more = '<h2>다른 글</h2><div class="post-grid">' + "".join(
+            f'<a class="post-card" href="blog/{o["slug"]}"><img src="blog/img/{o["slug"]}.jpg" alt="" loading="lazy" width="810" height="1080"><b>{e(o["title"])}</b></a>'
+            for o in others) + "</div>"
     page += f"""
 <div class="wrap content">
   <article class="article post">
-    <img class="post-cover" src="blog/img/{p['slug']}.jpg" alt="{e(p['place'])} 출장열쇠 {TEL}" width="810" height="1080">
-    {render(p['body'])}
+    <img class="post-cover" src="blog/img/{p['slug']}.jpg" alt="{e(p['place'])} 24시 출장열쇠 {TEL}" width="810" height="1080">
+    {toc}
+    {body}
+    {more}
   </article>
   {side(city['slug'] if city else None, city['prov'] if city else None)}
 </div>
 """
     write(path, with_base(page + foot()))
+    return images
 
 
 def build_index(posts):
@@ -135,17 +206,34 @@ def build_index(posts):
     write("blog/index.html", with_base(page + foot()))
 
 
-def main():
-    os.makedirs(os.path.join(ROOT, "blog", "img"), exist_ok=True)
+def add_to_sitemap(posts):
+    path = os.path.join(ROOT, "sitemap.xml")
+    sm = open(path, encoding="utf-8").read()
+    urls = [f"{SITE}/blog/"] + [f"{SITE}/blog/{p['slug']}" for p in posts]
+    add = "".join(f"<url><loc>{u}</loc></url>" for u in urls if f"<loc>{u}</loc>" not in sm)
+    write("sitemap.xml", sm.replace("</urlset>", add + "</urlset>"))
+
+
+def load_posts():
     pdir = os.path.join(ROOT, "_posts")
-    posts = sorted((parse(os.path.join(pdir, f)) for f in os.listdir(pdir) if f.endswith(".txt")),
-                   key=lambda p: (p["date"], p["slug"]), reverse=True)
+    return sorted((parse(os.path.join(pdir, f)) for f in os.listdir(pdir) if f.endswith(".txt")),
+                  key=lambda p: (p["date"], p["slug"]), reverse=True)
+
+
+def main():
+    img = os.path.join(ROOT, "blog", "img")
+    os.makedirs(img, exist_ok=True)
+    posts = load_posts()
     for p in posts:
-        img = os.path.join(ROOT, "blog", "img")
-        thumb(os.path.join(img, f"{p['slug']}.jpg"), p["place"], p["photo"], 810, 1080, (230, 150, 128))
-        thumb(os.path.join(img, f"{p['slug']}-og.jpg"), p["place"], p["photo"], 1200, 630, (170, 104, 96))
-        build_post(p)
+        card(os.path.join(img, f"{p['slug']}.jpg"), p["place"], p["photo"], 810, 1080)
+        card(os.path.join(img, f"{p['slug']}-og.jpg"), p["place"], p["photo"], 1200, 630, shift=0.5)
+        for name, w, h, k in build_post(p, posts):
+            ph = (p["photo"] + k * 3 - 1) % 20 + 1            # 사진마다 다른 배경
+            card(os.path.join(img, name), p["place"], ph, w, h,
+                 shift=(0.2, 0.8, 0.35, 0.65, 0.5)[k % 5], bright=(0.58, 0.64, 0.6, 0.66, 0.62)[k % 5],
+                 quality=(82, 86, 80, 84, 83)[k % 5])
     build_index(posts)
+    add_to_sitemap(posts)
     return posts
 
 

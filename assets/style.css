@@ -187,3 +187,15 @@ footer .links a{text-decoration:underline}
 .map .seoul path{fill:var(--ink)}
 .map text.on-dark{fill:#fff;stroke:var(--ink)}
 .map .seoul:hover path{fill:var(--red)}
+
+/* 블로그 목차·본문 사진 */
+.toc{border:2px solid var(--ink);background:var(--paper-2);padding:14px 18px;margin:0 0 30px}
+.toc b{display:block;font-size:1.05rem;margin-bottom:6px}
+.toc ol{margin:0;padding-left:1.3em}
+.toc li{padding:3px 0}
+.toc a{text-decoration:underline;text-underline-offset:3px;color:var(--ink);font-weight:600}
+.toc a:hover{color:var(--red)}
+.post-img{margin:6px 0 26px}
+.post-img img{width:auto;max-width:min(100%,520px);max-height:620px;height:auto;border:2px solid var(--ink);display:block}
+.article p a,.article ul.list li a,.qa a{color:var(--red);text-decoration:underline;text-underline-offset:3px;font-weight:700}
+.post h2{scroll-margin-top:12px}

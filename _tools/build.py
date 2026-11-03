@@ -13,7 +13,7 @@ SITE = "https://xn--24-ji5jp6afzih4cnup.kr"   # 24시출장열쇠.kr
 NAME = "24시출장열쇠"
 TEL = "010-3664-5455"
 TEL_RAW = "01036645455"
-VER = "3"
+VER = "4"
 
 def w(n):
     return f"assets/work/w{n:02d}.jpg"

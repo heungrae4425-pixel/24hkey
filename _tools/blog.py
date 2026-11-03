@@ -209,20 +209,61 @@ def build_post(p, posts):
     return images
 
 
+PER_PAGE = 20
+
+
+def page_url(n):
+    return "blog/" if n == 1 else f"blog/page/{n}"
+
+
+def pager(n, total):
+    if total <= 1:
+        return ""
+    items = []
+    if n > 1:
+        items.append(f'<a href="{page_url(n - 1)}" rel="prev">이전</a>')
+    for i in range(1, total + 1):
+        items.append(f'<b aria-current="page">{i}</b>' if i == n else f'<a href="{page_url(i)}">{i}</a>')
+    if n < total:
+        items.append(f'<a href="{page_url(n + 1)}" rel="next">다음</a>')
+    return '<nav class="pager" aria-label="블로그 페이지">' + "".join(items) + "</nav>"
+
+
 def build_index(posts):
-    cards = "".join(
-        f'<a class="post-card" href="blog/{p["slug"]}"><img src="blog/img/{p["slug"]}.jpg" alt="" loading="lazy" width="810" height="1080">'
-        f'<b>{e(p["title"])}</b><span>{p["date"]}</span></a>' for p in posts)
-    page = head(f"블로그 | {NAME}", "출장열쇠, 현관문 개문, 도어락 이야기를 동네별로 적어 둡니다.", "blog/")
-    page += page_top('<a href="./">홈</a> › 블로그', "블로그", "동네별 출장 이야기와 도어락 관리 요령을 적어 둡니다.")
-    page += f'<div class="wrap" style="padding-block:36px"><div class="post-grid">{cards}</div></div>'
-    write("blog/index.html", with_base(page + foot()))
+    import math, shutil
+    total = max(1, math.ceil(len(posts) / PER_PAGE))
+    shutil.rmtree(os.path.join(ROOT, "blog", "page"), ignore_errors=True)
+    for n in range(1, total + 1):
+        chunk = posts[(n - 1) * PER_PAGE: n * PER_PAGE]
+        start = (n - 1) * PER_PAGE
+        toc = "".join(
+            f'<li><a href="blog/{p["slug"]}"><i>{start + k + 1}</i><span>{e(p["title"])}</span><em>{e(p["place"])}</em></a></li>'
+            for k, p in enumerate(chunk))
+        cards = "".join(
+            f'<a class="post-card" href="blog/{p["slug"]}"><img src="blog/img/{p["slug"]}.jpg" alt="" loading="lazy" width="810" height="1080">'
+            f'<b>{e(p["title"])}</b><span>{p["date"]}</span></a>' for p in chunk)
+        suffix = "" if n == 1 else f" {n}페이지"
+        page = head(f"블로그{suffix} | {NAME}", "출장열쇠, 현관문 개문, 도어락 이야기를 동네별로 적어 둡니다.", page_url(n))
+        extra = ""
+        if n > 1:
+            extra += f'<link rel="prev" href="{SITE}/{page_url(n - 1)}">'
+        if n < total:
+            extra += f'<link rel="next" href="{SITE}/{page_url(n + 1)}">'
+        if extra:
+            page = page.replace("</head>", extra + "\n</head>", 1)
+        lead = f"동네별 출장 이야기와 도어락 관리 요령을 적어 둡니다. 전체 {len(posts)}개 글 중 {start + 1}~{start + len(chunk)}번째입니다."
+        page += page_top('<a href="./">홈</a> › 블로그' + (f" › {n}페이지" if n > 1 else ""), "블로그", lead)
+        page += (f'<div class="wrap" style="padding-block:36px">'
+                 f'<h2 class="toc-h">목차 <small>{n} / {total} 페이지</small></h2><ol class="blog-toc">{toc}</ol>'
+                 f'<div class="post-grid">{cards}</div>{pager(n, total)}</div>')
+        out = "blog/index.html" if n == 1 else f"blog/page/{n}.html"
+        write(out, with_base(page + foot()))
 
 
 def add_to_sitemap(posts):
     path = os.path.join(ROOT, "sitemap.xml")
     sm = open(path, encoding="utf-8").read()
-    urls = [f"{SITE}/blog/"] + [f"{SITE}/blog/{p['slug']}" for p in posts]
+    urls = [f"{SITE}/blog/"] + [f"{SITE}/{page_url(n)}" for n in range(2, max(1, -(-len(posts) // PER_PAGE)) + 1)] + [f"{SITE}/blog/{p['slug']}" for p in posts]
     add = "".join(f"<url><loc>{u}</loc></url>" for u in urls if f"<loc>{u}</loc>" not in sm)
     write("sitemap.xml", sm.replace("</urlset>", add + "</urlset>"))
 

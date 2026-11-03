@@ -202,3 +202,18 @@ footer .links a{text-decoration:underline}
 .near{display:flex;flex-wrap:wrap;gap:6px}
 .near a{border:2px solid var(--ink);padding:7px 12px;font-weight:800;background:var(--paper)}
 .near a:hover{background:var(--ink);color:#fff}
+
+.toc-h{font-size:1.25rem;margin:0 0 10px;display:flex;align-items:baseline;gap:10px}
+.toc-h small{font-size:.85rem;color:var(--gray);font-weight:400}
+.blog-toc{list-style:none;margin:0 0 28px;padding:0;border:2px solid var(--ink);background:var(--paper)}
+.blog-toc li+li{border-top:1px solid var(--ink)}
+.blog-toc a{display:grid;grid-template-columns:2.2em 1fr auto;gap:10px;align-items:baseline;padding:9px 12px}
+.blog-toc i{font-style:normal;font-weight:900;color:var(--red)}
+.blog-toc span{min-width:0}
+.blog-toc em{font-style:normal;color:var(--gray);font-size:.85rem;white-space:nowrap}
+.blog-toc a:hover span{color:var(--red);text-decoration:underline}
+@media(max-width:520px){.blog-toc a{grid-template-columns:2em 1fr}.blog-toc em{display:none}}
+.pager{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:30px}
+.pager a,.pager b{min-width:42px;padding:9px 14px;text-align:center;border:2px solid var(--ink);background:var(--paper)}
+.pager b{background:var(--ink);color:#fff}
+.pager a:hover{border-color:var(--red);color:var(--red)}

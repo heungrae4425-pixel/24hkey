@@ -10,7 +10,7 @@ import os, html, json
 DRAFT = True
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://xn--24-ji5jp6afzih4cnup.kr"   # 24시출장열쇠.kr
-NAME = "만능 24시 도어락"
+NAME = "24시출장열쇠"
 TEL = "010-3664-5455"
 TEL_RAW = "01036645455"
 VER = "1"
@@ -128,7 +128,7 @@ def head(title, desc, path, img="assets/scenes/photo-hero.jpg"):
 <meta name="description" content="{e(desc)}">
 {robots}<link rel="canonical" href="{url}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="24시출장열쇠 · {NAME}">
+<meta property="og:site_name" content="{NAME}">
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{url}">
@@ -144,7 +144,7 @@ def head(title, desc, path, img="assets/scenes/photo-hero.jpg"):
 <div class="top-band">24시간 연중무휴<span class="opt"> · 서울·경기 전 지역 출장</span> · 개방 실패 시 비용 없음</div>
 <header class="site-header">
   <div class="wrap">
-    <a class="logo" href="./" aria-label="24시출장열쇠 홈"><b><em>24시</em>출장열쇠</b><span>{NAME}</span></a>
+    <a class="logo" href="./" aria-label="24시출장열쇠 홈"><b><em>24시</em>출장열쇠</b><span>출장열쇠 · 도어락</span></a>
     <nav class="nav" aria-label="주 메뉴">{''.join(f'<a href="{href(s)}"{cur(s, path)}>{n}</a>' for s, n in NAV)}</nav>
     <a class="h-call" href="tel:{TEL_RAW}">{PHONE_SVG}{TEL}</a>
     <button class="menu-btn" aria-label="메뉴" aria-expanded="false" onclick="var m=document.getElementById('mnav');m.classList.toggle('open');this.setAttribute('aria-expanded',m.classList.contains('open'))"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
@@ -169,7 +169,7 @@ def foot():
     return f"""</main>
 <footer>
   <div class="wrap">
-    <b>24시출장열쇠 · {NAME}</b><br>
+    <b>{NAME}</b><br>
     전화 <a href="tel:{TEL_RAW}"><b>{TEL}</b></a> · 24시간 운영 · 서울·경기 전 지역 출장
     <div class="f-links">{svc}<a href="guide.html">이용안내</a></div>
     <div class="f-links">{area}</div>
@@ -232,7 +232,7 @@ def build_home():
     svc_cards += f'<a class="svc call" href="tel:{TEL_RAW}"><span>지금 바로 전화</span><b>{TEL}</b><span>24시간 연결</span></a>'
     cities = "".join(f'<a class="city" href="{c["slug"]}.html"><b>{c["name"]}</b><span>{len(c["dongs"])}개 동 안내 →</span></a>'
                      for c in CITIES)
-    page = head("24시출장열쇠 · 현관문 개문 · 도어락 수리 | " + NAME,
+    page = head("24시출장열쇠 · 현관문 개문 · 도어락 수리",
                 "문이 안 열릴 때 24시간 출장열쇠. 현관문 개문, 도어락 설치·교체·수리, 서울·경기 전 지역 출장. 개방 실패 시 비용 없음.",
                 "")
     page += f"""

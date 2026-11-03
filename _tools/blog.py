@@ -119,8 +119,8 @@ def save_clean(im, path, quality):
     clean.save(path, "JPEG", quality=quality, optimize=True, progressive=True)
 
 
-def card(out, place, photo, w, h, shift=0.5, bright=0.62, quality=84):
-    """동네 이름 / 24시 출장열쇠 / 전화번호 를 실제 사진 위에 얹는다."""
+def card(out, place, photo, w, h, shift=0.5, bright=0.62, quality=84, tags=()):
+    """동네 이름 / 24시 출장열쇠 / 전화번호 를 실제 사진 위에 얹는다. tags 가 있으면 아래에 빨간 띠로 추가."""
     bg = Image.open(os.path.join(HERE, "thumb_bg", f"bg{photo:02d}.jpg")).convert("RGB")
     s = max(w / bg.width, h / bg.height) * 1.08
     bg = bg.resize((int(bg.width * s) + 1, int(bg.height * s) + 1), Image.LANCZOS)
@@ -128,13 +128,18 @@ def card(out, place, photo, w, h, shift=0.5, bright=0.62, quality=84):
     t = int((bg.height - h) * (1 - shift))
     im = ImageEnhance.Brightness(bg.crop((l, t, l + w, t + h))).enhance(bright)
     d = ImageDraw.Draw(im)
-    base = min(w, h * 0.95)
+    base = min(w, h * 0.95) * (0.84 if tags else 1)
     lines = [(place, base * 0.284, MINT, 0.09), ("24시 출장열쇠", base * 0.185, "#ffffff", 0.08),
              (TEL, base * 0.172, "#ffffff", 0.09)]
     fonts = [_fit(d, t, int(sz), w - int(w * 0.09)) for t, sz, _, _ in lines]
     hs = [f.getbbox(t)[3] - f.getbbox(t)[1] for (t, *_), f in zip(lines, fonts)]
     gap = int(h * 0.045)
-    y = (h - sum(hs) - gap * 2) // 2
+    tf = _font(int(base * 0.1)) if tags else None
+    pad_x, pad_y = int(base * 0.035), int(base * 0.022)
+    tag_hs = [tf.getbbox(t)[3] - tf.getbbox(t)[1] + pad_y * 2 for t in tags]
+    tag_gap = int(h * 0.02)
+    total = sum(hs) + gap * 2 + (gap + sum(tag_hs) + tag_gap * (len(tags) - 1) if tags else 0)
+    y = (h - total) // 2
     for i, ((text, _, color, sk), f, hh) in enumerate(zip(lines, fonts, hs)):
         bb = f.getbbox(text)
         x = (w - (bb[2] - bb[0])) // 2 - bb[0]
@@ -143,6 +148,14 @@ def card(out, place, photo, w, h, shift=0.5, bright=0.62, quality=84):
         if i == 2:  # 전화번호는 한 번 더 굵게
             d.text((x, y - bb[1]), text, font=f, fill=color, stroke_width=max(2, f.size // 28), stroke_fill=color)
         y += hh + gap
+    for t, th in zip(tags, tag_hs):
+        bb = tf.getbbox(t)
+        tw = bb[2] - bb[0]
+        bw = tw + pad_x * 2
+        x0 = (w - bw) // 2
+        d.rectangle((x0, y, x0 + bw, y + th), fill="#e3120b", outline="#0b0b0b", width=max(3, int(base * 0.008)))
+        d.text((x0 + pad_x - bb[0], y + pad_y - bb[1]), t, font=tf, fill="#ffffff")
+        y += th + tag_gap
     save_clean(im, out, quality)
 
 
@@ -231,7 +244,7 @@ def main():
             ph = (p["photo"] + k * 3 - 1) % 20 + 1            # 사진마다 다른 배경
             card(os.path.join(img, name), p["place"], ph, w, h,
                  shift=(0.2, 0.8, 0.35, 0.65, 0.5)[k % 5], bright=(0.58, 0.64, 0.6, 0.66, 0.62)[k % 5],
-                 quality=(82, 86, 80, 84, 83)[k % 5])
+                 quality=(82, 86, 80, 84, 83)[k % 5], tags=("비파손 개방 전문", "개방 실패시 무료"))
     build_index(posts)
     add_to_sitemap(posts)
     return posts

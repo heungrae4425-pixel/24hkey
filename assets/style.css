@@ -176,3 +176,14 @@ footer .links a{text-decoration:underline}
 .post-card b{display:block;padding:10px 10px 2px;font-size:.98rem;line-height:1.4}
 .post-card span{display:block;padding:0 10px 10px;color:var(--gray);font-size:.85rem}
 .post-card:hover b{color:var(--red)}
+
+/* 출장 지역 지도 */
+.maps{display:grid;gap:28px}
+@media(min-width:960px){.maps{grid-template-columns:1fr 1fr;align-items:start}}
+.map{width:100%;height:auto;display:block;background:var(--paper)}
+.map path{fill:#ece8dc;stroke:var(--ink);stroke-width:1.2;stroke-linejoin:round;transition:fill .12s}
+.map a:hover path,.map a:focus path{fill:var(--red)}
+.map text{font-family:var(--body);font-weight:800;fill:var(--ink);text-anchor:middle;dominant-baseline:middle;pointer-events:none;paint-order:stroke;stroke:#ece8dc;stroke-width:3px}
+.map .seoul path{fill:var(--ink)}
+.map text.on-dark{fill:#fff;stroke:var(--ink)}
+.map .seoul:hover path{fill:var(--red)}

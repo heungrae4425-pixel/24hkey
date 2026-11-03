@@ -13,7 +13,7 @@ SITE = "https://xn--24-ji5jp6afzih4cnup.kr"   # 24시출장열쇠.kr
 NAME = "24시출장열쇠"
 TEL = "010-3664-5455"
 TEL_RAW = "01036645455"
-VER = "4"
+VER = "5"
 
 def w(n):
     return f"assets/work/w{n:02d}.jpg"
@@ -174,7 +174,7 @@ def side(current=None, prov=None):
         c = "".join(f'<li><a href="{x["slug"]}.html">{x["name"]}</a></li>' for x in rs)
         box = f'<div class="box"><h3>{prov} 다른 지역</h3><ul class="two">{c}</ul></div>'
     else:
-        box = '<div class="box"><h3>지역</h3><ul><li><a href="area.html#seoul">서울 25개 구</a></li><li><a href="area.html#gyeonggi">경기 31개 시·군</a></li></ul></div>'
+        box = '<div class="box"><h3>지역</h3><ul><li><a href="area.html#seoul-map">서울 25개 구</a></li><li><a href="area.html#gyeonggi">경기 31개 시·군</a></li></ul></div>'
     return f"""<aside class="side">
   <div class="call">24시간 받습니다<a href="tel:{TEL_RAW}">{TEL}</a>못 열면 돈 안 받습니다</div>
   <div class="box"><h3>하는 일</h3><ul>{s}</ul></div>
@@ -283,12 +283,35 @@ def build_service(s):
     write(f"{s['slug']}.html", page + foot())
 
 
+MAP = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "map_paths.json"), encoding="utf-8"))
+BY_SLUG = {c["slug"]: c for c in CITIES}
+
+
+def map_label(c):
+    import re
+    return c["name"] if c["prov"] == "서울" else re.sub(r"[시군]$", "", c["name"])
+
+
+def svg_map(key, fs):
+    m = MAP[key]
+    shapes, labels = [], []
+    if key == "gyeonggi":
+        x, y = m["seoul"]["pt"]
+        shapes.append(f'<a href="#seoul-map" class="seoul"><title>서울 25개 구 지도로 이동</title><path d="{m["seoul"]["d"]}"/></a>')
+        labels.append(f'<text class="on-dark" x="{x}" y="{y}" font-size="{fs + 6}">서울</text>')
+    for it in m["items"]:
+        c = BY_SLUG[it["slug"]]
+        x, y = it["pt"]
+        shapes.append(f'<a href="{c["slug"]}.html"><title>{c["full"]} 출장열쇠</title><path d="{it["d"]}"/></a>')
+        labels.append(f'<text x="{x}" y="{y}" font-size="{fs}">{map_label(c)}</text>')
+    return (f'<svg class="map" viewBox="0 0 {m["w"]} {m["h"]}" role="img" aria-label="{"경기" if key == "gyeonggi" else "서울"} 출장 지역 지도">'
+            f'{"".join(shapes)}<g class="labels" aria-hidden="true">{"".join(labels)}</g></svg>')
+
+
 def area_blocks():
-    out = []
-    for prov, anchor, label in (("서울", "seoul", "서울 25개 구"), ("경기", "gyeonggi", "경기 31개 시·군")):
-        links = "".join(f'<a href="{c["slug"]}.html">{c["name"]}</a>' for c in CITIES if c["prov"] == prov)
-        out.append(f'<h3 class="prov" id="{anchor}">{label}</h3><div class="towns">{links}</div>')
-    return "".join(out)
+    return (f'<div class="maps"><div><h3 class="prov" id="gyeonggi">경기 31개 시·군</h3>{svg_map("gyeonggi", 17)}</div>'
+            f'<div><h3 class="prov" id="seoul-map">서울 25개 구</h3>{svg_map("seoul", 19)}</div></div>'
+            '<p class="area-more">지역을 누르면 그 지역에서 다니는 동네가 나옵니다.</p>')
 
 
 def build_area():
@@ -305,7 +328,7 @@ def build_city(c):
     page = head(f"{c['full']} 출장열쇠 · 현관문 개문 · 도어락 수리 | {NAME}",
                 f"{c['short']} 출장열쇠 24시. {c['feat']} 어디든 갑니다. 못 열면 비용 없음."[:80], f"{c['slug']}.html",
                 f"assets/og/{c['slug']}.jpg")
-    crumb = f'<a href="./">홈</a> › <a href="area.html#{"seoul" if c["prov"] == "서울" else "gyeonggi"}">{c["prov"]}</a> › {c["name"]}'
+    crumb = f'<a href="./">홈</a> › <a href="area.html#{"seoul-map" if c["prov"] == "서울" else "gyeonggi"}">{c["prov"]}</a> › {c["name"]}'
     page += page_top(crumb, f"{c['name']} 출장열쇠", intro)
     page += f"""
 <div class="wrap content">

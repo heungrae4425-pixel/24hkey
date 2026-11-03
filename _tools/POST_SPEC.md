@@ -74,3 +74,30 @@
 
 ## 분량 (중요)
 - 지난번 글들이 평균 2,370자로 짧았다. 이번에는 공백 제외 **2,800자 이상**을 반드시 채운다. 쓴 뒤 `python3 -c "import re,sys;print(len(re.sub(r'\s','',open(sys.argv[1],encoding='utf-8').read().split('---',1)[1])))" 파일` 로 직접 세어 보고, 모자라면 문단·사례·확인 절차를 보태 늘린다. 소제목은 12~15개(16개 초과 금지).
+
+## 추가 주제 (21~45)
+21 stiff-door-hard-to-close: 문이 뻑뻑하게 닫히거나 잠금이 한 번에 안 될 때
+22 key-broken-in-lock: 열쇠가 부러져 열쇠구멍에 낀 경우
+23 fingerprint-fail: 지문 인식이 자꾸 실패할 때
+24 deadbolt-install: 보조키(추가 잠금장치) 달기 전 확인할 것
+25 security-check: 현관 방범 점검 요령
+26 trip-return-locked: 연휴·여행 다녀온 뒤 문이 안 열릴 때
+27 rental-move-in-out: 전월세 입주·퇴거 때 도어락 정리
+28 delivery-locked-out: 택배·분리수거하러 잠깐 나갔다 잠긴 경우
+29 fire-door-iron-door: 방화문·철문이 안 열릴 때 확인
+30 sliding-balcony-lock: 베란다·미닫이문 잠금장치
+31 elderly-parents-lock: 부모님 댁 도어락·어르신이 쓰기 편한 방식
+32 handle-type-replace: 손잡이(레버·원통) 교체
+33 gate-lock: 대문·철대문·공동현관 열쇠
+34 villa-common-door: 빌라 공동현관문·출입문 잠김
+35 battery-types-replace: 배터리 종류와 교체 요령
+36 beep-sound-setting: 도어락 작동음·소음 설정
+37 guest-temp-password: 가사도우미·지인 방문 때 임시 비밀번호 관리
+38 power-outage: 정전 뒤 도어락 확인
+39 delivery-safety: 택배·배달 많은 집 방범 요령
+40 phone-app-lock-issue: 휴대폰 연동 도어락에서 폰 분실·앱 오류
+41 emergency-first: 안전 문제가 있을 때 119 먼저 부르는 경우와 열쇠집 부르는 경우
+42 weekend-holiday-service: 주말·공휴일·명절 출장
+43 rain-snow-arrival: 비·눈 오는 날 출동과 준비
+44 repair-or-replace: 고칠지 바꿀지 판단 기준
+45 first-solo-living: 처음 자취하는 사람이 알아둘 도어락 기본

@@ -166,3 +166,13 @@ footer .links a{text-decoration:underline}
 .towns a:hover{background:var(--ink);color:#fff}
 .side ul.two{display:grid;grid-template-columns:1fr 1fr}
 .side ul.two li a{border-top:1px solid #ccc;font-size:.93rem;padding:6px 10px}
+
+/* 블로그 */
+.post .post-cover{width:100%;max-width:420px;height:auto;border:2px solid var(--ink);margin:0 0 24px}
+.post-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(min-width:760px){.post-grid{grid-template-columns:repeat(4,1fr)}}
+.post-card{display:block;border:2px solid var(--ink);background:var(--paper)}
+.post-card img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border-bottom:2px solid var(--ink)}
+.post-card b{display:block;padding:10px 10px 2px;font-size:.98rem;line-height:1.4}
+.post-card span{display:block;padding:0 10px 10px;color:var(--gray);font-size:.85rem}
+.post-card:hover b{color:var(--red)}

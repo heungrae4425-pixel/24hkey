@@ -87,13 +87,13 @@ FAQ = [
 ]
 
 NAV = [("key-call", "출장 열쇠"), ("door-open", "현관문 개문"), ("doorlock-install", "도어락 설치"),
-       ("doorlock-replace", "도어락 교체"), ("doorlock-repair", "도어락 수리"), ("area", "출장 지역"), ("guide", "이용안내")]
+       ("doorlock-replace", "도어락 교체"), ("doorlock-repair", "도어락 수리"), ("area", "출장 지역"), ("blog/", "블로그"), ("guide", "이용안내")]
 
 e = html.escape
 
 
 def href(slug):
-    return f"{slug}.html"
+    return slug if slug.endswith("/") else f"{slug}.html"
 
 
 def head(title, desc, path, img="assets/og/home.jpg"):
@@ -377,4 +377,6 @@ if __name__ == "__main__":
     build_misc()
     import thumbs
     thumbs.make_all(ROOT, CITIES, TEL)
+    import blog
+    blog.main()
     print("done")

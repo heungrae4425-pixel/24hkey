@@ -32,7 +32,7 @@ def parse(path):
     meta_txt, body = raw.split("\n---\n", 1)
     meta = dict(l.split(": ", 1) for l in meta_txt.strip().splitlines())
     meta["slug"] = os.path.basename(path)[:-4]
-    meta["photo"] = int(meta.get("photo", 1))
+    meta["photo"] = (int(meta.get("photo", 1)) - 1) % 20 + 1   # 1~20 밖의 번호는 순환
     meta["body"] = body
     return meta
 

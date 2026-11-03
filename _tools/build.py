@@ -13,7 +13,7 @@ SITE = "https://xn--24-ji5jp6afzih4cnup.kr"   # 24시출장열쇠.kr
 NAME = "24시출장열쇠"
 TEL = "010-3664-5455"
 TEL_RAW = "01036645455"
-VER = "2"
+VER = "3"
 
 def w(n):
     return f"assets/work/w{n:02d}.jpg"
@@ -117,7 +117,7 @@ def head(title, desc, path, img="assets/og/home.jpg"):
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:url" content="{url}">
 <meta property="og:image" content="{SITE}/{img}">
-<meta name="theme-color" content="#ffd400">
+<meta name="theme-color" content="#141414">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

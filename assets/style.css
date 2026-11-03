@@ -1,5 +1,5 @@
-/* 24시출장열쇠 — 동네 간판·전단지 스타일
-   노랑 간판 바탕 + 검정 굵은 글씨 + 빨강 전화번호, 각진 박스, 실제 작업 사진 */
+/* 24시출장열쇠 — 동네 간판 스타일
+   흰 바탕 + 검정 띠 + 검정 굵은 글씨 + 빨강 전화번호, 각진 박스, 실제 작업 사진 */
 :root{
   --sign:#ffd400;      /* 간판 노랑 */
   --ink:#141414;       /* 간판 검정 */
@@ -21,7 +21,7 @@ img{max-width:100%;display:block}
 :focus-visible{outline:3px solid var(--red);outline-offset:2px}
 
 /* 간판 헤더 */
-.site-header{background:var(--sign);border-bottom:4px solid var(--ink)}
+.site-header{background:var(--paper);border-bottom:1px solid #ddd}
 .site-header .wrap{display:flex;align-items:center;gap:12px;min-height:66px}
 .logo{font-family:var(--display);font-size:1.75rem;line-height:1;white-space:nowrap}
 .logo em{font-style:normal;color:var(--red)}
@@ -32,15 +32,16 @@ img{max-width:100%;display:block}
 .nav .wrap::-webkit-scrollbar{display:none}
 .nav a{color:#fff;font-weight:700;padding:11px 14px;white-space:nowrap;font-size:.98rem;border-right:1px solid #333}
 .nav a:first-child{border-left:1px solid #333}
-.nav a:hover,.nav a[aria-current=page]{background:var(--sign);color:var(--ink)}
+.nav a:hover,.nav a[aria-current=page]{background:var(--red);color:#fff}
 
 /* 첫 화면 */
-.hero{background:var(--sign);border-bottom:4px solid var(--ink)}
+.hero{background:var(--ink);color:#fff;border-bottom:5px solid var(--red)}
 .hero .wrap{display:grid;gap:24px;padding-top:34px;padding-bottom:36px}
 @media(min-width:900px){.hero .wrap{grid-template-columns:1.25fr 1fr;align-items:center;padding-top:48px;padding-bottom:48px}}
 .hero h1{font-family:var(--display);font-weight:400;font-size:clamp(2.9rem,11vw,5.2rem);line-height:1.05;margin:0 0 14px}
-.hero h1 span{color:var(--red)}
-.hero .sub{font-size:1.12rem;font-weight:700;margin:0 0 20px}
+.hero h1 span{color:var(--sign)}
+.hero .sub{font-size:1.12rem;font-weight:700;margin:0 0 20px;color:#e6e6e6}
+.hero .tel-box{border-color:#fff;box-shadow:6px 6px 0 #000}
 .tel-box{display:inline-block;background:var(--red);color:#fff;border:4px solid var(--ink);padding:6px 18px 8px;box-shadow:6px 6px 0 var(--ink)}
 .tel-box small{display:block;font-weight:800;font-size:.9rem;opacity:.95}
 .tel-box b{font-family:var(--display);font-weight:400;font-size:clamp(2rem,8vw,3rem);line-height:1.1;letter-spacing:.01em}
@@ -49,7 +50,7 @@ img{max-width:100%;display:block}
 .facts li::before{content:"■ ";color:var(--red)}
 .hero-photos{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
 @media(min-width:900px){.hero-photos{grid-template-columns:1fr 1fr;gap:8px}}
-.hero-photos img{border:3px solid var(--ink);aspect-ratio:1;height:auto;object-fit:cover;width:100%;background:#ddd}
+.hero-photos img{border:3px solid #fff;aspect-ratio:1;height:auto;object-fit:cover;width:100%;background:#ddd}
 
 /* 섹션 공통 */
 .sec{padding-block:48px}
@@ -64,7 +65,7 @@ img{max-width:100%;display:block}
 .menu b{font-family:var(--display);font-weight:400;font-size:1.55rem;display:block;line-height:1.2}
 .menu span{color:var(--gray);font-weight:600;font-size:.98rem}
 .menu i{font-style:normal;font-weight:900;font-size:1.4rem;padding-right:4px}
-.menu a:hover{background:var(--sign)}
+.menu a:hover{background:var(--paper-2)}
 @media(min-width:700px){.menu a{grid-template-columns:110px 1fr auto}.menu img{width:110px;height:110px}}
 
 /* 진행 순서 */
@@ -88,7 +89,7 @@ img{max-width:100%;display:block}
 .area b{font-family:var(--display);font-weight:400;font-size:1.6rem}
 .area span{color:var(--gray);font-size:.95rem}
 .area i{font-style:normal;font-weight:900;background:var(--ink);color:var(--sign);padding:4px 10px;font-size:.9rem;white-space:nowrap}
-.area a:hover{background:var(--sign)}
+.area a:hover{background:var(--paper-2)}
 .area-more{margin-top:14px;font-weight:700}
 
 /* 묻고 답하기 */
@@ -108,12 +109,13 @@ img{max-width:100%;display:block}
 .cta .tel-box{box-shadow:6px 6px 0 var(--sign);border-color:var(--sign)}
 
 /* 하위 페이지 */
-.page-top{background:var(--sign);border-bottom:4px solid var(--ink)}
+.page-top{background:var(--ink);color:#fff;border-bottom:5px solid var(--red)}
+.page-top .tel-box{border-color:#fff;box-shadow:5px 5px 0 #000}
 .page-top .wrap{padding-block:28px 30px}
-.crumb{font-size:.9rem;font-weight:700;margin-bottom:6px}
+.crumb{font-size:.9rem;font-weight:700;margin-bottom:6px;color:#bdbdbd}
 .crumb a{text-decoration:underline}
 .page-top h1{font-family:var(--display);font-weight:400;font-size:clamp(2.1rem,7vw,3.2rem);line-height:1.1;margin:0 0 8px}
-.page-top p{margin:0 0 18px;font-weight:600;max-width:640px}
+.page-top p{margin:0 0 18px;font-weight:600;max-width:640px;color:#e6e6e6}
 .page-top .tel-box b{font-size:clamp(1.6rem,6vw,2.2rem)}
 .content{display:grid;gap:32px;padding-block:40px}
 @media(min-width:960px){.content{grid-template-columns:1fr 290px}}
@@ -136,7 +138,7 @@ img{max-width:100%;display:block}
 .side ul{list-style:none;margin:0;padding:0}
 .side li a{display:block;padding:8px 12px;border-top:1px solid #ccc;font-weight:700}
 .side li:first-child a{border-top:0}
-.side li a:hover{background:var(--sign)}
+.side li a:hover{background:var(--paper-2);color:var(--red)}
 @media(min-width:960px){.side{position:sticky;top:12px;align-self:start}}
 
 /* 아래 */
@@ -150,7 +152,7 @@ footer .links a{text-decoration:underline}
 .callbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;border-top:3px solid var(--ink);padding-bottom:env(safe-area-inset-bottom,0px);background:var(--ink)}
 .callbar a{display:flex;align-items:center;justify-content:center;padding:10px 8px}
 .callbar .main{flex:1;background:var(--red);color:#fff;font-family:var(--display);font-size:1.45rem}
-.callbar .sub{background:var(--sign);color:var(--ink);font-weight:900;padding:10px 16px}
+.callbar .sub{background:var(--ink);color:#fff;font-weight:900;padding:10px 16px}
 @media(min-width:900px){.callbar{display:none}}
 
 .draft-flag{position:fixed;right:8px;bottom:72px;z-index:99;background:var(--ink);color:var(--sign);font-weight:900;font-size:.75rem;padding:2px 8px}
@@ -163,6 +165,6 @@ footer .links a{text-decoration:underline}
 @media(min-width:640px){.towns{grid-template-columns:repeat(5,1fr)}}
 @media(min-width:960px){.towns{grid-template-columns:repeat(7,1fr)}}
 .towns a{border:2px solid var(--ink);background:var(--paper);text-align:center;padding:9px 4px;font-weight:800}
-.towns a:hover{background:var(--sign)}
+.towns a:hover{background:var(--ink);color:#fff}
 .side ul.two{display:grid;grid-template-columns:1fr 1fr}
 .side ul.two li a{border-top:1px solid #ccc;font-size:.93rem;padding:6px 10px}

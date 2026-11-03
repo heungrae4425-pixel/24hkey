@@ -116,7 +116,8 @@ def save_clean(im, path, quality):
     # 메타 정보(EXIF, ICC, 주석) 없이 새 이미지로 저장
     clean = Image.new("RGB", im.size)
     clean.paste(im)
-    clean.save(path, "JPEG", quality=quality, optimize=True, progressive=True)
+    # 용량을 줄이기 위해 화질을 12 낮춰 저장 (눈으로는 거의 차이 없음)
+    clean.save(path, "JPEG", quality=max(60, quality - 12), optimize=True, progressive=True)
 
 
 def card(out, place, photo, w, h, shift=0.5, bright=0.62, quality=84, tags=()):

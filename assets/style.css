@@ -1,0 +1,177 @@
+/* 24시출장열쇠.kr — 빨강 · 검정 긴급 출동 스타일 */
+:root{
+  --bg:#f5f4f1; --surface:#fff; --surface-2:#ecebe6; --fg:#15161a; --muted:#5c606b; --line:#dfddd5;
+  --ink:#111216; --red:#d7261e; --red-dark:#a8190f; --yellow:#ffd23f;
+  --radius:14px; --max:1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  font-size:16px;line-height:1.7;word-break:keep-all;padding-bottom:72px}
+@media(min-width:900px){body{padding-bottom:0}}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 16px}
+
+/* 상단 */
+.top-band{background:var(--red);color:#fff;font-size:.86rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:700;text-align:center;padding:6px 12px}
+.site-header{position:sticky;top:0;z-index:50;background:var(--ink);color:#fff}
+.site-header .wrap{display:flex;align-items:center;gap:16px;min-height:62px}
+.logo{display:flex;flex-direction:column;line-height:1.15}
+.logo b{font-size:1.2rem;font-weight:900;letter-spacing:-.03em}
+.logo b em{font-style:normal;color:var(--red)}
+.logo span{font-size:.74rem;color:#b9bcc6}
+.nav{display:none;margin-left:auto;gap:2px}
+.nav a{padding:8px 11px;border-radius:8px;font-weight:600;font-size:.94rem;color:#e7e8ec}
+.nav a:hover,.nav a[aria-current=page]{background:#272a33;color:#fff}
+.h-call{margin-left:auto;display:inline-flex;align-items:center;gap:6px;background:var(--red);color:#fff;
+  font-weight:800;padding:9px 14px;border-radius:999px;font-size:.98rem;white-space:nowrap}
+.h-call svg{width:18px;height:18px}
+.menu-btn{background:none;border:0;color:#fff;padding:6px;cursor:pointer}
+.menu-btn svg{width:26px;height:26px}
+.m-nav{display:none;background:var(--ink);border-top:1px solid #2a2d36;padding:8px 16px 14px}
+.m-nav.open{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.m-nav a{padding:10px 8px;color:#e7e8ec;font-weight:600;border-radius:8px}
+.m-nav a:hover{background:#272a33}
+@media(min-width:980px){.nav{display:flex}.h-call{margin-left:12px}.menu-btn,.m-nav{display:none!important}}
+
+/* 히어로 */
+.hero{position:relative;color:#fff;background:#000 center/cover no-repeat;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(0,0,0,.82) 0%,rgba(0,0,0,.6) 55%,rgba(0,0,0,.35) 100%)}
+.hero .wrap{position:relative;padding-top:56px;padding-bottom:60px}
+.tag{display:inline-block;background:var(--red);color:#fff;font-weight:800;font-size:.88rem;padding:5px 12px;border-radius:6px;letter-spacing:.02em}
+.hero h1{font-size:clamp(2.1rem,7vw,3.9rem);line-height:1.12;margin:16px 0 10px;font-weight:900;letter-spacing:-.04em;
+  text-shadow:0 2px 0 #000,0 0 18px rgba(0,0,0,.6)}
+.hero h1 em{font-style:normal;color:var(--yellow)}
+.hero p.lead{font-size:clamp(1rem,2.6vw,1.2rem);max-width:640px;color:#eceef2;margin:0 0 22px}
+.big-tel{display:inline-flex;align-items:center;gap:10px;background:var(--red);color:#fff;border-radius:14px;
+  padding:14px 22px;font-size:clamp(1.6rem,6vw,2.4rem);font-weight:900;letter-spacing:-.02em;
+  box-shadow:0 6px 0 var(--red-dark);transition:transform .1s}
+.big-tel:active{transform:translateY(3px);box-shadow:0 3px 0 var(--red-dark)}
+.big-tel svg{width:.9em;height:.9em}
+.hero-btns{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.ghost{display:inline-block;border:2px solid #fff;color:#fff;font-weight:700;border-radius:12px;padding:12px 18px}
+.ghost:hover{background:#fff;color:var(--ink)}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px;padding:0;list-style:none}
+.badges li{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.28);padding:6px 12px;border-radius:999px;font-weight:700;font-size:.9rem}
+.badges li.y{background:var(--yellow);color:#111;border-color:var(--yellow)}
+
+/* 검은 띠 */
+.strip{background:var(--ink);color:#fff}
+.strip ul{list-style:none;margin:0;padding:16px 0;display:grid;grid-template-columns:repeat(2,1fr);gap:10px 16px;text-align:center}
+.strip li b{display:block;font-size:1.15rem;color:var(--yellow)}
+.strip li{font-size:.86rem;color:#c9ccd4}
+@media(min-width:760px){.strip ul{grid-template-columns:repeat(4,1fr)}}
+
+/* 섹션 */
+section.sec{padding:60px 0}
+section.alt{background:var(--surface)}
+.sec-head{margin-bottom:26px}
+.sec-head .kicker{color:var(--red);font-weight:800;font-size:.9rem;letter-spacing:.04em}
+.sec-head h2{font-size:clamp(1.55rem,4.2vw,2.2rem);margin:4px 0 6px;letter-spacing:-.03em;line-height:1.25}
+.sec-head p{color:var(--muted);margin:0}
+
+/* 서비스 카드 */
+.svc-grid{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:640px){.svc-grid{grid-template-columns:1fr 1fr}}
+@media(min-width:980px){.svc-grid{grid-template-columns:repeat(3,1fr)}}
+.svc{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:210px;border-radius:var(--radius);
+  overflow:hidden;color:#fff;background:#222 center/cover no-repeat;padding:20px}
+.svc::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,.85))}
+.svc>*{position:relative}
+.svc h3{margin:0;font-size:1.35rem;letter-spacing:-.02em}
+.svc p{margin:4px 0 10px;font-size:.93rem;color:#e3e5ea}
+.svc .more{font-weight:800;color:var(--yellow);font-size:.92rem}
+.svc:hover .more{text-decoration:underline}
+.svc.call{background:var(--red);justify-content:center;text-align:center}
+.svc.call::before{display:none}
+.svc.call b{font-size:1.9rem;font-weight:900}
+
+/* 진행 순서 */
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:12px;counter-reset:s}
+@media(min-width:900px){.steps{grid-template-columns:repeat(5,1fr)}}
+.steps li{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 16px}
+section.alt .steps li{background:var(--bg)}
+.steps li::before{content:counter(s);display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;
+  background:var(--red);color:#fff;font-weight:900;margin-bottom:8px}
+.steps b{display:block;font-size:1.06rem}
+.steps span{color:var(--muted);font-size:.92rem}
+
+/* 작업 사진 띠 */
+.marquee{overflow:hidden;padding:4px 0}
+.marquee .track{display:flex;gap:10px;width:max-content;animation:mq 60s linear infinite}
+.marquee img{width:180px;height:180px;object-fit:cover;border-radius:10px}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.marquee .track{animation:none}}
+
+/* 지역 */
+.city-grid{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+@media(min-width:900px){.city-grid{grid-template-columns:repeat(5,1fr)}}
+.city{background:var(--ink);color:#fff;border-radius:var(--radius);padding:18px 16px;display:block;border-bottom:4px solid var(--red)}
+.city b{font-size:1.25rem;display:block}
+.city span{color:#b9bcc6;font-size:.88rem}
+.city:hover{background:#23262e}
+.dongs{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 0;padding:0;list-style:none}
+.dongs li{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:.92rem}
+.area-note{margin-top:16px;color:var(--muted);font-size:.94rem}
+
+/* FAQ */
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;padding:0 18px}
+section.alt .faq details{background:var(--bg)}
+.faq summary{cursor:pointer;font-weight:700;padding:15px 0;list-style:none;position:relative;padding-right:24px}
+.faq summary::after{content:"+";position:absolute;right:0;top:12px;font-size:1.4rem;color:var(--red)}
+.faq details[open] summary::after{content:"−"}
+.faq details p{margin:0 0 16px;color:var(--muted)}
+
+/* 마지막 전화 배너 */
+.cta{position:relative;color:#fff;background:#000 center/cover no-repeat;text-align:center}
+.cta::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.72)}
+.cta .wrap{position:relative;padding:60px 16px}
+.cta h2{font-size:clamp(1.6rem,5vw,2.4rem);margin:0 0 8px;letter-spacing:-.03em}
+.cta p{margin:0 0 22px;color:#e2e4ea}
+
+/* 하위 페이지 */
+.page-hero{background:var(--ink);color:#fff;padding:40px 0 34px;border-bottom:5px solid var(--red)}
+.crumb{font-size:.86rem;color:#a8abb5;margin-bottom:8px}
+.crumb a:hover{color:#fff}
+.page-hero h1{margin:0 0 6px;font-size:clamp(1.7rem,5vw,2.6rem);letter-spacing:-.03em;line-height:1.2}
+.page-hero p{margin:0 0 18px;color:#d5d7de;max-width:700px}
+.page-hero .big-tel{font-size:clamp(1.3rem,5vw,1.8rem);padding:11px 18px}
+.content{display:grid;gap:30px}
+@media(min-width:980px){.content{grid-template-columns:1fr 300px}}
+.article h2{font-size:1.4rem;margin:34px 0 8px;letter-spacing:-.02em;padding-left:12px;border-left:5px solid var(--red)}
+.article h2:first-child{margin-top:0}
+.article p{margin:0 0 12px}
+.article ul.check{list-style:none;padding:0;margin:0 0 14px}
+.article ul.check li{padding-left:26px;position:relative;margin-bottom:6px}
+.article ul.check li::before{content:"✓";position:absolute;left:0;color:var(--red);font-weight:900}
+.article .photo{border-radius:var(--radius);aspect-ratio:16/9;object-fit:cover;width:100%;margin:6px 0 18px}
+.side{display:flex;flex-direction:column;gap:14px}
+.side .box{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.side .box.dark{background:var(--ink);color:#fff;border:0;text-align:center}
+.side .box.dark a.tel{display:block;font-size:1.6rem;font-weight:900;color:var(--yellow);margin:6px 0}
+.side h3{margin:0 0 8px;font-size:1.05rem}
+.side ul{margin:0;padding:0;list-style:none}
+.side ul a{display:block;padding:7px 0;border-bottom:1px solid var(--line);font-weight:600}
+.side ul a:hover{color:var(--red)}
+@media(min-width:980px){.side{position:sticky;top:80px;align-self:start}}
+
+/* 푸터 */
+footer{background:#0b0c0f;color:#a3a7b1;font-size:.9rem;padding:34px 0 26px}
+footer b{color:#fff}
+footer .f-links{display:flex;flex-wrap:wrap;gap:6px 14px;margin:12px 0}
+footer .f-links a:hover{color:#fff}
+
+/* 하단 고정 전화 (모바일) */
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;background:var(--ink);box-shadow:0 -4px 16px rgba(0,0,0,.25)}
+.callbar a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:14px 8px;font-weight:900;font-size:1.12rem;color:#fff}
+.callbar a.main{background:var(--red);flex:2.2}
+.callbar svg{width:20px;height:20px}
+@media(min-width:900px){.callbar{display:none}}
+
+/* 초안 표시 */
+.draft-flag{position:fixed;right:10px;bottom:80px;z-index:99;background:var(--yellow);color:#111;font-weight:900;font-size:.75rem;padding:3px 8px;border-radius:6px;opacity:.9}
+
+@media(max-width:600px){.top-band .opt{display:none}}
+@media(min-width:900px){.draft-flag{bottom:10px}}

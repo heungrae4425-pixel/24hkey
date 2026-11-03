@@ -125,6 +125,7 @@ def head(title, desc, path, img="assets/og/home.jpg"):
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="assets/style.css?v={VER}">
 <script type="application/ld+json">{ld}</script>
+<script src="/assets/main.js?v={VER}" defer></script>
 </head>
 <body>
 {'<div class="draft-flag">초안</div>' if DRAFT else ''}

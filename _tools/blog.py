@@ -247,6 +247,11 @@ def main():
                  quality=(82, 86, 80, 84, 83)[k % 5], tags=("비파손 개방 전문", "개방 실패시 무료"))
     build_index(posts)
     add_to_sitemap(posts)
+    # 관리자 화면용 글 목록 (서버에서만 읽음, 외부 접근은 차단)
+    write("blog/posts.json", json.dumps({
+        "posts": [{k: p[k] for k in ("slug", "title", "date", "region", "place")} for p in posts],
+        "regions": [{"slug": c["slug"], "name": c["name"], "prov": c["prov"]} for c in CITIES],
+    }, ensure_ascii=False))
     return posts
 
 

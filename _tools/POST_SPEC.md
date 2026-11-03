@@ -44,3 +44,33 @@
 18 password-family-manage: 비밀번호 주기적 변경·가족 공유 관리
 19 humidity-winter: 장마·겨울 결로·습기로 인한 오작동
 20 card-tag-lost: 카드키·태그·리모컨 분실
+
+## 추가 주제 (21~45)
+21 door-slam-noise: 문 닫을 때 쿵 소리·삐걱임·뻑뻑함
+22 key-stuck-cylinder: 열쇠가 안 돌아가거나 안 빠질 때
+23 broken-key-inside: 열쇠가 부러져 안에 박힌 경우
+24 handle-loose: 손잡이가 헐겁거나 헛돌 때
+25 deadbolt-stuck: 데드볼트가 안 들어가거나 안 빠질 때
+26 cold-wave-battery: 한파에 도어락 반응이 느리거나 꺼질 때
+27 summer-heat-door: 여름 열기·습기로 문이 뻑뻑할 때
+28 holiday-return: 명절·여행 다녀온 뒤 문이 안 열릴 때
+29 delivery-locked-out: 택배·쓰레기 버리러 나왔다가 잠긴 경우
+30 guest-temp-password: 손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법
+31 elderly-parents-door: 부모님 집 도어락 점검·고령자가 쓰기 편한 설정
+32 student-share-house: 자취방·고시원·쉐어하우스 출입문
+33 move-in-out-lock: 입주·퇴거 때 도어락 확인할 것
+34 landlord-tenant-check: 임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)
+35 balcony-sliding-lock: 베란다·미닫이·방문 잠금장치
+36 room-door-locked-inside: 방문·화장실 문이 안에서 잠겼을 때
+37 gate-iron-door: 대문·철문·공동 출입문
+38 mailbox-locker-key: 우편함·사물함 열쇠 문제
+39 entrance-security-check: 현관 방범 점검 요령(과장·불안 조장 금지)
+40 fingerprint-fail: 지문 인식이 잘 안 될 때
+41 smart-home-connect: 도어락 알림·앱 연동이 안 될 때
+42 before-call-prep: 출장 요청 전 준비할 것(사진·위치·상태)
+43 identity-check-guide: 문 열기 전 신분 확인 절차 설명
+44 no-damage-opening: 비파손 개방이란 무엇인지 설명
+45 after-opening-checklist: 개방 후 점검·재발 방지
+
+## 분량 (중요)
+- 지난번 글들이 평균 2,370자로 짧았다. 이번에는 공백 제외 **2,800자 이상**을 반드시 채운다. 쓴 뒤 `python3 -c "import re,sys;print(len(re.sub(r'\s','',open(sys.argv[1],encoding='utf-8').read().split('---',1)[1])))" 파일` 로 직접 세어 보고, 모자라면 문단·사례·확인 절차를 보태 늘린다. 소제목은 12~15개(16개 초과 금지).

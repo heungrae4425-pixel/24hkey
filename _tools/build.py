@@ -9,6 +9,7 @@ import os, html, json
 
 DRAFT = False
 # 네이버 서치어드바이저 소유 확인 태그
+GOOGLE_VERIFY = '<meta name="google-site-verification" content="JRCrmyaFo1FpPt9C5XJ2iLqnkIiFRBvan7Dp-kj9epU" />\n'
 NAVER_VERIFY = '<meta name="naver-site-verification" content="9f4b2c1dfcd3f157a68861d5b934242896ce1efc" />\n'
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://xn--24-ji5jp6afzih4cnup.kr"   # 24시출장열쇠.kr
@@ -101,7 +102,7 @@ def href(slug):
 def head(title, desc, path, img="assets/og/home.jpg"):
     url = SITE + "/" + (path[:-5] if path.endswith(".html") else path)
     robots = '<meta name="robots" content="noindex, nofollow">\n' if DRAFT else ""
-    robots += NAVER_VERIFY
+    robots += NAVER_VERIFY + GOOGLE_VERIFY
     ld = json.dumps({"@context": "https://schema.org", "@type": "Locksmith", "name": NAME, "url": SITE,
                      "telephone": TEL, "areaServed": ["서울특별시", "경기도"], "openingHours": "Mo-Su 00:00-24:00"},
                     ensure_ascii=False)

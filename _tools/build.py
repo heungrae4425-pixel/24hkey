@@ -7,7 +7,9 @@ DRAFT = True 인 동안에는 모든 페이지에 noindex 가 붙어 검색에 �
 """
 import os, html, json
 
-DRAFT = True
+DRAFT = False
+# 네이버 서치어드바이저 소유 확인 태그
+NAVER_VERIFY = '<meta name="naver-site-verification" content="9f4b2c1dfcd3f157a68861d5b934242896ce1efc" />\n'
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://xn--24-ji5jp6afzih4cnup.kr"   # 24시출장열쇠.kr
 NAME = "24시출장열쇠"
@@ -99,6 +101,7 @@ def href(slug):
 def head(title, desc, path, img="assets/og/home.jpg"):
     url = SITE + "/" + (path[:-5] if path.endswith(".html") else path)
     robots = '<meta name="robots" content="noindex, nofollow">\n' if DRAFT else ""
+    robots += NAVER_VERIFY
     ld = json.dumps({"@context": "https://schema.org", "@type": "Locksmith", "name": NAME, "url": SITE,
                      "telephone": TEL, "areaServed": ["서울특별시", "경기도"], "openingHours": "Mo-Su 00:00-24:00"},
                     ensure_ascii=False)
@@ -478,7 +481,7 @@ def build_misc():
           '<rect x="2" y="2" width="60" height="60" fill="none" stroke="#141414" stroke-width="4"/>'
           '<circle cx="24" cy="32" r="10" fill="none" stroke="#e3120b" stroke-width="6"/><path d="M33 32h21M47 32v9M54 32v6" stroke="#e3120b" stroke-width="6"/></svg>')
     pages = [""] + [f"{s['slug']}.html" for s in SERVICES] + ["area.html"] + [f"{c['slug']}.html" for c in CITIES] + ["guide.html"]
-    write("robots.txt", "User-agent: *\nDisallow: /\n" if DRAFT else f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+    write("robots.txt", "User-agent: *\nDisallow: /\n" if DRAFT else f"User-agent: *\nAllow: /\nDisallow: /admin\nDisallow: /api/\nSitemap: {SITE}/sitemap.xml\n")
     urls = "".join(f"<url><loc>{SITE}/{p.replace('.html', '')}</loc></url>" for p in pages)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n')
     write("404.html", head(f"페이지가 없습니다 | {NAME}", "찾으시는 페이지가 없습니다.", "404.html")

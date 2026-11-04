@@ -1,2 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /admin
+Disallow: /api/
+Sitemap: https://xn--24-ji5jp6afzih4cnup.kr/sitemap.xml

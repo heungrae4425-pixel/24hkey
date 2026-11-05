@@ -1,0 +1,238 @@
+[
+ {
+  "slug": "seoul-gangnam-sinsa-guest-temp-password",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "신사동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 1,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangnam-apgujeong-entrance-security-check",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "압구정동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 8,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangnam-cheongdam-child-pet-locked",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "청담동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 15,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangnam-samseong-door-wont-open",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "삼성동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 2,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangnam-daechi-before-call-prep",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "대치동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 9,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangnam-yeoksam-battery-dead",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "역삼동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 16,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangnam-dogok-delivery-locked-out",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "도곡동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 3,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangnam-gaepo-elderly-parents-door",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "개포동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 10,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangnam-irwon-old-door-frame",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "일원동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 17,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangnam-suseo-after-opening-checklist",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "수서동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 4,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangnam-segok-door-slam-noise",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "세곡동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 11,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangnam-nonhyeon-card-tag-lost",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "논현동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 18,
+  "existing_same_place": []
+ },
+ {
+  "slug": "dongducheon-gwangam-battery-dead",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "광암동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 14,
+  "existing_same_place": [
+   "move-in-out-lock"
+  ]
+ },
+ {
+  "slug": "gwacheon-byeolyang-hinge-closer",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "별양동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 16,
+  "existing_same_place": [
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "gwacheon-burim-fingerprint-fail",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "부림동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 3,
+  "existing_same_place": [
+   "moving-reset"
+  ]
+ },
+ {
+  "slug": "gwacheon-wonmun-guest-temp-password",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "원문동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 10,
+  "existing_same_place": [
+   "fingerprint-fail"
+  ]
+ },
+ {
+  "slug": "gwacheon-jungang-replace-cost",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "중앙동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 17,
+  "existing_same_place": [
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "gwacheon-galhyeon-shop-office-lock",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "갈현동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 4,
+  "existing_same_place": [
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "gwacheon-munwon-door-slam-noise",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "문원동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 11,
+  "existing_same_place": [
+   "moving-reset"
+  ]
+ },
+ {
+  "slug": "gapyeong-gapyeong-entrance-security-check",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "가평읍",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 16,
+  "existing_same_place": [
+   "holiday-return"
+  ]
+ }
+]

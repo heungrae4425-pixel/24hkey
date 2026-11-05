@@ -1,0 +1,255 @@
+[
+ {
+  "slug": "seoul-gangdong-gangil-forgot-password",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "강일동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 2,
+  "existing_same_place": [
+   "replace-cost"
+  ]
+ },
+ {
+  "slug": "seoul-gangdong-sangil-malfunction-alarm",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "상일동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 9,
+  "existing_same_place": [
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "seoul-gangdong-myeongil-room-door-locked-inside",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "명일동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 16,
+  "existing_same_place": [
+   "cold-wave-battery"
+  ]
+ },
+ {
+  "slug": "seoul-gangdong-godeok-child-pet-locked",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "고덕동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 3,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangdong-amsa-guest-temp-password",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "암사동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 10,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangdong-cheonho-battery-dead",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "천호동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 17,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangdong-seongnae-deadbolt-stuck",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "성내동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 4,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangdong-gil-holiday-return",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "길동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 11,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangdong-dunchon-landlord-tenant-check",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "둔촌동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 18,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangdong-gangil-replace-cost",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "강일동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 5,
+  "existing_same_place": [
+   "forgot-password"
+  ]
+ },
+ {
+  "slug": "seoul-gangdong-sangil-shop-office-lock",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "상일동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 12,
+  "existing_same_place": [
+   "malfunction-alarm"
+  ]
+ },
+ {
+  "slug": "seoul-gangdong-myeongil-cold-wave-battery",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "명일동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 19,
+  "existing_same_place": [
+   "room-door-locked-inside"
+  ]
+ },
+ {
+  "slug": "yeoncheon-baekhak-move-in-out-lock",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "백학면",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 18,
+  "existing_same_place": [
+   "landlord-tenant-check"
+  ]
+ },
+ {
+  "slug": "yeoncheon-gunnam-before-call-prep",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "군남면",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 5,
+  "existing_same_place": [
+   "key-stuck-cylinder"
+  ]
+ },
+ {
+  "slug": "yeoncheon-misan-landlord-tenant-check",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "미산면",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 12,
+  "existing_same_place": [
+   "door-slam-noise"
+  ]
+ },
+ {
+  "slug": "goyang-hwajeong-install-measure",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "화정동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 19,
+  "existing_same_place": [
+   "key-stuck-cylinder",
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "goyang-ilsan-smart-doorlock-choose",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "일산동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 6,
+  "existing_same_place": [
+   "late-night-call",
+   "lost-key"
+  ]
+ },
+ {
+  "slug": "bucheon-jungdong-deadbolt-stuck",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "중동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 12,
+  "existing_same_place": [
+   "password-family-manage",
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "ansan-gojan-balcony-sliding-lock",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "고잔동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 10,
+  "existing_same_place": [
+   "guest-temp-password",
+   "humidity-winter"
+  ]
+ },
+ {
+  "slug": "namyangju-dasan-forgot-password",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "다산동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 14,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "smart-home-connect"
+  ]
+ }
+]

@@ -1,0 +1,246 @@
+[
+ {
+  "slug": "seoul-seongbuk-gireum-summer-heat-door",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "길음동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 2,
+  "existing_same_place": [
+   "oneroom-officetel"
+  ]
+ },
+ {
+  "slug": "seoul-seongbuk-donam-key-stuck-cylinder",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "돈암동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 9,
+  "existing_same_place": [
+   "door-slam-noise"
+  ]
+ },
+ {
+  "slug": "seoul-seongbuk-jeongreung-old-door-frame",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "정릉동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 16,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongbuk-anam-child-pet-locked",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "안암동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 3,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongbuk-bomun-malfunction-alarm",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "보문동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 10,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongbuk-seokgwan-door-wont-open",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "석관동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 17,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongbuk-jangwi-no-damage-opening",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "장위동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 4,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongbuk-jongam-mailbox-locker-key",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "종암동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 11,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongbuk-wolgok-entrance-security-check",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "월곡동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 18,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongbuk-seongbuk-smart-doorlock-choose",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "성북동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 5,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongbuk-gireum-oneroom-officetel",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "길음동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 12,
+  "existing_same_place": [
+   "summer-heat-door"
+  ]
+ },
+ {
+  "slug": "seoul-seongbuk-donam-door-slam-noise",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "돈암동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 19,
+  "existing_same_place": [
+   "key-stuck-cylinder"
+  ]
+ },
+ {
+  "slug": "siheung-janggok-door-slam-noise",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "장곡동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 17,
+  "existing_same_place": [
+   "battery-dead"
+  ]
+ },
+ {
+  "slug": "siheung-neunggok-battery-dead",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "능곡동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 4,
+  "existing_same_place": [
+   ""
+  ]
+ },
+ {
+  "slug": "siheung-wolgot-fingerprint-fail",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "월곶동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 11,
+  "existing_same_place": [
+   ""
+  ]
+ },
+ {
+  "slug": "paju-unjeong-mailbox-locker-key",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "운정동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 12,
+  "existing_same_place": [
+   ""
+  ]
+ },
+ {
+  "slug": "paju-geumchon-replace-cost",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "금촌동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 19,
+  "existing_same_place": [
+   ""
+  ]
+ },
+ {
+  "slug": "paju-gyoha-card-tag-lost",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "교하동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 6,
+  "existing_same_place": [
+   ""
+  ]
+ },
+ {
+  "slug": "paju-munsan-oneroom-officetel",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "문산읍",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 13,
+  "existing_same_place": [
+   "late-night-call"
+  ]
+ },
+ {
+  "slug": "paju-jori-old-door-frame",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "조리읍",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 20,
+  "existing_same_place": [
+   "child-pet-locked"
+  ]
+ }
+]

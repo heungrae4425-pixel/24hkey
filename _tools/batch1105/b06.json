@@ -1,0 +1,251 @@
+[
+ {
+  "slug": "seoul-dongdaemun-cheongryangri-battery-dead",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "청량리동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 4,
+  "existing_same_place": [
+   "replace-cost"
+  ]
+ },
+ {
+  "slug": "seoul-dongdaemun-hoegi-auxiliary-lock",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "회기동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 11,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ]
+ },
+ {
+  "slug": "seoul-dongdaemun-hwigyeong-delivery-locked-out",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "휘경동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 18,
+  "existing_same_place": [
+   "oneroom-officetel"
+  ]
+ },
+ {
+  "slug": "seoul-dongdaemun-imun-password-family-manage",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "이문동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 5,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-dongdaemun-jeonnong-before-call-prep",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "전농동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 12,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-dongdaemun-dapsipri-deadbolt-stuck",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "답십리동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 19,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-dongdaemun-jangan-late-night-call",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "장안동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 6,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-dongdaemun-yongsin-smart-doorlock-choose",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "용신동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 13,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-dongdaemun-jegi-fingerprint-fail",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "제기동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 20,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-dongdaemun-cheongryangri-replace-cost",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "청량리동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 7,
+  "existing_same_place": [
+   "battery-dead"
+  ]
+ },
+ {
+  "slug": "seoul-dongdaemun-hoegi-elderly-parents-door",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "회기동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 14,
+  "existing_same_place": [
+   "auxiliary-lock"
+  ]
+ },
+ {
+  "slug": "seoul-dongdaemun-hwigyeong-oneroom-officetel",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "휘경동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 1,
+  "existing_same_place": [
+   "delivery-locked-out"
+  ]
+ },
+ {
+  "slug": "namyangju-dasan-after-opening-checklist",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "다산동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 4,
+  "existing_same_place": [
+   "forgot-password",
+   "smart-home-connect"
+  ]
+ },
+ {
+  "slug": "namyangju-byeollae-malfunction-alarm",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "별내동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 11,
+  "existing_same_place": [
+   "battery-dead"
+  ]
+ },
+ {
+  "slug": "namyangju-pyeongnae-smart-home-connect",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "평내동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 18,
+  "existing_same_place": [
+   "delivery-locked-out"
+  ]
+ },
+ {
+  "slug": "namyangju-hopyeong-oneroom-officetel",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "호평동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 5,
+  "existing_same_place": [
+   "child-pet-locked"
+  ]
+ },
+ {
+  "slug": "namyangju-geumgok-before-call-prep",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "금곡동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 12,
+  "existing_same_place": [
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "namyangju-wabu-move-in-out-lock",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "와부읍",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 19,
+  "existing_same_place": [
+   "old-door-frame"
+  ]
+ },
+ {
+  "slug": "namyangju-jinjeop-moving-reset",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "진접읍",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 6,
+  "existing_same_place": [
+   "install-measure"
+  ]
+ },
+ {
+  "slug": "namyangju-onam-old-door-frame",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "오남읍",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 13,
+  "existing_same_place": [
+   "gate-iron-door"
+  ]
+ }
+]

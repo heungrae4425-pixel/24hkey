@@ -1,0 +1,286 @@
+[
+ {
+  "slug": "seoul-yangcheon-mok-room-door-locked-inside",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 3,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose",
+   "identity-check-guide"
+  ]
+ },
+ {
+  "slug": "seoul-yangcheon-sinwol-before-call-prep",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신월동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 10,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "entrance-security-check",
+   "malfunction-alarm"
+  ]
+ },
+ {
+  "slug": "seoul-yangcheon-sinjeong-cold-wave-battery",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신정동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 17,
+  "existing_same_place": [
+   "hinge-closer",
+   "lost-key",
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "seoul-yangcheon-mok-handle-loose",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 4,
+  "existing_same_place": [
+   "battery-dead",
+   "identity-check-guide",
+   "room-door-locked-inside"
+  ]
+ },
+ {
+  "slug": "seoul-yangcheon-sinwol-entrance-security-check",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신월동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 11,
+  "existing_same_place": [
+   "before-call-prep",
+   "elderly-parents-door",
+   "malfunction-alarm"
+  ]
+ },
+ {
+  "slug": "seoul-yangcheon-sinjeong-smart-doorlock-choose",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신정동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 18,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "hinge-closer",
+   "lost-key"
+  ]
+ },
+ {
+  "slug": "seoul-yangcheon-mok-battery-dead",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 5,
+  "existing_same_place": [
+   "handle-loose",
+   "identity-check-guide",
+   "room-door-locked-inside"
+  ]
+ },
+ {
+  "slug": "seoul-yangcheon-sinwol-elderly-parents-door",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신월동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 12,
+  "existing_same_place": [
+   "before-call-prep",
+   "entrance-security-check",
+   "malfunction-alarm"
+  ]
+ },
+ {
+  "slug": "seoul-yangcheon-sinjeong-lost-key",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신정동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 19,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "hinge-closer",
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "seoul-yangcheon-mok-identity-check-guide",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 6,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose",
+   "room-door-locked-inside"
+  ]
+ },
+ {
+  "slug": "seoul-yangcheon-sinwol-malfunction-alarm",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신월동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 13,
+  "existing_same_place": [
+   "before-call-prep",
+   "elderly-parents-door",
+   "entrance-security-check"
+  ]
+ },
+ {
+  "slug": "seoul-yangcheon-sinjeong-hinge-closer",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신정동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 20,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "lost-key",
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "yangju-baekseok-entrance-security-check",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "백석읍",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 15,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ]
+ },
+ {
+  "slug": "yangju-gwangjeok-late-night-call",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "광적면",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 2,
+  "existing_same_place": [
+   "cold-wave-battery"
+  ]
+ },
+ {
+  "slug": "yangju-jangheung-shop-office-lock",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "장흥면",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 9,
+  "existing_same_place": [
+   ""
+  ]
+ },
+ {
+  "slug": "yangju-nammyeon-after-opening-checklist",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "남면",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 16,
+  "existing_same_place": [
+   ""
+  ]
+ },
+ {
+  "slug": "icheon-jungri-forgot-password",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "중리동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 14,
+  "existing_same_place": [
+   ""
+  ]
+ },
+ {
+  "slug": "icheon-jeungpo-student-share-house",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "증포동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 1,
+  "existing_same_place": [
+   ""
+  ]
+ },
+ {
+  "slug": "icheon-gwango-deadbolt-stuck",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "관고동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 8,
+  "existing_same_place": [
+   ""
+  ]
+ },
+ {
+  "slug": "icheon-songjeong-summer-heat-door",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "송정동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 15,
+  "existing_same_place": [
+   ""
+  ]
+ }
+]

@@ -1,0 +1,240 @@
+[
+ {
+  "slug": "seoul-jongno-hyehwa-oneroom-officetel",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "혜화동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 20,
+  "existing_same_place": [
+   "door-slam-noise"
+  ]
+ },
+ {
+  "slug": "seoul-jongno-pyeongchang-move-in-out-lock",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "평창동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 7,
+  "existing_same_place": [
+   "broken-key-inside"
+  ]
+ },
+ {
+  "slug": "seoul-jongno-buam-after-opening-checklist",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "부암동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 14,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jongno-samcheong-malfunction-alarm",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "삼청동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 1,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jongno-changsin-late-night-call",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "창신동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 8,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jongno-sungin-fingerprint-fail",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "숭인동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 15,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jongno-ihwa-identity-check-guide",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "이화동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 2,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jongno-sajik-battery-dead",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "사직동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 9,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jongno-muak-install-measure",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "무악동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 16,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jongno-gyonam-summer-heat-door",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "교남동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 3,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jongno-hyehwa-door-slam-noise",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "혜화동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 10,
+  "existing_same_place": [
+   "oneroom-officetel"
+  ]
+ },
+ {
+  "slug": "seoul-jongno-pyeongchang-broken-key-inside",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "평창동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 17,
+  "existing_same_place": [
+   "move-in-out-lock"
+  ]
+ },
+ {
+  "slug": "namyangju-toegyewon-install-measure",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "퇴계원읍",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 17,
+  "existing_same_place": []
+ },
+ {
+  "slug": "gwangju-namhansanseong-broken-key-inside",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "남한산성면",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 15,
+  "existing_same_place": []
+ },
+ {
+  "slug": "yeoju-sejongdaewang-smart-doorlock-choose",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "세종대왕면",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 13,
+  "existing_same_place": []
+ },
+ {
+  "slug": "goyang-baekseok-choose-locksmith",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "백석동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 14,
+  "existing_same_place": [
+   "oneroom-officetel"
+  ]
+ },
+ {
+  "slug": "goyang-madu-oneroom-officetel",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "마두동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 1,
+  "existing_same_place": [
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "goyang-janghang-summer-heat-door",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "장항동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 8,
+  "existing_same_place": [
+   "delivery-locked-out"
+  ]
+ },
+ {
+  "slug": "goyang-siksa-student-share-house",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "식사동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 15,
+  "existing_same_place": [
+   "child-pet-locked"
+  ]
+ },
+ {
+  "slug": "goyang-pung-moving-reset",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "풍동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 2,
+  "existing_same_place": [
+   "old-door-frame"
+  ]
+ }
+]

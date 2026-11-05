@@ -1,0 +1,286 @@
+[
+ {
+  "slug": "seoul-geumcheon-gasan-before-call-prep",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "가산동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 3,
+  "existing_same_place": [
+   "door-slam-noise",
+   "install-measure",
+   "summer-heat-door"
+  ]
+ },
+ {
+  "slug": "seoul-geumcheon-doksan-smart-doorlock-choose",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "독산동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 10,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "broken-key-inside",
+   "elderly-parents-door"
+  ]
+ },
+ {
+  "slug": "seoul-geumcheon-siheung-identity-check-guide",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "시흥동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 17,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "fingerprint-fail",
+   "oneroom-officetel"
+  ]
+ },
+ {
+  "slug": "seoul-geumcheon-gasan-door-slam-noise",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "가산동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 4,
+  "existing_same_place": [
+   "before-call-prep",
+   "install-measure",
+   "summer-heat-door"
+  ]
+ },
+ {
+  "slug": "seoul-geumcheon-doksan-balcony-sliding-lock",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "독산동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 11,
+  "existing_same_place": [
+   "broken-key-inside",
+   "elderly-parents-door",
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "seoul-geumcheon-siheung-delivery-locked-out",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "시흥동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 18,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "identity-check-guide",
+   "oneroom-officetel"
+  ]
+ },
+ {
+  "slug": "seoul-geumcheon-gasan-install-measure",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "가산동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 5,
+  "existing_same_place": [
+   "before-call-prep",
+   "door-slam-noise",
+   "summer-heat-door"
+  ]
+ },
+ {
+  "slug": "seoul-geumcheon-doksan-broken-key-inside",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "독산동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 12,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "elderly-parents-door",
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "seoul-geumcheon-siheung-oneroom-officetel",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "시흥동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 19,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "fingerprint-fail",
+   "identity-check-guide"
+  ]
+ },
+ {
+  "slug": "seoul-geumcheon-gasan-summer-heat-door",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "가산동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 6,
+  "existing_same_place": [
+   "before-call-prep",
+   "door-slam-noise",
+   "install-measure"
+  ]
+ },
+ {
+  "slug": "seoul-geumcheon-doksan-elderly-parents-door",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "독산동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 13,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "broken-key-inside",
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "seoul-geumcheon-siheung-fingerprint-fail",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "시흥동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 20,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "identity-check-guide",
+   "oneroom-officetel"
+  ]
+ },
+ {
+  "slug": "anseong-miyang-smart-doorlock-choose",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "미양면",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 10,
+  "existing_same_place": [
+   "gate-iron-door"
+  ]
+ },
+ {
+  "slug": "anseong-bogae-identity-check-guide",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "보개면",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 17,
+  "existing_same_place": [
+   "broken-key-inside"
+  ]
+ },
+ {
+  "slug": "anseong-geumgwang-no-damage-opening",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "금광면",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 4,
+  "existing_same_place": [
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "anseong-iljuk-holiday-return",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "일죽면",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 11,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ]
+ },
+ {
+  "slug": "anseong-jugsan-fingerprint-fail",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "죽산면",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 18,
+  "existing_same_place": [
+   "install-measure"
+  ]
+ },
+ {
+  "slug": "pocheon-soheul-elderly-parents-door",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "소흘읍",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 15,
+  "existing_same_place": [
+   "cold-wave-battery"
+  ]
+ },
+ {
+  "slug": "pocheon-seondan-door-wont-open",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "선단동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 2,
+  "existing_same_place": [
+   "moving-reset"
+  ]
+ },
+ {
+  "slug": "pocheon-pocheon-smart-home-connect",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "포천동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 9,
+  "existing_same_place": [
+   "choose-locksmith"
+  ]
+ }
+]

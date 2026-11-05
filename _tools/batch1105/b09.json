@@ -1,0 +1,258 @@
+[
+ {
+  "slug": "seoul-gangbuk-mia-shop-office-lock",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "미아동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 1,
+  "existing_same_place": [
+   "install-measure"
+  ]
+ },
+ {
+  "slug": "seoul-gangbuk-beon-hinge-closer",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "번동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 8,
+  "existing_same_place": [
+   "student-share-house"
+  ]
+ },
+ {
+  "slug": "seoul-gangbuk-suyu-balcony-sliding-lock",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "수유동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 15,
+  "existing_same_place": [
+   "identity-check-guide"
+  ]
+ },
+ {
+  "slug": "seoul-gangbuk-ui-broken-key-inside",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "우이동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 2,
+  "existing_same_place": [
+   "after-opening-checklist"
+  ]
+ },
+ {
+  "slug": "seoul-gangbuk-samyang-choose-locksmith",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "삼양동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 9,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ]
+ },
+ {
+  "slug": "seoul-gangbuk-songjung-guest-temp-password",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "송중동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 16,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangbuk-insu-move-in-out-lock",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "인수동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 3,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangbuk-mia-install-measure",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "미아동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 10,
+  "existing_same_place": [
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "seoul-gangbuk-beon-student-share-house",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "번동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 17,
+  "existing_same_place": [
+   "hinge-closer"
+  ]
+ },
+ {
+  "slug": "seoul-gangbuk-suyu-identity-check-guide",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "수유동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 4,
+  "existing_same_place": [
+   "balcony-sliding-lock"
+  ]
+ },
+ {
+  "slug": "seoul-gangbuk-ui-after-opening-checklist",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "우이동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 11,
+  "existing_same_place": [
+   "broken-key-inside"
+  ]
+ },
+ {
+  "slug": "seoul-gangbuk-samyang-elderly-parents-door",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "삼양동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 18,
+  "existing_same_place": [
+   "choose-locksmith"
+  ]
+ },
+ {
+  "slug": "paju-paju-move-in-out-lock",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "파주읍",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 7,
+  "existing_same_place": [
+   "gate-iron-door"
+  ]
+ },
+ {
+  "slug": "paju-beobwon-choose-locksmith",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "법원읍",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 14,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ]
+ },
+ {
+  "slug": "paju-tanhyeon-moving-reset",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "탄현면",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 1,
+  "existing_same_place": [
+   "cold-wave-battery"
+  ]
+ },
+ {
+  "slug": "paju-wollong-mailbox-locker-key",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "월롱면",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 8,
+  "existing_same_place": [
+   "old-door-frame"
+  ]
+ },
+ {
+  "slug": "uijeongbu-uijeongbu-delivery-locked-out",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "의정부동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 17,
+  "existing_same_place": [
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "uijeongbu-howon-door-wont-open",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "호원동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 4,
+  "existing_same_place": [
+   "battery-dead"
+  ]
+ },
+ {
+  "slug": "uijeongbu-jangam-shop-office-lock",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "장암동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 11,
+  "existing_same_place": [
+   "broken-key-inside"
+  ]
+ },
+ {
+  "slug": "uijeongbu-singok-entrance-security-check",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "신곡동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 18,
+  "existing_same_place": [
+   "smart-doorlock-choose"
+  ]
+ }
+]

@@ -1,0 +1,262 @@
+[
+ {
+  "slug": "seoul-jungnang-myeonmok-gate-iron-door",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "면목동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 2,
+  "existing_same_place": [
+   "no-damage-opening"
+  ]
+ },
+ {
+  "slug": "seoul-jungnang-sangbong-broken-key-inside",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "상봉동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 9,
+  "existing_same_place": [
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "seoul-jungnang-junghwa-card-tag-lost",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "중화동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 16,
+  "existing_same_place": [
+   "holiday-return"
+  ]
+ },
+ {
+  "slug": "seoul-jungnang-muk-door-slam-noise",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "묵동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 3,
+  "existing_same_place": [
+   "install-measure"
+  ]
+ },
+ {
+  "slug": "seoul-jungnang-mangu-smart-home-connect",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "망우동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 10,
+  "existing_same_place": [
+   "mailbox-locker-key"
+  ]
+ },
+ {
+  "slug": "seoul-jungnang-sinnae-cold-wave-battery",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "신내동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 17,
+  "existing_same_place": [
+   "forgot-password"
+  ]
+ },
+ {
+  "slug": "seoul-jungnang-myeonmok-no-damage-opening",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "면목동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 4,
+  "existing_same_place": [
+   "gate-iron-door"
+  ]
+ },
+ {
+  "slug": "seoul-jungnang-sangbong-shop-office-lock",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "상봉동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 11,
+  "existing_same_place": [
+   "broken-key-inside"
+  ]
+ },
+ {
+  "slug": "seoul-jungnang-junghwa-holiday-return",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "중화동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 18,
+  "existing_same_place": [
+   "card-tag-lost"
+  ]
+ },
+ {
+  "slug": "seoul-jungnang-muk-install-measure",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "묵동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 5,
+  "existing_same_place": [
+   "door-slam-noise"
+  ]
+ },
+ {
+  "slug": "seoul-jungnang-mangu-mailbox-locker-key",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "망우동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 12,
+  "existing_same_place": [
+   "smart-home-connect"
+  ]
+ },
+ {
+  "slug": "seoul-jungnang-sinnae-forgot-password",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "신내동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 19,
+  "existing_same_place": [
+   "cold-wave-battery"
+  ]
+ },
+ {
+  "slug": "namyangju-hwado-landlord-tenant-check",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "화도읍",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 20,
+  "existing_same_place": [
+   "gate-iron-door"
+  ]
+ },
+ {
+  "slug": "namyangju-jingeon-shop-office-lock",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "진건읍",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 7,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ]
+ },
+ {
+  "slug": "siheung-jeongwang-broken-key-inside",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "정왕동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 15,
+  "existing_same_place": [
+   "student-share-house"
+  ]
+ },
+ {
+  "slug": "siheung-baegot-choose-locksmith",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "배곧동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 2,
+  "existing_same_place": [
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "siheung-eunhaeng-delivery-locked-out",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "은행동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 9,
+  "existing_same_place": [
+   "auxiliary-lock"
+  ]
+ },
+ {
+  "slug": "siheung-daeya-smart-doorlock-choose",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "대야동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 16,
+  "existing_same_place": [
+   "forgot-password"
+  ]
+ },
+ {
+  "slug": "siheung-sincheon-auxiliary-lock",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "신천동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 3,
+  "existing_same_place": [
+   "delivery-locked-out"
+  ]
+ },
+ {
+  "slug": "siheung-mokgam-replace-cost",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "목감동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 10,
+  "existing_same_place": [
+   "child-pet-locked"
+  ]
+ }
+]

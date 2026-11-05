@@ -1,0 +1,286 @@
+[
+ {
+  "slug": "seoul-gwanak-bongcheon-identity-check-guide",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 20,
+  "existing_same_place": [
+   "forgot-password",
+   "landlord-tenant-check",
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "seoul-gwanak-sillim-door-slam-noise",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "신림동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 7,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "delivery-locked-out",
+   "gate-iron-door"
+  ]
+ },
+ {
+  "slug": "seoul-gwanak-namhyeon-lost-key",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "남현동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 14,
+  "existing_same_place": [
+   "hinge-closer",
+   "humidity-winter",
+   "key-stuck-cylinder"
+  ]
+ },
+ {
+  "slug": "seoul-gwanak-bongcheon-landlord-tenant-check",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 1,
+  "existing_same_place": [
+   "forgot-password",
+   "identity-check-guide",
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "seoul-gwanak-sillim-balcony-sliding-lock",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "신림동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 8,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "door-slam-noise",
+   "gate-iron-door"
+  ]
+ },
+ {
+  "slug": "seoul-gwanak-namhyeon-key-stuck-cylinder",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "남현동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 15,
+  "existing_same_place": [
+   "hinge-closer",
+   "humidity-winter",
+   "lost-key"
+  ]
+ },
+ {
+  "slug": "seoul-gwanak-bongcheon-shop-office-lock",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 2,
+  "existing_same_place": [
+   "forgot-password",
+   "identity-check-guide",
+   "landlord-tenant-check"
+  ]
+ },
+ {
+  "slug": "seoul-gwanak-sillim-gate-iron-door",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "신림동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 9,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "delivery-locked-out",
+   "door-slam-noise"
+  ]
+ },
+ {
+  "slug": "seoul-gwanak-namhyeon-hinge-closer",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "남현동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 16,
+  "existing_same_place": [
+   "humidity-winter",
+   "key-stuck-cylinder",
+   "lost-key"
+  ]
+ },
+ {
+  "slug": "seoul-gwanak-bongcheon-forgot-password",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 3,
+  "existing_same_place": [
+   "identity-check-guide",
+   "landlord-tenant-check",
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "seoul-gwanak-sillim-delivery-locked-out",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "신림동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 10,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "door-slam-noise",
+   "gate-iron-door"
+  ]
+ },
+ {
+  "slug": "seoul-gwanak-namhyeon-humidity-winter",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "남현동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 17,
+  "existing_same_place": [
+   "hinge-closer",
+   "key-stuck-cylinder",
+   "lost-key"
+  ]
+ },
+ {
+  "slug": "yangpyeong-okcheon-summer-heat-door",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "옥천면",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 6,
+  "existing_same_place": [
+   "key-stuck-cylinder"
+  ]
+ },
+ {
+  "slug": "yangpyeong-seojong-delivery-locked-out",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "서종면",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 13,
+  "existing_same_place": [
+   "summer-heat-door"
+  ]
+ },
+ {
+  "slug": "yangpyeong-yongmun-gate-iron-door",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "용문면",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 20,
+  "existing_same_place": [
+   "move-in-out-lock"
+  ]
+ },
+ {
+  "slug": "yangpyeong-jipyeong-humidity-winter",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "지평면",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 7,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ]
+ },
+ {
+  "slug": "yeoju-yeoheung-choose-locksmith",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "여흥동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 20,
+  "existing_same_place": [
+   "child-pet-locked"
+  ]
+ },
+ {
+  "slug": "yeoju-jungang-late-night-call",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "중앙동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 7,
+  "existing_same_place": [
+   "choose-locksmith"
+  ]
+ },
+ {
+  "slug": "yeoju-ohak-oneroom-officetel",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "오학동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 14,
+  "existing_same_place": [
+   "forgot-password"
+  ]
+ },
+ {
+  "slug": "yeoju-gannam-elderly-parents-door",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "가남읍",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 1,
+  "existing_same_place": [
+   "gate-iron-door"
+  ]
+ }
+]

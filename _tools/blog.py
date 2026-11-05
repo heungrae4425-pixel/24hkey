@@ -87,7 +87,8 @@ def render(p):
             img_no += 1
             alt = line[1:].strip() or f"{p['place']} 출장열쇠"
             w, h = BODY_SIZES[(img_no - 1) % len(BODY_SIZES)]
-            name = f"{slug}-{img_no}.jpg"
+            # imgset: region → 본문 사진을 지역(구·시)별 공용 사진으로 재사용 (파일 수 절약)
+            name = (f"r-{p['region']}-{img_no}.jpg" if p.get("imgset") == "region" else f"{slug}-{img_no}.jpg")
             images.append((name, w, h, img_no))
             out.append(f'<figure class="post-img"><img src="blog/img/{name}" alt="{e(alt)}" width="{w}" height="{h}" loading="lazy"></figure>')
         else:
@@ -279,12 +280,19 @@ def main():
     img = os.path.join(ROOT, "blog", "img")
     os.makedirs(img, exist_ok=True)
     posts = load_posts()
+    shared_done = set()
+    city_name = {c["slug"]: c["name"] for c in CITIES}
     for p in posts:
         card(os.path.join(img, f"{p['slug']}.jpg"), p["place"], p["photo"], 810, 1080)
         card(os.path.join(img, f"{p['slug']}-og.jpg"), p["place"], p["photo"], 1200, 630, shift=0.5)
         for name, w, h, k in build_post(p, posts):
-            ph = (p["photo"] + k * 3 - 1) % 20 + 1            # 사진마다 다른 배경
-            card(os.path.join(img, name), p["place"], ph, w, h,
+            shared = p.get("imgset") == "region"
+            if shared:
+                if name in shared_done:
+                    continue
+                shared_done.add(name)
+            ph = ((len(p["region"]) * 5 if shared else p["photo"]) + k * 3 - 1) % 20 + 1   # 사진마다 다른 배경
+            card(os.path.join(img, name), city_name.get(p["region"], p["place"]) if shared else p["place"], ph, w, h,
                  shift=(0.2, 0.8, 0.35, 0.65, 0.5)[k % 5], bright=(0.58, 0.64, 0.6, 0.66, 0.62)[k % 5],
                  quality=(82, 86, 80, 84, 83)[k % 5], tags=("비파손 개방 전문", "개방 실패시 무료"))
     build_index(posts)

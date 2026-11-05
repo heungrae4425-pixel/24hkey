@@ -1,0 +1,247 @@
+[
+ {
+  "slug": "seoul-yongsan-itaewon-old-door-frame",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "이태원동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 1,
+  "existing_same_place": [
+   "lost-key"
+  ]
+ },
+ {
+  "slug": "seoul-yongsan-hannam-balcony-sliding-lock",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "한남동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 8,
+  "existing_same_place": [
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "seoul-yongsan-ichon-landlord-tenant-check",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "이촌동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 15,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yongsan-huam-replace-cost",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "후암동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 2,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yongsan-cheongpa-moving-reset",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "청파동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 9,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yongsan-hyochang-forgot-password",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "효창동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 16,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yongsan-bogwang-smart-home-connect",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "보광동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 3,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yongsan-seobinggo-guest-temp-password",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "서빙고동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 10,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yongsan-wonhyoro-handle-loose",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "원효로동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 17,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yongsan-yongmun-entrance-security-check",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "용문동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 4,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yongsan-itaewon-lost-key",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "이태원동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 11,
+  "existing_same_place": [
+   "old-door-frame"
+  ]
+ },
+ {
+  "slug": "seoul-yongsan-hannam-shop-office-lock",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "한남동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 18,
+  "existing_same_place": [
+   "balcony-sliding-lock"
+  ]
+ },
+ {
+  "slug": "goyang-samsong-gate-iron-door",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "삼송동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 5,
+  "existing_same_place": [
+   "smart-home-connect"
+  ]
+ },
+ {
+  "slug": "goyang-jichuk-summer-heat-door",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "지축동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 12,
+  "existing_same_place": [
+   "cold-wave-battery"
+  ]
+ },
+ {
+  "slug": "bucheon-jungdong-password-family-manage",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "중동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 15,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "bucheon-sangdong-handle-loose",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "상동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 2,
+  "existing_same_place": [
+   "password-family-manage"
+  ]
+ },
+ {
+  "slug": "bucheon-simgok-deadbolt-stuck",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "심곡동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 9,
+  "existing_same_place": [
+   "old-door-frame"
+  ]
+ },
+ {
+  "slug": "bucheon-sosa-humidity-winter",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "소사동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 16,
+  "existing_same_place": [
+   "lost-key"
+  ]
+ },
+ {
+  "slug": "bucheon-yeokgok-hinge-closer",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "역곡동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 3,
+  "existing_same_place": [
+   "student-share-house"
+  ]
+ },
+ {
+  "slug": "bucheon-songnae-key-stuck-cylinder",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "송내동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 10,
+  "existing_same_place": [
+   "shop-office-lock"
+  ]
+ }
+]

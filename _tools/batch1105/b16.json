@@ -1,0 +1,254 @@
+[
+ {
+  "slug": "seoul-gangseo-yeomchang-replace-cost",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "염창동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 1,
+  "existing_same_place": [
+   "password-family-manage"
+  ]
+ },
+ {
+  "slug": "seoul-gangseo-deungchon-entrance-security-check",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "등촌동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 8,
+  "existing_same_place": [
+   "humidity-winter"
+  ]
+ },
+ {
+  "slug": "seoul-gangseo-hwagok-no-damage-opening",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "화곡동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 15,
+  "existing_same_place": [
+   "cold-wave-battery"
+  ]
+ },
+ {
+  "slug": "seoul-gangseo-gayang-guest-temp-password",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "가양동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 2,
+  "existing_same_place": [
+   "card-tag-lost"
+  ]
+ },
+ {
+  "slug": "seoul-gangseo-magok-student-share-house",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "마곡동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 9,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangseo-balsan-shop-office-lock",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "발산동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 16,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangseo-gonghang-choose-locksmith",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "공항동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 3,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangseo-banghwa-landlord-tenant-check",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "방화동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 10,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-gangseo-yeomchang-password-family-manage",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "염창동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 17,
+  "existing_same_place": [
+   "replace-cost"
+  ]
+ },
+ {
+  "slug": "seoul-gangseo-deungchon-humidity-winter",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "등촌동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 4,
+  "existing_same_place": [
+   "entrance-security-check"
+  ]
+ },
+ {
+  "slug": "seoul-gangseo-hwagok-cold-wave-battery",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "화곡동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 11,
+  "existing_same_place": [
+   "no-damage-opening"
+  ]
+ },
+ {
+  "slug": "seoul-gangseo-gayang-card-tag-lost",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "가양동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 18,
+  "existing_same_place": [
+   "guest-temp-password"
+  ]
+ },
+ {
+  "slug": "icheon-bubal-password-family-manage",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "부발읍",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 2,
+  "existing_same_place": [
+   ""
+  ]
+ },
+ {
+  "slug": "icheon-janghowon-old-door-frame",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "장호원읍",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 9,
+  "existing_same_place": [
+   "gate-iron-door"
+  ]
+ },
+ {
+  "slug": "icheon-majang-choose-locksmith",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "마장면",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 16,
+  "existing_same_place": [
+   "shop-office-lock"
+  ]
+ },
+ {
+  "slug": "icheon-sindun-balcony-sliding-lock",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "신둔면",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 3,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ]
+ },
+ {
+  "slug": "icheon-baeksa-gate-iron-door",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "백사면",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 10,
+  "existing_same_place": [
+   "holiday-return"
+  ]
+ },
+ {
+  "slug": "guri-inchang-handle-loose",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "인창동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 12,
+  "existing_same_place": [
+   "battery-dead"
+  ]
+ },
+ {
+  "slug": "guri-gyomun-mailbox-locker-key",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "교문동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 19,
+  "existing_same_place": [
+   "moving-reset"
+  ]
+ },
+ {
+  "slug": "guri-sutaek-move-in-out-lock",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "수택동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 6,
+  "existing_same_place": [
+   "old-door-frame"
+  ]
+ }
+]

@@ -1,0 +1,254 @@
+[
+ {
+  "slug": "seoul-yeongdeungpo-yeongdeungpo-forgot-password",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "영등포동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 6,
+  "existing_same_place": [
+   "malfunction-alarm"
+  ]
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yeouido-smart-home-connect",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "여의도동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 13,
+  "existing_same_place": [
+   "old-door-frame"
+  ]
+ },
+ {
+  "slug": "seoul-yeongdeungpo-dangsan-battery-dead",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "당산동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 20,
+  "existing_same_place": [
+   "room-door-locked-inside"
+  ]
+ },
+ {
+  "slug": "seoul-yeongdeungpo-dorim-auxiliary-lock",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "도림동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 7,
+  "existing_same_place": [
+   "choose-locksmith"
+  ]
+ },
+ {
+  "slug": "seoul-yeongdeungpo-mullae-handle-loose",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "문래동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 14,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yangpyeong-mailbox-locker-key",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "양평동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 1,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yeongdeungpo-singil-moving-reset",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "신길동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 8,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yeongdeungpo-daerim-gate-iron-door",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "대림동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 15,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yeongdeungpo-malfunction-alarm",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "영등포동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 2,
+  "existing_same_place": [
+   "forgot-password"
+  ]
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yeouido-old-door-frame",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "여의도동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 9,
+  "existing_same_place": [
+   "smart-home-connect"
+  ]
+ },
+ {
+  "slug": "seoul-yeongdeungpo-dangsan-room-door-locked-inside",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "당산동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 16,
+  "existing_same_place": [
+   "battery-dead"
+  ]
+ },
+ {
+  "slug": "seoul-yeongdeungpo-dorim-choose-locksmith",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "도림동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 3,
+  "existing_same_place": [
+   "auxiliary-lock"
+  ]
+ },
+ {
+  "slug": "pocheon-gunnae-moving-reset",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "군내면",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 16,
+  "existing_same_place": [
+   "lost-key"
+  ]
+ },
+ {
+  "slug": "pocheon-sinbuk-lost-key",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "신북면",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 3,
+  "existing_same_place": [
+   "key-stuck-cylinder"
+  ]
+ },
+ {
+  "slug": "pocheon-gasan-before-call-prep",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "가산면",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 10,
+  "existing_same_place": [
+   "old-door-frame"
+  ]
+ },
+ {
+  "slug": "pocheon-ildong-install-measure",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "일동면",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 17,
+  "existing_same_place": [
+   "late-night-call"
+  ]
+ },
+ {
+  "slug": "pocheon-yeongjung-door-slam-noise",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "영중면",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 4,
+  "existing_same_place": [
+   "room-door-locked-inside"
+  ]
+ },
+ {
+  "slug": "uiwang-naeson-auxiliary-lock",
+  "region": "uiwang",
+  "city": "의왕시",
+  "short": "의왕",
+  "place": "내손동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 14,
+  "existing_same_place": [
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "uiwang-poil-moving-reset",
+  "region": "uiwang",
+  "city": "의왕시",
+  "short": "의왕",
+  "place": "포일동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 1,
+  "existing_same_place": [
+   "malfunction-alarm"
+  ]
+ },
+ {
+  "slug": "uiwang-ojeon-deadbolt-stuck",
+  "region": "uiwang",
+  "city": "의왕시",
+  "short": "의왕",
+  "place": "오전동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 8,
+  "existing_same_place": [
+   "forgot-password"
+  ]
+ }
+]

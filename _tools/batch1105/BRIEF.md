@@ -1,0 +1,41 @@
+# 2026-11-05 배치 작성 지시 (글 20개)
+
+작업 폴더: /home/claude/24hkey (24시출장열쇠.kr 사이트 저장소)
+
+## 먼저 읽을 것
+1. `_tools/POST_SPEC.md` — 글 규격 전체. 반드시 지킨다.
+2. `_posts/gunpo-sanbon-door-not-opening.txt`, `_posts/ansan-bono-humidity-winter.txt` — 형식·말투 예시.
+3. `_tools/region_notes.py`의 NOTES/SPOTS에서 내 배치에 나오는 지역(region slug) 항목 — 동네 특징·가까운 역. 여기와 `_tools/regions.py`에 있는 사실(동 이름, 역 이름, 집 형태) 안에서만 지역 설명을 쓴다. 모르는 사실(단지명, 개통 연도, 인구, 거리)은 지어내지 않는다.
+
+## 내 배치
+`_tools/batch1105/bNN.json` (지시받은 번호) 의 20개 항목을 각각 `_posts/<slug>.txt` 로 쓴다.
+- 항목 필드: slug, region, city(시·구 이름), short(짧은 이름), place(동네), topic, topic_desc, photo, existing_same_place(같은 동네에 이미 있는 주제)
+- 헤더는 아래 순서와 값을 그대로:
+```
+title: <제목>
+date: 2026-11-05
+place: <place 그대로>
+region: <region 그대로>
+photo: <photo 그대로>
+imgset: region
+desc: <80~110자>
+---
+```
+- 제목: `짧은 지역명 + 동네 + 핵심 키워드` 포함한 자연스러운 한 문장. 서울은 "서울 강남 역삼동 …" 또는 "강남구 역삼동 …"처럼 구 이름을 넣는다. 같은 배치 안에서 제목 끝맺음(… 대처법, … 확인할 것 등)이 겹치지 않게 다양하게.
+- 주제는 topic/topic_desc 를 따른다. 그 동네의 집 형태(아파트·빌라·원룸·단독·상가·읍면 주택)에 맞게 각도를 잡는다. 주제가 동네와 잘 안 맞으면(예: 읍·면 지역의 쉐어하우스) 그 동네에 있을 법한 상황으로 자연스럽게 바꿔 쓰되 주제 자체는 유지.
+- 같은 동네에 기존 글이 있으면(existing_same_place) `_posts/` 에서 그 파일들을 먼저 열어 보고 소제목·문장·사례가 겹치지 않게 쓴다. 같은 시·구의 다른 기존 글 2~3개도 훑어 겹침을 피한다.
+- 내부 링크: 해당 지역 페이지는 `<region>.html` (예: seoul-gangnam.html, goyang.html). 나머지는 POST_SPEC 목록. 5개 이상.
+- 마무리 지역 소개 단락: 서울 글은 같은 구의 다른 동네(regions.py 목록)를, 경기 글은 같은 시·군의 다른 동네를 언급하고 "서울, 경기 전 지역 24시간" 문구 유지.
+
+## 품질 기준 (각 파일마다 직접 확인)
+- 공백 제외 2,800~3,300자: `python3 -c "import re,sys;print(len(re.sub(r'\s','',open(sys.argv[1],encoding='utf-8').read().split('---',1)[1])))" _posts/<slug>.txt`
+- 소제목 12~15개, `@ ` 정확히 4개, `? 질문 | 답` 정확히 5개, 마지막에 010-3664-5455.
+- 금지: 가격 숫자(원·만원), '만능 24시', 지어낸 후기·통계·연차, 아파트 단지명·가게 이름.
+- 겹침: `cd /home/claude/24hkey && python3 _tools/overlap_check.py _posts/<slug>.txt` 의 최고값이 0.30 이하가 되게. 넘으면 겹친 문장을 고쳐 쓴다. 20개 모두 끝난 뒤 내 파일 전체를 한 번 더 돌린다.
+- 20개 글끼리도 복붙처럼 보이면 안 된다: 소제목 문구·순서, 첫 문장, FAQ 질문을 글마다 다르게.
+
+## 하지 말 것
+- `_posts/` 의 기존 파일, 다른 배치 파일, 빌드 스크립트 수정 금지. 빌드·git 명령 금지. 내 20개 파일만 만든다.
+
+## 끝나면
+한 줄씩: slug, 글자 수, overlap 최고값. 기준을 못 맞춘 파일이 있으면 이유를 적는다.

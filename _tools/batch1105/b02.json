@@ -1,0 +1,248 @@
+[
+ {
+  "slug": "seoul-jung-sindang-smart-doorlock-choose",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "신당동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 18,
+  "existing_same_place": [
+   "door-wont-open"
+  ]
+ },
+ {
+  "slug": "seoul-jung-hwanghak-holiday-return",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "황학동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 5,
+  "existing_same_place": [
+   "room-door-locked-inside"
+  ]
+ },
+ {
+  "slug": "seoul-jung-yaksu-card-tag-lost",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "약수동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 12,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jung-cheonggu-humidity-winter",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "청구동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 19,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jung-hoehyeon-child-pet-locked",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "회현동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 6,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jung-myeong-deadbolt-stuck",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "명동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 13,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jung-euljiro-hinge-closer",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "을지로동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 20,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jung-pil-mailbox-locker-key",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "필동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 7,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jung-jungrim-before-call-prep",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "중림동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 14,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jung-dasan-auxiliary-lock",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "다산동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 1,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-jung-sindang-door-wont-open",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "신당동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 8,
+  "existing_same_place": [
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "seoul-jung-hwanghak-room-door-locked-inside",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "황학동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 15,
+  "existing_same_place": [
+   "holiday-return"
+  ]
+ },
+ {
+  "slug": "goyang-juyeop-before-call-prep",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "주엽동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 9,
+  "existing_same_place": [
+   "replace-cost"
+  ]
+ },
+ {
+  "slug": "goyang-daehwa-password-family-manage",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "대화동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 16,
+  "existing_same_place": [
+   "battery-dead"
+  ]
+ },
+ {
+  "slug": "goyang-tanhyeon-lost-key",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "탄현동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 3,
+  "existing_same_place": [
+   "humidity-winter"
+  ]
+ },
+ {
+  "slug": "goyang-ilsan-late-night-call",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "일산동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 10,
+  "existing_same_place": [
+   "lost-key",
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "goyang-deogi-auxiliary-lock",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "덕이동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 17,
+  "existing_same_place": [
+   "moving-reset"
+  ]
+ },
+ {
+  "slug": "goyang-hwajeong-key-stuck-cylinder",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "화정동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 4,
+  "existing_same_place": [
+   "install-measure",
+   "smart-doorlock-choose"
+  ]
+ },
+ {
+  "slug": "goyang-haengsin-door-wont-open",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "행신동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 11,
+  "existing_same_place": [
+   "forgot-password"
+  ]
+ },
+ {
+  "slug": "goyang-wonheung-entrance-security-check",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "원흥동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 18,
+  "existing_same_place": [
+   "fingerprint-fail"
+  ]
+ }
+]

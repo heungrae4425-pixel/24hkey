@@ -1,0 +1,238 @@
+[
+ {
+  "slug": "seoul-songpa-jamsil-fingerprint-fail",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "잠실동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 20,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-songpa-sincheon-move-in-out-lock",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "신천동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 7,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-songpa-bangi-smart-home-connect",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "방이동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 14,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-songpa-ogeum-gate-iron-door",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "오금동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 1,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-songpa-garak-hinge-closer",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "가락동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 8,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-songpa-munjeong-entrance-security-check",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "문정동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 15,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-songpa-seokchon-no-damage-opening",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "석촌동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 2,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-songpa-songpa-handle-loose",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "송파동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 9,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-songpa-pungnap-balcony-sliding-lock",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "풍납동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 16,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-songpa-geoyeo-identity-check-guide",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "거여동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 3,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-songpa-macheon-mailbox-locker-key",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "마천동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 10,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-songpa-jangji-humidity-winter",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "장지동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 17,
+  "existing_same_place": []
+ },
+ {
+  "slug": "gapyeong-cheongpyeong-student-share-house",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "청평면",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 3,
+  "existing_same_place": [
+   "humidity-winter"
+  ]
+ },
+ {
+  "slug": "gapyeong-seorak-balcony-sliding-lock",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "설악면",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 10,
+  "existing_same_place": [
+   "gate-iron-door"
+  ]
+ },
+ {
+  "slug": "gapyeong-sang-after-opening-checklist",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "상면",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 17,
+  "existing_same_place": [
+   "guest-temp-password"
+  ]
+ },
+ {
+  "slug": "gapyeong-jojong-auxiliary-lock",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "조종면",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 4,
+  "existing_same_place": [
+   "before-call-prep"
+  ]
+ },
+ {
+  "slug": "gapyeong-buk-forgot-password",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "북면",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 11,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ]
+ },
+ {
+  "slug": "yeoncheon-jeongok-no-damage-opening",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "전곡읍",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 17,
+  "existing_same_place": [
+   "move-in-out-lock"
+  ]
+ },
+ {
+  "slug": "yeoncheon-yeoncheon-holiday-return",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "연천읍",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 4,
+  "existing_same_place": [
+   "fingerprint-fail"
+  ]
+ },
+ {
+  "slug": "yeoncheon-cheongsan-install-measure",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "청산면",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 11,
+  "existing_same_place": [
+   "cold-wave-battery"
+  ]
+ }
+]

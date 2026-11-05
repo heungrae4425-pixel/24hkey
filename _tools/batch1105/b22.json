@@ -1,0 +1,262 @@
+[
+ {
+  "slug": "seoul-seocho-seocho-password-family-manage",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "서초동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 20,
+  "existing_same_place": [
+   "no-damage-opening"
+  ]
+ },
+ {
+  "slug": "seoul-seocho-jamwon-cold-wave-battery",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "잠원동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 7,
+  "existing_same_place": [
+   "move-in-out-lock"
+  ]
+ },
+ {
+  "slug": "seoul-seocho-banpo-auxiliary-lock",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "반포동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 14,
+  "existing_same_place": [
+   "replace-cost"
+  ]
+ },
+ {
+  "slug": "seoul-seocho-bangbae-mailbox-locker-key",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "방배동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 1,
+  "existing_same_place": [
+   "moving-reset"
+  ]
+ },
+ {
+  "slug": "seoul-seocho-yangjae-after-opening-checklist",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "양재동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 8,
+  "existing_same_place": [
+   "student-share-house"
+  ]
+ },
+ {
+  "slug": "seoul-seocho-naegok-smart-home-connect",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "내곡동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 15,
+  "existing_same_place": [
+   "holiday-return"
+  ]
+ },
+ {
+  "slug": "seoul-seocho-seocho-no-damage-opening",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "서초동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 2,
+  "existing_same_place": [
+   "password-family-manage"
+  ]
+ },
+ {
+  "slug": "seoul-seocho-jamwon-move-in-out-lock",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "잠원동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 9,
+  "existing_same_place": [
+   "cold-wave-battery"
+  ]
+ },
+ {
+  "slug": "seoul-seocho-banpo-replace-cost",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "반포동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 16,
+  "existing_same_place": [
+   "auxiliary-lock"
+  ]
+ },
+ {
+  "slug": "seoul-seocho-bangbae-moving-reset",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "방배동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 3,
+  "existing_same_place": [
+   "mailbox-locker-key"
+  ]
+ },
+ {
+  "slug": "seoul-seocho-yangjae-student-share-house",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "양재동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 10,
+  "existing_same_place": [
+   "after-opening-checklist"
+  ]
+ },
+ {
+  "slug": "seoul-seocho-naegok-holiday-return",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "내곡동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 17,
+  "existing_same_place": [
+   "smart-home-connect"
+  ]
+ },
+ {
+  "slug": "yeoju-jeomdong-smart-doorlock-choose",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "점동면",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 8,
+  "existing_same_place": [
+   "old-door-frame"
+  ]
+ },
+ {
+  "slug": "yeoju-daesin-old-door-frame",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "대신면",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 15,
+  "existing_same_place": [
+   "summer-heat-door"
+  ]
+ },
+ {
+  "slug": "yeoju-bukne-password-family-manage",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "북내면",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 2,
+  "existing_same_place": [
+   "key-stuck-cylinder"
+  ]
+ },
+ {
+  "slug": "dongducheon-saengyeon-room-door-locked-inside",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "생연동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 19,
+  "existing_same_place": [
+   "lost-key"
+  ]
+ },
+ {
+  "slug": "dongducheon-jihaeng-key-stuck-cylinder",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "지행동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 6,
+  "existing_same_place": [
+   "malfunction-alarm"
+  ]
+ },
+ {
+  "slug": "dongducheon-songnae-broken-key-inside",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "송내동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 13,
+  "existing_same_place": [
+   "replace-cost"
+  ]
+ },
+ {
+  "slug": "dongducheon-bosan-handle-loose",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "보산동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 20,
+  "existing_same_place": [
+   "oneroom-officetel"
+  ]
+ },
+ {
+  "slug": "dongducheon-sangpae-door-wont-open",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "상패동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 7,
+  "existing_same_place": [
+   "cold-wave-battery"
+  ]
+ }
+]

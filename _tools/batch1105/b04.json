@@ -1,0 +1,247 @@
+[
+ {
+  "slug": "seoul-seongdong-wangsipri-cold-wave-battery",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "왕십리동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 3,
+  "existing_same_place": [
+   "room-door-locked-inside"
+  ]
+ },
+ {
+  "slug": "seoul-seongdong-haengdang-password-family-manage",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "행당동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 10,
+  "existing_same_place": [
+   "move-in-out-lock"
+  ]
+ },
+ {
+  "slug": "seoul-seongdong-geumho-delivery-locked-out",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "금호동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 17,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongdong-oksu-student-share-house",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "옥수동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 4,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongdong-seongsu-no-damage-opening",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "성수동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 11,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongdong-eungbong-key-stuck-cylinder",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "응봉동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 18,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongdong-majang-gate-iron-door",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "마장동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 5,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongdong-sageun-choose-locksmith",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "사근동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 12,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongdong-songjeong-elderly-parents-door",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "송정동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 19,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongdong-yongdap-hinge-closer",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "용답동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 6,
+  "existing_same_place": []
+ },
+ {
+  "slug": "seoul-seongdong-wangsipri-room-door-locked-inside",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "왕십리동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 13,
+  "existing_same_place": [
+   "cold-wave-battery"
+  ]
+ },
+ {
+  "slug": "seoul-seongdong-haengdang-move-in-out-lock",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "행당동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 20,
+  "existing_same_place": [
+   "password-family-manage"
+  ]
+ },
+ {
+  "slug": "bucheon-wonjong-card-tag-lost",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "원종동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 17,
+  "existing_same_place": [
+   "auxiliary-lock"
+  ]
+ },
+ {
+  "slug": "bucheon-ojeong-student-share-house",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "오정동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 4,
+  "existing_same_place": [
+   "late-night-call"
+  ]
+ },
+ {
+  "slug": "bucheon-gogang-cold-wave-battery",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "고강동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 11,
+  "existing_same_place": [
+   "door-wont-open"
+  ]
+ },
+ {
+  "slug": "bucheon-okgil-no-damage-opening",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "옥길동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 18,
+  "existing_same_place": [
+   "moving-reset"
+  ]
+ },
+ {
+  "slug": "bucheon-beombak-elderly-parents-door",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "범박동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 5,
+  "existing_same_place": [
+   "battery-dead"
+  ]
+ },
+ {
+  "slug": "ansan-gojan-guest-temp-password",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "고잔동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 13,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "humidity-winter"
+  ]
+ },
+ {
+  "slug": "ansan-choji-balcony-sliding-lock",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "초지동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 20,
+  "existing_same_place": [
+   "delivery-locked-out"
+  ]
+ },
+ {
+  "slug": "ansan-seonbu-identity-check-guide",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "선부동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 7,
+  "existing_same_place": [
+   "forgot-password"
+  ]
+ }
+]

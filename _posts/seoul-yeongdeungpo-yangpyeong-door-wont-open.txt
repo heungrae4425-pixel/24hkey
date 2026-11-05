@@ -3,6 +3,7 @@ date: 2026-11-09
 place: 양평동
 region: seoul-yeongdeungpo
 photo: 16
+imgset: region
 desc: 영등포구 양평동에서 현관문이 열리지 않을 때 번호판 반응, 모터 소리, 손잡이 느낌으로 원인을 나눠 보고 출장열쇠를 부를 시점까지 차례로 정리했습니다.
 ---
 # 양평동 현관 앞, 문이 꿈쩍도 하지 않을 때

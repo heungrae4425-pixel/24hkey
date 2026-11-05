@@ -3,6 +3,7 @@ date: 2026-11-11
 place: 신길동
 region: seoul-yeongdeungpo
 photo: 3
+imgset: region
 desc: 영등포 신길동에서 현관이나 보조키 열쇠가 부러져 구멍 안에 남았을 때 혼자 빼려다 생기는 문제와 출장열쇠로 꺼내는 과정, 이후 실린더 점검까지 정리했습니다.
 ---
 # 신길동, 손에 열쇠 반쪽만 남았다면

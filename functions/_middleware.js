@@ -49,6 +49,8 @@ async function db(env) {
       env.DB.prepare("CREATE TABLE IF NOT EXISTS events (day TEXT, kind TEXT, page TEXT, label TEXT, n INTEGER, PRIMARY KEY(day, kind, page, label))"),
       env.DB.prepare("CREATE TABLE IF NOT EXISTS keywords (day TEXT, kw TEXT, n INTEGER, PRIMARY KEY(day, kw))"),
     ]);
+    // 해외 접속은 손님이 아니므로 방문자에서 뺀다 (이전 기록도 같이 정리)
+    try { await env.DB.prepare("UPDATE visits SET kind = 'foreign' WHERE kind = 'person' AND country != '' AND country != 'KR'").run(); } catch {}
     schemaReady = true;
   }
   return env.DB;
@@ -122,12 +124,14 @@ async function logHit(env, request, url) {
     const ip = request.headers.get("cf-connecting-ip") || "";
     const vid = (await sha(ip + "|" + ua + "|" + day)).slice(0, 20);
     const cf = request.cf || {};
-    const { kind, org } = classify(ua, cf);
+    let { kind, org } = classify(ua, cf);
+    // 출장 지역 손님은 한국에만 있으므로 해외 접속은 방문자·조회·검색어 집계에서 뺀다
+    if (kind === "person" && cf.country && cf.country !== "KR") kind = "foreign";
     const refHdr = request.headers.get("referer");
     const ref = refName(refHdr, url.host);
     const visit = d.prepare("INSERT OR IGNORE INTO visits (day, vid, hour, country, region, city, device, ref, landing, kind, org) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")
       .bind(day, vid, hour, cf.country || "", REGION_KO[cf.region] || cf.region || "", CITY_KO[cf.city] || cf.city || "", device(ua), ref || "사이트 내 이동", path, kind, org);
-    if (kind === "bot") { await visit.run(); return; }
+    if (kind !== "person") { await visit.run(); return; }
     const stmts = [
       d.prepare("INSERT INTO hits (day, path, n) VALUES (?, ?, 1) ON CONFLICT(day, path) DO UPDATE SET n = n + 1").bind(day, path),
       visit,
@@ -308,8 +312,8 @@ async function dashboard(ctx, url, d) {
       q("SELECT path, n FROM hits WHERE day = ? ORDER BY n DESC LIMIT 20", day),
       q("SELECT label, SUM(n) n FROM events WHERE kind = 'call' AND day = ? GROUP BY label ORDER BY n DESC", day),
       q("SELECT page, SUM(n) n FROM events WHERE kind = 'call' AND day = ? GROUP BY page ORDER BY n DESC LIMIT 15", day),
-      q("SELECT day, COUNT(*) b FROM visits WHERE kind = 'bot' AND day >= ? GROUP BY day", from14),
-      q("SELECT COALESCE(NULLIF(org, ''), '알 수 없음') org, COUNT(*) v FROM visits WHERE kind = 'bot' AND day = ? GROUP BY 1 ORDER BY v DESC LIMIT 12", day),
+      q("SELECT day, COUNT(*) b FROM visits WHERE kind != 'person' AND day >= ? GROUP BY day", from14),
+      q("SELECT CASE WHEN kind = 'foreign' THEN '해외 접속 · ' || COALESCE(NULLIF(country, ''), '?') ELSE COALESCE(NULLIF(org, ''), '알 수 없음') END org, COUNT(*) v FROM visits WHERE kind != 'person' AND day = ? GROUP BY 1 ORDER BY v DESC LIMIT 12", day),
       q("SELECT landing, COUNT(*) v FROM visits WHERE kind = 'person' AND day = ? GROUP BY landing ORDER BY v DESC LIMIT 15", day),
     ]);
     const mk = (rows, k) => Object.fromEntries(rows.map((r) => [r.day, r[k]]));
@@ -339,7 +343,7 @@ async function dashboard(ctx, url, d) {
     <div class="card dayhead">
       <form method="get" action="/admin"><h2>${day}${day === today ? " (오늘)" : ""} 상세</h2>
         <input type="date" name="day" value="${day}" max="${today}" onchange="this.form.submit()"></form>
-      <div class="mini"><span>방문자 <b>${dv}</b></span><span>조회 <b>${H[day] || 0}</b></span><span>전화 클릭 <b class="accent">${dc}</b></span><span>전환율 <b>${rate(dc, dv)}</b></span><span class="muted">봇 접속 ${B[day] || 0} (별도)</span></div>
+      <div class="mini"><span>방문자 <b>${dv}</b></span><span>조회 <b>${H[day] || 0}</b></span><span>전화 클릭 <b class="accent">${dc}</b></span><span>전환율 <b>${rate(dc, dv)}</b></span><span class="muted">제외한 접속 ${B[day] || 0} (봇·해외)</span></div>
     </div>
     <div class="grid2">
       <div class="card"><h2>지역별 방문자 (시·도)</h2>${hbars(geoR, "region", "v")}</div>
@@ -354,10 +358,10 @@ async function dashboard(ctx, url, d) {
       <div class="card"><h2>검색어 (최근 7일)</h2><p class="muted">네이버·다음 등에서 검색어가 전달된 경우만 표시됩니다.</p>${table(kws, [{ t: "검색어", k: "kw" }, { t: "유입", k: "n", n: 1 }])}</div>
     </div>
     <div class="grid2">
-      <div class="card"><h2>봇·데이터센터 접속 <span class="muted">· 방문자 수에서 제외</span></h2>${hbars(botOrgs, "org", "v")}</div>
-      <div class="card"><h2>날짜별 요약 (14일)</h2>${table(daily, [{ t: "날짜", f: (r) => `<a href="/admin?day=${r.x}">${r.x.slice(5)}</a>` }, { t: "방문자", k: "v", n: 1 }, { t: "조회", k: "h", n: 1 }, { t: "전화", k: "c", n: 1 }, { t: "휴대폰", k: "m", n: 1 }, { t: "봇", k: "b", n: 1 }])}</div>
+      <div class="card"><h2>제외한 접속 (봇·데이터센터·해외) <span class="muted">· 방문자 수에서 제외</span></h2>${hbars(botOrgs, "org", "v")}</div>
+      <div class="card"><h2>날짜별 요약 (14일)</h2>${table(daily, [{ t: "날짜", f: (r) => `<a href="/admin?day=${r.x}">${r.x.slice(5)}</a>` }, { t: "방문자", k: "v", n: 1 }, { t: "조회", k: "h", n: 1 }, { t: "전화", k: "c", n: 1 }, { t: "휴대폰", k: "m", n: 1 }, { t: "제외", k: "b", n: 1 }])}</div>
     </div>
-    <p class="muted">지역은 접속한 인터넷 주소(IP) 기준이라 실제 위치와 다를 수 있습니다. 휴대폰 데이터로 접속하면 통신사 위치(주로 서울)로 잡히는 경우가 많습니다.<br>방문자 수는 사람만 셉니다. 검색엔진·수집기처럼 봇 이름을 밝히거나 데이터센터에서 온 접속은 '봇'으로 따로 보여 줍니다. 관리자로 로그인한 상태의 방문은 기록하지 않습니다.</p>`;
+    <p class="muted">지역은 접속한 인터넷 주소(IP) 기준이라 실제 위치와 다를 수 있습니다. 휴대폰 데이터로 접속하면 통신사 위치(주로 서울)로 잡히는 경우가 많습니다.<br>방문자 수는 사람만 셉니다. 검색엔진·수집기처럼 봇 이름을 밝히거나 데이터센터에서 온 접속, 해외 접속은 '제외한 접속'으로 따로 보여 줍니다. 관리자로 로그인한 상태의 방문은 기록하지 않습니다.</p>`;
   }
 
   return page("관리자", `

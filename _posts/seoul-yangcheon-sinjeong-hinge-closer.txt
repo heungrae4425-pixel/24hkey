@@ -1,4 +1,4 @@
-title: 양천 신정동 현관문이 덜 닫힐 때 도어클로저·경첩 살펴보기
+title: 양천구 신정동 현관문이 덜 닫힐 때 도어클로저·경첩 살펴보기
 date: 2026-11-05
 place: 신정동
 region: seoul-yangcheon

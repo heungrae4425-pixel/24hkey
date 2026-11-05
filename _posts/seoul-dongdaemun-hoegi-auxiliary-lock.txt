@@ -3,6 +3,7 @@ date: 2026-11-05
 place: 회기동
 region: seoul-dongdaemun
 photo: 11
+imgset: region
 desc: 동대문구 회기동 원룸과 다세대에서 도어락은 풀렸는데 보조키나 안쪽 걸쇠 때문에 문이 안 열릴 때 원인 구분법과 출장열쇠 요청 순서를 정리했습니다.
 ---
 # 도어락은 풀렸는데 문이 꿈쩍 않는다면

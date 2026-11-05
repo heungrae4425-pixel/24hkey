@@ -3,6 +3,7 @@ date: 2026-11-05
 place: 가산동
 region: seoul-geumcheon
 photo: 3
+imgset: region
 desc: 금천구 가산동에서 문이 안 열려 출장열쇠를 부르기 전에 찍어 둘 도어락 사진, 건물 입구와 위치 설명, 번호판 상태 정리법을 순서대로 담았습니다.
 ---
 # 가산동 문 앞에서 전화 걸기 전 3분

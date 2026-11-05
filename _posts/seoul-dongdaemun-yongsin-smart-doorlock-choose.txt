@@ -3,6 +3,7 @@ date: 2026-11-05
 place: 용신동
 region: seoul-dongdaemun
 photo: 13
+imgset: region
 desc: 동대문구 용신동 다세대와 아파트에서 지문, 카드, 번호, 앱 방식 스마트 도어락을 고를 때 문 상태와 식구 구성에 맞춰 따져 볼 기준을 정리했습니다.
 ---
 # 용신동에서 도어락을 새로 고를 때

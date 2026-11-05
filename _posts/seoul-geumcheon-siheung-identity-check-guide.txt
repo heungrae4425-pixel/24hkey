@@ -3,6 +3,7 @@ date: 2026-11-05
 place: 시흥동
 region: seoul-geumcheon
 photo: 17
+imgset: region
 desc: 금천구 시흥동에서 출장열쇠가 현관문을 열기 전에 거치는 신분 확인 절차와, 신분증이 집 안에 있을 때 쓸 수 있는 방법을 차례로 쉽게 설명합니다.
 ---
 # 시흥동에서 문을 열기 전에 꼭 거치는 일

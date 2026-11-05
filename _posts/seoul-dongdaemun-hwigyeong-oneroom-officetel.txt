@@ -3,6 +3,7 @@ date: 2026-11-05
 place: 휘경동
 region: seoul-dongdaemun
 photo: 1
+imgset: region
 desc: 동대문구 휘경동 원룸과 오피스텔에서 공동 현관과 호실 도어락이 잠겼을 때 차례대로 확인할 것, 건물주와 관리실 연락, 거주 확인 방법을 정리했습니다.
 ---
 # 휘경동 원룸 문 앞에서 막혔을 때

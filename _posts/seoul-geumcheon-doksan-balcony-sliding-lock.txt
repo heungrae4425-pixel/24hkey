@@ -3,6 +3,7 @@ date: 2026-11-05
 place: 독산동
 region: seoul-geumcheon
 photo: 11
+imgset: region
 desc: 금천구 독산동 다세대 집에서 베란다 미닫이 잠금장치가 안 걸리거나 방문 손잡이 잠금이 풀리지 않을 때 종류별로 확인할 것과 손볼 방법을 담았습니다.
 ---
 # 현관 말고 집 안 문이 말썽일 때

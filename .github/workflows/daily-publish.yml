@@ -1,0 +1,49 @@
+# 예약 글 자동 공개
+# 매일 오전 8시 7분(한국 시간)에 사이트를 다시 빌드한다.
+# _posts/ 의 date 가 오늘 이하인 글만 빌드되므로, 그날 날짜의 글이 블로그·지역 페이지·사이트맵에 공개된다.
+# 바뀐 파일이 있으면 main 에 커밋·푸시하고, Cloudflare Pages 가 자동으로 배포한다.
+name: daily-publish
+
+on:
+  schedule:
+    - cron: "7 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 한글 글꼴·Pillow 설치 (새로 그릴 사진이 있을 때 필요)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-cjk fonts-noto-cjk-extra
+          pip install -q pillow==12.3.0
+
+      - name: 빌드
+        run: cd _tools && python3 build.py > /tmp/build.log && tail -1 /tmp/build.log
+
+      - name: 바뀐 것만 커밋·푸시
+        run: |
+          git config user.name "daily-publish"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "오늘 공개할 글이 없습니다"
+            exit 0
+          fi
+          TODAY=$(TZ=Asia/Seoul date +%F)
+          N=$(grep -l "^date: $TODAY$" _posts/*.txt | wc -l)
+          git commit -q -m "예약 글 자동 공개 $TODAY ($N편)"
+          git push -q origin HEAD:main

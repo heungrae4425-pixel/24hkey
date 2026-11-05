@@ -1,4 +1,4 @@
-title: 동작구 대방동 부모님 댁 도어락 점검과 쓰기 편한 설정 정리
+title: 동작구 대방동 부모님 댁 도어락 점검하고 쓰기 편하게 바꾸기
 date: 2026-11-05
 place: 대방동
 region: seoul-dongjak

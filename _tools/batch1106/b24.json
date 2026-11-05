@@ -1,0 +1,299 @@
+[
+ {
+  "slug": "seoul-yeongdeungpo-mullae-forgot-password",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "문래동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 9,
+  "existing_same_place": [
+   "handle-loose",
+   "moving-reset"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yangpyeong-door-wont-open",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "양평동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 16,
+  "existing_same_place": [
+   "mailbox-locker-key",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-singil-broken-key-inside",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "신길동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 3,
+  "existing_same_place": [
+   "moving-reset"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-daerim-old-door-frame",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "대림동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 10,
+  "existing_same_place": [
+   "gate-iron-door"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yeongdeungpo-key-stuck-cylinder",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "영등포동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 17,
+  "existing_same_place": [
+   "forgot-password",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yeouido-balcony-sliding-lock",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "여의도동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 4,
+  "existing_same_place": [
+   "old-door-frame",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-dangsan-holiday-return",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "당산동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 11,
+  "existing_same_place": [
+   "battery-dead",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-dorim-child-pet-locked",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "도림동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 18,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "choose-locksmith"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-mullae-moving-reset",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "문래동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 5,
+  "existing_same_place": [
+   "forgot-password",
+   "handle-loose"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yangpyeong-smart-home-connect",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "양평동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 12,
+  "existing_same_place": [
+   "door-wont-open",
+   "mailbox-locker-key"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "yangpyeong-seojong-deadbolt-stuck",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "서종면",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 16,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "yangpyeong-yangseo-auxiliary-lock",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "양서면",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 2,
+  "existing_same_place": [
+   "malfunction-alarm",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "yangpyeong-yangpyeongeup-cold-wave-battery",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "양평읍",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 1,
+  "existing_same_place": [
+   "lost-key",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "yangpyeong-okcheon-gate-iron-door",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "옥천면",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 9,
+  "existing_same_place": [
+   "key-stuck-cylinder",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "yangpyeong-yongmun-replace-cost",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "용문면",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 3,
+  "existing_same_place": [
+   "gate-iron-door",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "yangpyeong-jipyeong-choose-locksmith",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "지평면",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 10,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "humidity-winter"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "yeoju-gannam-battery-dead",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "가남읍",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 4,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "gate-iron-door"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "yeoju-daesin-room-door-locked-inside",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "대신면",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 18,
+  "existing_same_place": [
+   "old-door-frame",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "yeoju-bukne-old-door-frame",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "북내면",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 5,
+  "existing_same_place": [
+   "key-stuck-cylinder",
+   "password-family-manage"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "yeoju-sejongdaewang-old-door-frame",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "세종대왕면",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 16,
+  "existing_same_place": [
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-07"
+ }
+]

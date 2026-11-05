@@ -15,7 +15,13 @@ _posts/<slug>.txt 원고를 읽어 blog/<slug>.html, blog/index.html, 썸네일�
 
 사진은 모두 EXIF·ICC 같은 메타 정보 없이 저장한다.
 """
-import os, re, json
+import os, re, json, sys, datetime
+
+# 예약 공개: date 가 오늘(한국 시간)보다 뒤인 글은 빌드에서 빼 둔다.
+# 매일 아침 GitHub Actions(.github/workflows/daily-publish.yml)가 다시 빌드하면 그날 글이 공개된다.
+TODAY = os.environ.get("PUBLISH_DATE") or (datetime.datetime.utcnow() + datetime.timedelta(hours=9)).strftime("%Y-%m-%d")
+# 이미 있는 사진은 다시 그리지 않는다 (--force-images 로 전부 다시 그림)
+FORCE_IMAGES = "--force-images" in sys.argv
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
 from build import head, foot, page_top, side, write, e, ROOT, TEL, NAME, CITIES, SITE
@@ -122,6 +128,8 @@ def save_clean(im, path, quality):
 
 
 def card(out, place, photo, w, h, shift=0.5, bright=0.62, quality=84, tags=()):
+    if not FORCE_IMAGES and os.path.exists(out):
+        return
     """동네 이름 / 24시 출장열쇠 / 전화번호 를 실제 사진 위에 얹는다. tags 가 있으면 아래에 빨간 띠로 추가."""
     bg = Image.open(os.path.join(HERE, "thumb_bg", f"bg{photo:02d}.jpg")).convert("RGB")
     s = max(w / bg.width, h / bg.height) * 1.08
@@ -272,7 +280,8 @@ def add_to_sitemap(posts):
 
 def load_posts():
     pdir = os.path.join(ROOT, "_posts")
-    return sorted((parse(os.path.join(pdir, f)) for f in os.listdir(pdir) if f.endswith(".txt")),
+    posts = (parse(os.path.join(pdir, f)) for f in os.listdir(pdir) if f.endswith(".txt"))
+    return sorted((p for p in posts if p["date"] <= TODAY),
                   key=lambda p: (p["date"], p["slug"]), reverse=True)
 
 

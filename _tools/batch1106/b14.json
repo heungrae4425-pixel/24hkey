@@ -1,0 +1,294 @@
+[
+ {
+  "slug": "seoul-jung-yaksu-old-door-frame",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "약수동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 1,
+  "existing_same_place": [
+   "card-tag-lost"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-jung-cheonggu-oneroom-officetel",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "청구동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 8,
+  "existing_same_place": [
+   "humidity-winter"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-jung-hoehyeon-forgot-password",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "회현동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 15,
+  "existing_same_place": [
+   "child-pet-locked"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-jung-myeong-gate-iron-door",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "명동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 2,
+  "existing_same_place": [
+   "deadbolt-stuck"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-jung-euljiro-entrance-security-check",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "을지로동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 9,
+  "existing_same_place": [
+   "hinge-closer"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "seoul-jung-pil-fingerprint-fail",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "필동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 16,
+  "existing_same_place": [
+   "mailbox-locker-key"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-jung-jungrim-key-stuck-cylinder",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "중림동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 3,
+  "existing_same_place": [
+   "before-call-prep"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-jung-dasan-handle-loose",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "다산동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 10,
+  "existing_same_place": [
+   "auxiliary-lock"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "seoul-jung-sindang-smart-home-connect",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "신당동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 17,
+  "existing_same_place": [
+   "door-wont-open",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "seoul-jung-hwanghak-door-slam-noise",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "황학동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 4,
+  "existing_same_place": [
+   "holiday-return",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "gwangmyeong-cheolsan-handle-loose",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "철산동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 2,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "replace-cost"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "gwangmyeong-haan-broken-key-inside",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "하안동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 9,
+  "existing_same_place": [
+   "password-family-manage",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "gwangmyeong-hakon-holiday-return",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "학온동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 17,
+  "existing_same_place": [
+   "broken-key-inside",
+   "cold-wave-battery"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "hanam-gamil-forgot-password",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "감일동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 17,
+  "existing_same_place": [
+   "moving-reset",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "hanam-deokpung-card-tag-lost",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "덕풍동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 4,
+  "existing_same_place": [
+   "key-stuck-cylinder",
+   "old-door-frame"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "hanam-misa-entrance-security-check",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "미사동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 16,
+  "existing_same_place": [
+   "battery-dead",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "hanam-sinjang-balcony-sliding-lock",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "신장동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 11,
+  "existing_same_place": [
+   "handle-loose",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "hanam-wirye-oneroom-officetel",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "위례동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 10,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "hanam-changu-no-damage-opening",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "창우동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 18,
+  "existing_same_place": [
+   "battery-dead",
+   "gate-iron-door"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "hanam-cheonhyeon-password-family-manage",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "천현동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 5,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-24"
+ }
+]

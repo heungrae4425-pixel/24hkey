@@ -1,0 +1,354 @@
+[
+ {
+  "slug": "seoul-gwanak-bongcheon-humidity-winter",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 3,
+  "existing_same_place": [
+   "forgot-password",
+   "gate-iron-door",
+   "identity-check-guide",
+   "landlord-tenant-check",
+   "late-night-call",
+   "password-family-manage",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-gwanak-sillim-identity-check-guide",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "신림동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 10,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "before-call-prep",
+   "delivery-locked-out",
+   "door-slam-noise",
+   "fingerprint-fail",
+   "gate-iron-door"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-gwanak-namhyeon-move-in-out-lock",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "남현동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 17,
+  "existing_same_place": [
+   "handle-loose",
+   "hinge-closer",
+   "humidity-winter",
+   "key-stuck-cylinder",
+   "lost-key",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "seoul-gwanak-bongcheon-gate-iron-door",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 4,
+  "existing_same_place": [
+   "forgot-password",
+   "humidity-winter",
+   "identity-check-guide",
+   "landlord-tenant-check",
+   "late-night-call",
+   "password-family-manage",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-gwanak-sillim-before-call-prep",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "신림동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 11,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "delivery-locked-out",
+   "door-slam-noise",
+   "fingerprint-fail",
+   "gate-iron-door",
+   "identity-check-guide"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-gwanak-namhyeon-room-door-locked-inside",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "남현동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 18,
+  "existing_same_place": [
+   "handle-loose",
+   "hinge-closer",
+   "humidity-winter",
+   "key-stuck-cylinder",
+   "lost-key",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-gwanak-bongcheon-late-night-call",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 5,
+  "existing_same_place": [
+   "forgot-password",
+   "gate-iron-door",
+   "humidity-winter",
+   "identity-check-guide",
+   "landlord-tenant-check",
+   "password-family-manage",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-gwanak-sillim-fingerprint-fail",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "신림동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 12,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "before-call-prep",
+   "delivery-locked-out",
+   "door-slam-noise",
+   "gate-iron-door",
+   "identity-check-guide"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-gwanak-namhyeon-handle-loose",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "남현동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 19,
+  "existing_same_place": [
+   "hinge-closer",
+   "humidity-winter",
+   "key-stuck-cylinder",
+   "lost-key",
+   "move-in-out-lock",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-gwanak-bongcheon-password-family-manage",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 6,
+  "existing_same_place": [
+   "forgot-password",
+   "gate-iron-door",
+   "humidity-winter",
+   "identity-check-guide",
+   "landlord-tenant-check",
+   "late-night-call",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "goyang-pung-entrance-security-check",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "풍동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 5,
+  "existing_same_place": [
+   "moving-reset",
+   "old-door-frame",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "goyang-pung-shop-office-lock",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "풍동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 10,
+  "existing_same_place": [
+   "entrance-security-check",
+   "moving-reset",
+   "old-door-frame"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-haengsin-card-tag-lost",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "행신동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 20,
+  "existing_same_place": [
+   "door-wont-open",
+   "forgot-password",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "goyang-haengsin-smart-doorlock-choose",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "행신동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 19,
+  "existing_same_place": [
+   "card-tag-lost",
+   "door-wont-open",
+   "forgot-password"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-hwajeong-landlord-tenant-check",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "화정동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 15,
+  "existing_same_place": [
+   "entrance-security-check",
+   "install-measure",
+   "key-stuck-cylinder",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "goyang-hwajeong-entrance-security-check",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "화정동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 12,
+  "existing_same_place": [
+   "install-measure",
+   "key-stuck-cylinder",
+   "landlord-tenant-check",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "guri-galmae-identity-check-guide",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "갈매동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 16,
+  "existing_same_place": [
+   "humidity-winter",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "guri-gyomun-lost-key",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "교문동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 2,
+  "existing_same_place": [
+   "mailbox-locker-key",
+   "moving-reset"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "guri-sutaek-forgot-password",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "수택동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 9,
+  "existing_same_place": [
+   "move-in-out-lock",
+   "old-door-frame"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "guri-acheon-door-slam-noise",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "아천동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 10,
+  "existing_same_place": [
+   "guest-temp-password",
+   "late-night-call"
+  ],
+  "date": "2026-11-20"
+ }
+]

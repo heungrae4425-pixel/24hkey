@@ -1,0 +1,300 @@
+[
+ {
+  "slug": "seoul-eunpyeong-nokbeon-holiday-return",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "녹번동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 6,
+  "existing_same_place": [
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-eunpyeong-eungam-install-measure",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "응암동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 13,
+  "existing_same_place": [
+   "moving-reset"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-eunpyeong-yeokchon-identity-check-guide",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "역촌동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 20,
+  "existing_same_place": [
+   "forgot-password"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-eunpyeong-sinsa-landlord-tenant-check",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "신사동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 7,
+  "existing_same_place": [
+   "holiday-return"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-eunpyeong-jeungsan-password-family-manage",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "증산동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 14,
+  "existing_same_place": [
+   "door-slam-noise"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-eunpyeong-susaek-handle-loose",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "수색동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 1,
+  "existing_same_place": [
+   "no-damage-opening"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-eunpyeong-jingwan-door-wont-open",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "진관동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 8,
+  "existing_same_place": [
+   "deadbolt-stuck"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-eunpyeong-galhyeon-old-door-frame",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "갈현동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 15,
+  "existing_same_place": [
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-eunpyeong-gusan-before-call-prep",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "구산동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 2,
+  "existing_same_place": [
+   "balcony-sliding-lock"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-eunpyeong-daejo-card-tag-lost",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "대조동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 9,
+  "existing_same_place": [
+   "after-opening-checklist"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "anseong-iljuk-hinge-closer",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "일죽면",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 14,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "holiday-return"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "anseong-jugsan-oneroom-officetel",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "죽산면",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 1,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "install-measure"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "bucheon-gogang-smart-doorlock-choose",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "고강동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 7,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "cold-wave-battery",
+   "door-wont-open"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "bucheon-gogang-after-opening-checklist",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "고강동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 11,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "door-wont-open",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "bucheon-beombak-before-call-prep",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "범박동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 1,
+  "existing_same_place": [
+   "battery-dead",
+   "elderly-parents-door",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "bucheon-beombak-key-stuck-cylinder",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "범박동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 5,
+  "existing_same_place": [
+   "battery-dead",
+   "before-call-prep",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "bucheon-sangdong-forgot-password",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "상동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 18,
+  "existing_same_place": [
+   "handle-loose",
+   "malfunction-alarm",
+   "password-family-manage"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "bucheon-sangdong-malfunction-alarm",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "상동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 2,
+  "existing_same_place": [
+   "forgot-password",
+   "handle-loose",
+   "password-family-manage"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "bucheon-sosa-door-slam-noise",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "소사동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 12,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "humidity-winter",
+   "lost-key"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "bucheon-sosa-delivery-locked-out",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "소사동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 16,
+  "existing_same_place": [
+   "door-slam-noise",
+   "humidity-winter",
+   "lost-key"
+  ],
+  "date": "2026-11-29"
+ }
+]

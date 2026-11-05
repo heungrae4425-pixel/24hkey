@@ -1,0 +1,303 @@
+[
+ {
+  "slug": "seoul-gangdong-godeok-choose-locksmith",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "고덕동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 5,
+  "existing_same_place": [
+   "child-pet-locked",
+   "install-measure"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-gangdong-amsa-key-stuck-cylinder",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "암사동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 12,
+  "existing_same_place": [
+   "guest-temp-password"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-gangdong-cheonho-cold-wave-battery",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "천호동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 19,
+  "existing_same_place": [
+   "battery-dead"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "seoul-gangdong-seongnae-after-opening-checklist",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "성내동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 6,
+  "existing_same_place": [
+   "deadbolt-stuck"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-gangdong-gil-landlord-tenant-check",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "길동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 13,
+  "existing_same_place": [
+   "holiday-return"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "seoul-gangdong-dunchon-late-night-call",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "둔촌동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 20,
+  "existing_same_place": [
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-gangdong-gangil-moving-reset",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "강일동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 7,
+  "existing_same_place": [
+   "forgot-password",
+   "replace-cost"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-gangdong-sangil-child-pet-locked",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "상일동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 14,
+  "existing_same_place": [
+   "malfunction-alarm",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-gangdong-myeongil-password-family-manage",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "명일동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 1,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-gangdong-godeok-install-measure",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "고덕동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 8,
+  "existing_same_place": [
+   "child-pet-locked",
+   "choose-locksmith"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "bucheon-wonjong-humidity-winter",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "원종동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 13,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "card-tag-lost",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "bucheon-wonjong-elderly-parents-door",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "원종동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 17,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "card-tag-lost",
+   "humidity-winter"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "bucheon-jungdong-humidity-winter",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "중동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 8,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "late-night-call",
+   "password-family-manage",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "bucheon-jungdong-late-night-call",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "중동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 15,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "humidity-winter",
+   "password-family-manage",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "dongducheon-gwangam-smart-doorlock-choose",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "광암동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 17,
+  "existing_same_place": [
+   "battery-dead",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "dongducheon-bosan-no-damage-opening",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "보산동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 3,
+  "existing_same_place": [
+   "handle-loose",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "dongducheon-sangpae-late-night-call",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "상패동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 10,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "door-wont-open"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "dongducheon-saengyeon-identity-check-guide",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "생연동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 2,
+  "existing_same_place": [
+   "lost-key",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "dongducheon-songnae-oneroom-officetel",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "송내동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 16,
+  "existing_same_place": [
+   "broken-key-inside",
+   "replace-cost"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "dongducheon-jihaeng-student-share-house",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "지행동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 9,
+  "existing_same_place": [
+   "key-stuck-cylinder",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-10"
+ }
+]

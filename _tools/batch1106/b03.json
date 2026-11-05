@@ -1,0 +1,312 @@
+[
+ {
+  "slug": "seoul-dongjak-noryangjin-student-share-house",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "노량진동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 4,
+  "existing_same_place": [
+   "broken-key-inside",
+   "card-tag-lost",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-dongjak-sangdo-cold-wave-battery",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "상도동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 11,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "elderly-parents-door",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-dongjak-heukseok-deadbolt-stuck",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "흑석동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 18,
+  "existing_same_place": [
+   "lost-key",
+   "malfunction-alarm",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "seoul-dongjak-sadang-install-measure",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "사당동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 5,
+  "existing_same_place": [
+   "handle-loose",
+   "landlord-tenant-check",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-dongjak-daebang-malfunction-alarm",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "대방동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 12,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-dongjak-sindaebang-battery-dead",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "신대방동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 19,
+  "existing_same_place": [
+   "install-measure",
+   "late-night-call"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-dongjak-noryangjin-shop-office-lock",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "노량진동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 6,
+  "existing_same_place": [
+   "broken-key-inside",
+   "card-tag-lost",
+   "student-share-house"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-dongjak-sangdo-elderly-parents-door",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "상도동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 13,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "deadbolt-stuck",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-dongjak-heukseok-lost-key",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "흑석동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 20,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "malfunction-alarm",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-dongjak-sadang-landlord-tenant-check",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "사당동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 7,
+  "existing_same_place": [
+   "handle-loose",
+   "install-measure",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "ansan-choji-after-opening-checklist",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "초지동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 16,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "delivery-locked-out",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "ansan-choji-guest-temp-password",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "초지동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 20,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "balcony-sliding-lock",
+   "delivery-locked-out"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "anseong-gongdo-moving-reset",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "공도읍",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 18,
+  "existing_same_place": [
+   "replace-cost",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "anseong-geumgwang-entrance-security-check",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "금광면",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 7,
+  "existing_same_place": [
+   "no-damage-opening",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "anseong-dangwang-key-stuck-cylinder",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "당왕동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 12,
+  "existing_same_place": [
+   "card-tag-lost",
+   "forgot-password"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "anseong-daedeok-smart-home-connect",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "대덕면",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 6,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "anseong-miyang-mailbox-locker-key",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "미양면",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 13,
+  "existing_same_place": [
+   "gate-iron-door",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "anseong-bogae-balcony-sliding-lock",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "보개면",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 20,
+  "existing_same_place": [
+   "broken-key-inside",
+   "identity-check-guide"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "anseong-seokjeong-password-family-manage",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "석정동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 5,
+  "existing_same_place": [
+   "choose-locksmith",
+   "hinge-closer"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "anseong-ayang-door-wont-open",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "아양동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 19,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-14"
+ }
+]

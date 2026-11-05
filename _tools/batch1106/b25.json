@@ -1,0 +1,294 @@
+[
+ {
+  "slug": "seoul-yongsan-ichon-choose-locksmith",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "이촌동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 4,
+  "existing_same_place": [
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-yongsan-huam-elderly-parents-door",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "후암동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 11,
+  "existing_same_place": [
+   "replace-cost"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-yongsan-cheongpa-guest-temp-password",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "청파동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 18,
+  "existing_same_place": [
+   "moving-reset"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-yongsan-hyochang-delivery-locked-out",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "효창동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 5,
+  "existing_same_place": [
+   "forgot-password"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-yongsan-bogwang-student-share-house",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "보광동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 12,
+  "existing_same_place": [
+   "smart-home-connect"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "seoul-yongsan-seobinggo-room-door-locked-inside",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "서빙고동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 19,
+  "existing_same_place": [
+   "guest-temp-password"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-yongsan-wonhyoro-humidity-winter",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "원효로동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 6,
+  "existing_same_place": [
+   "handle-loose"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-yongsan-yongmun-balcony-sliding-lock",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "용문동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 13,
+  "existing_same_place": [
+   "entrance-security-check"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "seoul-yongsan-itaewon-auxiliary-lock",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "이태원동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 20,
+  "existing_same_place": [
+   "lost-key",
+   "old-door-frame"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "seoul-yongsan-hannam-moving-reset",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "한남동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 7,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "yeoju-yeoheung-before-call-prep",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "여흥동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 3,
+  "existing_same_place": [
+   "child-pet-locked",
+   "choose-locksmith"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "yeoju-ohak-summer-heat-door",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "오학동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 17,
+  "existing_same_place": [
+   "forgot-password",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "yeoju-jeomdong-handle-loose",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "점동면",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 11,
+  "existing_same_place": [
+   "old-door-frame",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "yeoju-jungang-holiday-return",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "중앙동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 10,
+  "existing_same_place": [
+   "choose-locksmith",
+   "late-night-call"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "yeoncheon-gunnam-elderly-parents-door",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "군남면",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 8,
+  "existing_same_place": [
+   "before-call-prep",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "yeoncheon-misan-mailbox-locker-key",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "미산면",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 15,
+  "existing_same_place": [
+   "door-slam-noise",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "yeoncheon-baekhak-broken-key-inside",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "백학면",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 1,
+  "existing_same_place": [
+   "landlord-tenant-check",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "yeoncheon-yeoncheon-door-slam-noise",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "연천읍",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 7,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "holiday-return"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "yeoncheon-jeongok-after-opening-checklist",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "전곡읍",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 20,
+  "existing_same_place": [
+   "move-in-out-lock",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "yeoncheon-cheongsan-hinge-closer",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "청산면",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 14,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "install-measure"
+  ],
+  "date": "2026-11-13"
+ }
+]

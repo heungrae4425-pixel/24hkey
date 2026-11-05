@@ -1,0 +1,292 @@
+[
+ {
+  "slug": "seoul-gangnam-sinsa-smart-doorlock-choose",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "신사동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 4,
+  "existing_same_place": [
+   "guest-temp-password"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-gangnam-apgujeong-summer-heat-door",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "압구정동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 11,
+  "existing_same_place": [
+   "entrance-security-check"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-gangnam-cheongdam-choose-locksmith",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "청담동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 18,
+  "existing_same_place": [
+   "child-pet-locked"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "seoul-gangnam-samseong-guest-temp-password",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "삼성동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 5,
+  "existing_same_place": [
+   "door-wont-open"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-gangnam-daechi-replace-cost",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "대치동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 12,
+  "existing_same_place": [
+   "before-call-prep"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-gangnam-yeoksam-smart-home-connect",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "역삼동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 19,
+  "existing_same_place": [
+   "battery-dead"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-gangnam-dogok-identity-check-guide",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "도곡동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 6,
+  "existing_same_place": [
+   "delivery-locked-out"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-gangnam-gaepo-deadbolt-stuck",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "개포동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 13,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-gangnam-irwon-lost-key",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "일원동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 20,
+  "existing_same_place": [
+   "old-door-frame"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-gangnam-suseo-before-call-prep",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "수서동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 7,
+  "existing_same_place": [
+   "after-opening-checklist"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "gapyeong-gapyeong-move-in-out-lock",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "가평읍",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 19,
+  "existing_same_place": [
+   "entrance-security-check",
+   "holiday-return"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "gapyeong-buk-balcony-sliding-lock",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "북면",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 14,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "forgot-password"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "gapyeong-sang-smart-home-connect",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "상면",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 20,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "gapyeong-seorak-door-wont-open",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "설악면",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 13,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "gate-iron-door"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "gapyeong-jojong-moving-reset",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "조종면",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 7,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "before-call-prep"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "gapyeong-cheongpyeong-delivery-locked-out",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "청평면",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 6,
+  "existing_same_place": [
+   "humidity-winter",
+   "student-share-house"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "gimpo-geolpo-fingerprint-fail",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "걸포동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 18,
+  "existing_same_place": [
+   "door-slam-noise",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "gimpo-gochon-old-door-frame",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "고촌읍",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 5,
+  "existing_same_place": [
+   "hinge-closer",
+   "holiday-return"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "gimpo-gurae-humidity-winter",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "구래동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 3,
+  "existing_same_place": [
+   "identity-check-guide",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "gimpo-masan-auxiliary-lock",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "마산동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 10,
+  "existing_same_place": [
+   "moving-reset",
+   "password-family-manage"
+  ],
+  "date": "2026-11-12"
+ }
+]

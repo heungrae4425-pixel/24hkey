@@ -1,0 +1,346 @@
+[
+ {
+  "slug": "seoul-yangcheon-mok-move-in-out-lock",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 6,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose",
+   "identity-check-guide",
+   "late-night-call",
+   "mailbox-locker-key",
+   "old-door-frame",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-yangcheon-sinwol-humidity-winter",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신월동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 13,
+  "existing_same_place": [
+   "before-call-prep",
+   "door-wont-open",
+   "elderly-parents-door",
+   "entrance-security-check",
+   "key-stuck-cylinder",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-yangcheon-sinjeong-shop-office-lock",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신정동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 20,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "elderly-parents-door",
+   "hinge-closer",
+   "lost-key",
+   "malfunction-alarm",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-yangcheon-mok-mailbox-locker-key",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 7,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose",
+   "identity-check-guide",
+   "late-night-call",
+   "move-in-out-lock",
+   "old-door-frame",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-yangcheon-sinwol-door-wont-open",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신월동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 14,
+  "existing_same_place": [
+   "before-call-prep",
+   "elderly-parents-door",
+   "entrance-security-check",
+   "humidity-winter",
+   "key-stuck-cylinder",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-yangcheon-sinjeong-malfunction-alarm",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신정동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 1,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "elderly-parents-door",
+   "hinge-closer",
+   "lost-key",
+   "shop-office-lock",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-yangcheon-mok-old-door-frame",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 8,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose",
+   "identity-check-guide",
+   "late-night-call",
+   "mailbox-locker-key",
+   "move-in-out-lock",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-yangcheon-sinwol-key-stuck-cylinder",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신월동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 15,
+  "existing_same_place": [
+   "before-call-prep",
+   "door-wont-open",
+   "elderly-parents-door",
+   "entrance-security-check",
+   "humidity-winter",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-yangcheon-sinjeong-elderly-parents-door",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신정동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 2,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "hinge-closer",
+   "lost-key",
+   "malfunction-alarm",
+   "shop-office-lock",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-yangcheon-mok-late-night-call",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 9,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose",
+   "identity-check-guide",
+   "mailbox-locker-key",
+   "move-in-out-lock",
+   "old-door-frame",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "uiwang-hagui-no-damage-opening",
+  "region": "uiwang",
+  "city": "의왕시",
+  "short": "의왕",
+  "place": "학의동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 19,
+  "existing_same_place": [
+   "child-pet-locked",
+   "cold-wave-battery"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "yangju-goeup-shop-office-lock",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "고읍동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 4,
+  "existing_same_place": [
+   "child-pet-locked",
+   "door-slam-noise"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "yangju-gwangjeok-moving-reset",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "광적면",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 5,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "late-night-call"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "yangju-nammyeon-guest-temp-password",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "남면",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 19,
+  "existing_same_place": [
+   "",
+   "after-opening-checklist"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "yangju-baekseok-malfunction-alarm",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "백석읍",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 18,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "entrance-security-check"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "yangju-samsung-deadbolt-stuck",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "삼숭동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 11,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "replace-cost"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "yangju-okjeong-before-call-prep",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "옥정동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 17,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "yangju-jangheung-late-night-call",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "장흥면",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 12,
+  "existing_same_place": [
+   "",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "yangpyeong-gangsang-landlord-tenant-check",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "강상면",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 8,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "holiday-return"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "yangpyeong-gangha-summer-heat-door",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "강하면",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 15,
+  "existing_same_place": [
+   "card-tag-lost",
+   "humidity-winter"
+  ],
+  "date": "2026-11-12"
+ }
+]

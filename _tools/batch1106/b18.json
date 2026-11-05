@@ -1,0 +1,312 @@
+[
+ {
+  "slug": "seoul-seocho-seocho-card-tag-lost",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "서초동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 3,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "no-damage-opening",
+   "password-family-manage"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-seocho-jamwon-auxiliary-lock",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "잠원동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 10,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "delivery-locked-out",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-seocho-banpo-mailbox-locker-key",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "반포동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 17,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "no-damage-opening",
+   "replace-cost"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "seoul-seocho-bangbae-hinge-closer",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "방배동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 4,
+  "existing_same_place": [
+   "entrance-security-check",
+   "mailbox-locker-key",
+   "moving-reset"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-seocho-yangjae-oneroom-officetel",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "양재동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 11,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "student-share-house"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-seocho-naegok-door-slam-noise",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "내곡동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 18,
+  "existing_same_place": [
+   "holiday-return",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-seocho-seocho-after-opening-checklist",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "서초동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 5,
+  "existing_same_place": [
+   "card-tag-lost",
+   "no-damage-opening",
+   "password-family-manage"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-seocho-jamwon-delivery-locked-out",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "잠원동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 12,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "cold-wave-battery",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-seocho-banpo-no-damage-opening",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "반포동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 19,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "mailbox-locker-key",
+   "replace-cost"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-seocho-bangbae-entrance-security-check",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "방배동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 6,
+  "existing_same_place": [
+   "hinge-closer",
+   "mailbox-locker-key",
+   "moving-reset"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "namyangju-hwado-door-wont-open",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "화도읍",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 16,
+  "existing_same_place": [
+   "forgot-password",
+   "gate-iron-door",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "namyangju-hwado-forgot-password",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "화도읍",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 13,
+  "existing_same_place": [
+   "door-wont-open",
+   "gate-iron-door",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "paju-gyoha-choose-locksmith",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "교하동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 9,
+  "existing_same_place": [
+   "",
+   "card-tag-lost"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "paju-geumchon-identity-check-guide",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "금촌동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 2,
+  "existing_same_place": [
+   "",
+   "replace-cost"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "paju-munsan-key-stuck-cylinder",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "문산읍",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 16,
+  "existing_same_place": [
+   "late-night-call",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "paju-beobwon-child-pet-locked",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "법원읍",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 17,
+  "existing_same_place": [
+   "choose-locksmith",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "paju-unjeong-password-family-manage",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "운정동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 15,
+  "existing_same_place": [
+   "",
+   "mailbox-locker-key"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "paju-wollong-install-measure",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "월롱면",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 11,
+  "existing_same_place": [
+   "mailbox-locker-key",
+   "old-door-frame"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "paju-jori-shop-office-lock",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "조리읍",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 3,
+  "existing_same_place": [
+   "child-pet-locked",
+   "old-door-frame"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "paju-tanhyeon-hinge-closer",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "탄현면",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 4,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "moving-reset"
+  ],
+  "date": "2026-11-24"
+ }
+]

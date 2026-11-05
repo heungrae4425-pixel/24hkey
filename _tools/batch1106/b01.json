@@ -1,0 +1,340 @@
+[
+ {
+  "slug": "seoul-dobong-chang-late-night-call",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "창동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 3,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "before-call-prep",
+   "cold-wave-battery",
+   "deadbolt-stuck",
+   "old-door-frame"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-dobong-ssangmun-hinge-closer",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "쌍문동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 10,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "broken-key-inside",
+   "gate-iron-door",
+   "landlord-tenant-check",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-dobong-banghak-shop-office-lock",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "방학동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 17,
+  "existing_same_place": [
+   "card-tag-lost",
+   "key-stuck-cylinder",
+   "oneroom-officetel",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-dobong-dobong-summer-heat-door",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "도봉동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 4,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "holiday-return",
+   "password-family-manage",
+   "replace-cost"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-dobong-chang-auxiliary-lock",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "창동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 11,
+  "existing_same_place": [
+   "before-call-prep",
+   "cold-wave-battery",
+   "deadbolt-stuck",
+   "late-night-call",
+   "old-door-frame"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-dobong-ssangmun-balcony-sliding-lock",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "쌍문동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 18,
+  "existing_same_place": [
+   "broken-key-inside",
+   "gate-iron-door",
+   "hinge-closer",
+   "landlord-tenant-check",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-dobong-banghak-oneroom-officetel",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "방학동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 5,
+  "existing_same_place": [
+   "card-tag-lost",
+   "key-stuck-cylinder",
+   "shop-office-lock",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-dobong-dobong-fingerprint-fail",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "도봉동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 12,
+  "existing_same_place": [
+   "holiday-return",
+   "password-family-manage",
+   "replace-cost",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-dobong-chang-cold-wave-battery",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "창동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 19,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "before-call-prep",
+   "deadbolt-stuck",
+   "late-night-call",
+   "old-door-frame"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-dobong-ssangmun-broken-key-inside",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "쌍문동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 6,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "gate-iron-door",
+   "hinge-closer",
+   "landlord-tenant-check",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "ansan-gojan-forgot-password",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "고잔동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 6,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "fingerprint-fail",
+   "guest-temp-password",
+   "humidity-winter"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "ansan-gojan-fingerprint-fail",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "고잔동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 13,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "forgot-password",
+   "guest-temp-password",
+   "humidity-winter"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "ansan-daebu-replace-cost",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "대부동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 19,
+  "existing_same_place": [
+   "gate-iron-door",
+   "hinge-closer",
+   "late-night-call"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "ansan-daebu-hinge-closer",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "대부동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 3,
+  "existing_same_place": [
+   "gate-iron-door",
+   "late-night-call",
+   "replace-cost"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "ansan-bono-malfunction-alarm",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "본오동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 4,
+  "existing_same_place": [
+   "handle-loose",
+   "humidity-winter",
+   "install-measure"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "ansan-bono-handle-loose",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "본오동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 8,
+  "existing_same_place": [
+   "humidity-winter",
+   "install-measure",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "ansan-sa-auxiliary-lock",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "사동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 11,
+  "existing_same_place": [
+   "door-wont-open",
+   "holiday-return",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "ansan-sa-holiday-return",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "사동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 15,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "door-wont-open",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "ansan-seonbu-room-door-locked-inside",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "선부동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 3,
+  "existing_same_place": [
+   "forgot-password",
+   "identity-check-guide",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "ansan-seonbu-smart-home-connect",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "선부동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 7,
+  "existing_same_place": [
+   "forgot-password",
+   "identity-check-guide",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-28"
+ }
+]

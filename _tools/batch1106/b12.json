@@ -1,0 +1,304 @@
+[
+ {
+  "slug": "seoul-gwangjin-junggok-replace-cost",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "중곡동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 5,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "handle-loose"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-gwangjin-neung-landlord-tenant-check",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "능동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 12,
+  "existing_same_place": [
+   "entrance-security-check",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-gwangjin-jayang-lost-key",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "자양동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 19,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "door-wont-open",
+   "moving-reset"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-gwangjin-guui-malfunction-alarm",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "구의동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 6,
+  "existing_same_place": [
+   "landlord-tenant-check",
+   "lost-key"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-gwangjin-gwangjang-before-call-prep",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "광장동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 13,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "student-share-house"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-gwangjin-hwayang-key-stuck-cylinder",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "화양동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 20,
+  "existing_same_place": [
+   "humidity-winter",
+   "identity-check-guide"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-gwangjin-gunja-old-door-frame",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "군자동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 7,
+  "existing_same_place": [
+   "choose-locksmith",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-gwangjin-junggok-after-opening-checklist",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "중곡동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 14,
+  "existing_same_place": [
+   "handle-loose",
+   "replace-cost"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "seoul-gwangjin-neung-shop-office-lock",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "능동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 1,
+  "existing_same_place": [
+   "entrance-security-check",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "seoul-gwangjin-jayang-door-wont-open",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "자양동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 8,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "lost-key",
+   "moving-reset"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "guri-inchang-replace-cost",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "인창동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 15,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "guri-toppyeong-choose-locksmith",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "토평동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 3,
+  "existing_same_place": [
+   "broken-key-inside",
+   "delivery-locked-out"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "gwacheon-galhyeon-fingerprint-fail",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "갈현동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 7,
+  "existing_same_place": [
+   "shop-office-lock",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "gwacheon-munwon-auxiliary-lock",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "문원동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 14,
+  "existing_same_place": [
+   "door-slam-noise",
+   "moving-reset"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "gwacheon-byeolyang-lost-key",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "별양동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 19,
+  "existing_same_place": [
+   "hinge-closer",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "gwacheon-burim-card-tag-lost",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "부림동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 6,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "moving-reset"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "gwacheon-wonmun-malfunction-alarm",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "원문동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 13,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "gwacheon-jungang-guest-temp-password",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "중앙동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 20,
+  "existing_same_place": [
+   "replace-cost",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "gwangju-gyeongan-lost-key",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "경안동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 5,
+  "existing_same_place": [
+   "humidity-winter",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "gwangju-gonjiam-smart-doorlock-choose",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "곤지암읍",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 20,
+  "existing_same_place": [
+   "gate-iron-door",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-22"
+ }
+]

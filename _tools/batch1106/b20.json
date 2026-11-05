@@ -1,0 +1,303 @@
+[
+ {
+  "slug": "seoul-seongbuk-jeongreung-door-slam-noise",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "정릉동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 5,
+  "existing_same_place": [
+   "old-door-frame"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-seongbuk-anam-before-call-prep",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "안암동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 12,
+  "existing_same_place": [
+   "child-pet-locked"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-seongbuk-bomun-summer-heat-door",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "보문동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 19,
+  "existing_same_place": [
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-seongbuk-seokgwan-cold-wave-battery",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "석관동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 6,
+  "existing_same_place": [
+   "door-wont-open"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-seongbuk-jangwi-landlord-tenant-check",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "장위동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 13,
+  "existing_same_place": [
+   "no-damage-opening"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-seongbuk-jongam-balcony-sliding-lock",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "종암동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 20,
+  "existing_same_place": [
+   "mailbox-locker-key"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-seongbuk-wolgok-humidity-winter",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "월곡동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 7,
+  "existing_same_place": [
+   "entrance-security-check"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-seongbuk-seongbuk-oneroom-officetel",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "성북동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 14,
+  "existing_same_place": [
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-seongbuk-gireum-malfunction-alarm",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "길음동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 1,
+  "existing_same_place": [
+   "oneroom-officetel",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-seongbuk-donam-replace-cost",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "돈암동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 8,
+  "existing_same_place": [
+   "door-slam-noise",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "siheung-daeya-landlord-tenant-check",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "대야동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 19,
+  "existing_same_place": [
+   "door-wont-open",
+   "forgot-password",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "siheung-daeya-door-wont-open",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "대야동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 2,
+  "existing_same_place": [
+   "forgot-password",
+   "landlord-tenant-check",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "siheung-mokgam-smart-home-connect",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "목감동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 13,
+  "existing_same_place": [
+   "child-pet-locked",
+   "cold-wave-battery",
+   "replace-cost"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "siheung-mokgam-cold-wave-battery",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "목감동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 16,
+  "existing_same_place": [
+   "child-pet-locked",
+   "replace-cost",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "siheung-baegot-balcony-sliding-lock",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "배곧동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 5,
+  "existing_same_place": [
+   "choose-locksmith",
+   "cold-wave-battery",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "siheung-baegot-cold-wave-battery",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "배곧동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 8,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "choose-locksmith",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "siheung-sincheon-fingerprint-fail",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "신천동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 6,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "delivery-locked-out",
+   "student-share-house"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "siheung-sincheon-student-share-house",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "신천동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 9,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "delivery-locked-out",
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "siheung-wolgot-delivery-locked-out",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "월곶동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 14,
+  "existing_same_place": [
+   "",
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "siheung-eunhaeng-old-door-frame",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "은행동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 12,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "delivery-locked-out",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-11"
+ }
+]

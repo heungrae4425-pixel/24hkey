@@ -332,13 +332,19 @@ def build_area():
     write("area.html", page + foot())
 
 
+def _today():
+    # 예약 공개 기준일 (blog.py 와 같은 규칙: PUBLISH_DATE 또는 한국 시간 오늘)
+    import datetime
+    return os.environ.get("PUBLISH_DATE") or (datetime.datetime.utcnow() + datetime.timedelta(hours=9)).strftime("%Y-%m-%d")
+
+
 def region_posts(slug):
     pdir = os.path.join(ROOT, "_posts")
     out = []
     for f in sorted(os.listdir(pdir)) if os.path.isdir(pdir) else []:
         if f.endswith(".txt"):
             meta = dict(l.split(": ", 1) for l in open(os.path.join(pdir, f), encoding="utf-8").read().split("\n---\n", 1)[0].strip().splitlines())
-            if meta.get("region") == slug:
+            if meta.get("region") == slug and meta.get("date", "") <= _today():
                 out.append((f[:-4], meta["title"]))
     return out
 

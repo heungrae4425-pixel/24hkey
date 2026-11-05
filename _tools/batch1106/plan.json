@@ -1,0 +1,7717 @@
+[
+ {
+  "slug": "goyang-baekseok-smart-doorlock-choose",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "백석동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 17,
+  "existing_same_place": [
+   "choose-locksmith",
+   "install-measure",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "namyangju-toegyewon-summer-heat-door",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "퇴계원읍",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 20,
+  "existing_same_place": [
+   "install-measure",
+   "moving-reset"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "bucheon-sangdong-forgot-password",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "상동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 18,
+  "existing_same_place": [
+   "handle-loose",
+   "malfunction-alarm",
+   "password-family-manage"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "ansan-choji-after-opening-checklist",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "초지동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 16,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "delivery-locked-out",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "siheung-jeongwang-holiday-return",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "정왕동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 18,
+  "existing_same_place": [
+   "broken-key-inside",
+   "door-wont-open",
+   "student-share-house"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-jongno-buam-move-in-out-lock",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "부암동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 3,
+  "existing_same_place": [
+   "after-opening-checklist"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-jung-yaksu-old-door-frame",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "약수동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 1,
+  "existing_same_place": [
+   "card-tag-lost"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-yongsan-ichon-choose-locksmith",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "이촌동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 4,
+  "existing_same_place": [
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-seongdong-geumho-child-pet-locked",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "금호동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 6,
+  "existing_same_place": [
+   "delivery-locked-out"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-gwangjin-junggok-replace-cost",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "중곡동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 5,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "handle-loose"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-dongdaemun-imun-handle-loose",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "이문동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 7,
+  "existing_same_place": [
+   "password-family-manage",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-jungnang-myeonmok-card-tag-lost",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "면목동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 5,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "gate-iron-door",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-seongbuk-jeongreung-door-slam-noise",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "정릉동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 5,
+  "existing_same_place": [
+   "old-door-frame"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-gangbuk-songjung-install-measure",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "송중동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 4,
+  "existing_same_place": [
+   "gate-iron-door",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-dobong-chang-late-night-call",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "창동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 3,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "before-call-prep",
+   "cold-wave-battery",
+   "deadbolt-stuck",
+   "old-door-frame"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-nowon-hagye-choose-locksmith",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "하계동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 2,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "door-wont-open",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-eunpyeong-nokbeon-holiday-return",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "녹번동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 6,
+  "existing_same_place": [
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-seodaemun-hongeun-no-damage-opening",
+  "region": "seoul-seodaemun",
+  "city": "서대문구",
+  "short": "서대문",
+  "place": "홍은동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 6,
+  "existing_same_place": [
+   "gate-iron-door",
+   "mailbox-locker-key"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-mapo-ahyeon-door-slam-noise",
+  "region": "seoul-mapo",
+  "city": "마포구",
+  "short": "마포",
+  "place": "아현동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 1,
+  "existing_same_place": [
+   "late-night-call"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-yangcheon-mok-move-in-out-lock",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 6,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose",
+   "identity-check-guide",
+   "late-night-call",
+   "mailbox-locker-key",
+   "old-door-frame",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-gangseo-magok-oneroom-officetel",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "마곡동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 4,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "student-share-house"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-guro-gaebong-guest-temp-password",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "개봉동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 1,
+  "existing_same_place": [
+   "identity-check-guide",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-geumcheon-gasan-choose-locksmith",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "가산동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 6,
+  "existing_same_place": [
+   "before-call-prep",
+   "deadbolt-stuck",
+   "door-slam-noise",
+   "forgot-password",
+   "install-measure",
+   "no-damage-opening",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-mullae-forgot-password",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "문래동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 9,
+  "existing_same_place": [
+   "handle-loose",
+   "moving-reset"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-dongjak-noryangjin-student-share-house",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "노량진동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 4,
+  "existing_same_place": [
+   "broken-key-inside",
+   "card-tag-lost",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-gwanak-bongcheon-humidity-winter",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 3,
+  "existing_same_place": [
+   "forgot-password",
+   "gate-iron-door",
+   "identity-check-guide",
+   "landlord-tenant-check",
+   "late-night-call",
+   "password-family-manage",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-seocho-seocho-card-tag-lost",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "서초동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 3,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "no-damage-opening",
+   "password-family-manage"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-gangnam-sinsa-smart-doorlock-choose",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "신사동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 4,
+  "existing_same_place": [
+   "guest-temp-password"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-songpa-jamsil-student-share-house",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "잠실동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 3,
+  "existing_same_place": [
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-gangdong-godeok-choose-locksmith",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "고덕동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 5,
+  "existing_same_place": [
+   "child-pet-locked",
+   "install-measure"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "gimpo-janggi-elderly-parents-door",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "장기동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 16,
+  "existing_same_place": [
+   "battery-dead",
+   "lost-key"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "anseong-gongdo-moving-reset",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "공도읍",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 18,
+  "existing_same_place": [
+   "replace-cost",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "gwangju-namhansanseong-oneroom-officetel",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "남한산성면",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 18,
+  "existing_same_place": [
+   "broken-key-inside"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "paju-unjeong-password-family-manage",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "운정동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 15,
+  "existing_same_place": [
+   "",
+   "mailbox-locker-key"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "uijeongbu-uijeongbu-door-slam-noise",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "의정부동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 20,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "icheon-jungri-before-call-prep",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "중리동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 17,
+  "existing_same_place": [
+   "",
+   "forgot-password"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "yeoju-sejongdaewang-old-door-frame",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "세종대왕면",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 16,
+  "existing_same_place": [
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "hanam-misa-entrance-security-check",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "미사동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 16,
+  "existing_same_place": [
+   "battery-dead",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "pocheon-soheul-card-tag-lost",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "소흘읍",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 18,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "yangpyeong-yangpyeongeup-cold-wave-battery",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "양평읍",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 1,
+  "existing_same_place": [
+   "lost-key",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "yangju-okjeong-before-call-prep",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "옥정동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 17,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "uiwang-naeson-delivery-locked-out",
+  "region": "uiwang",
+  "city": "의왕시",
+  "short": "의왕",
+  "place": "내손동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 17,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "gwangmyeong-cheolsan-handle-loose",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "철산동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 2,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "replace-cost"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "guri-inchang-replace-cost",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "인창동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 15,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "dongducheon-saengyeon-identity-check-guide",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "생연동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 2,
+  "existing_same_place": [
+   "lost-key",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "gwacheon-byeolyang-lost-key",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "별양동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 19,
+  "existing_same_place": [
+   "hinge-closer",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "gapyeong-gapyeong-move-in-out-lock",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "가평읍",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 19,
+  "existing_same_place": [
+   "entrance-security-check",
+   "holiday-return"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "yeoncheon-jeongok-after-opening-checklist",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "전곡읍",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 20,
+  "existing_same_place": [
+   "move-in-out-lock",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "goyang-madu-humidity-winter",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "마두동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 4,
+  "existing_same_place": [
+   "entrance-security-check",
+   "oneroom-officetel",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "namyangju-byeollae-elderly-parents-door",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "별내동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 7,
+  "existing_same_place": [
+   "battery-dead",
+   "gate-iron-door",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "bucheon-simgok-hinge-closer",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "심곡동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 5,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "old-door-frame",
+   "student-share-house"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "ansan-seonbu-room-door-locked-inside",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "선부동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 3,
+  "existing_same_place": [
+   "forgot-password",
+   "identity-check-guide",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "siheung-baegot-balcony-sliding-lock",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "배곧동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 5,
+  "existing_same_place": [
+   "choose-locksmith",
+   "cold-wave-battery",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-jongno-samcheong-mailbox-locker-key",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "삼청동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 10,
+  "existing_same_place": [
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-jung-cheonggu-oneroom-officetel",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "청구동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 8,
+  "existing_same_place": [
+   "humidity-winter"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-yongsan-huam-elderly-parents-door",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "후암동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 11,
+  "existing_same_place": [
+   "replace-cost"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-seongdong-oksu-deadbolt-stuck",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "옥수동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 13,
+  "existing_same_place": [
+   "student-share-house"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-gwangjin-neung-landlord-tenant-check",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "능동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 12,
+  "existing_same_place": [
+   "entrance-security-check",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-dongdaemun-jeonnong-password-family-manage",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "전농동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 14,
+  "existing_same_place": [
+   "before-call-prep"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-jungnang-sangbong-guest-temp-password",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "상봉동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 12,
+  "existing_same_place": [
+   "broken-key-inside",
+   "fingerprint-fail",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-seongbuk-anam-before-call-prep",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "안암동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 12,
+  "existing_same_place": [
+   "child-pet-locked"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-gangbuk-insu-late-night-call",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "인수동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 11,
+  "existing_same_place": [
+   "move-in-out-lock",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-dobong-ssangmun-hinge-closer",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "쌍문동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 10,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "broken-key-inside",
+   "gate-iron-door",
+   "landlord-tenant-check",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-nowon-gongreung-student-share-house",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "공릉동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 9,
+  "existing_same_place": [
+   "handle-loose",
+   "humidity-winter",
+   "lost-key"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-eunpyeong-eungam-install-measure",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "응암동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 13,
+  "existing_same_place": [
+   "moving-reset"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-seodaemun-namgajwa-malfunction-alarm",
+  "region": "seoul-seodaemun",
+  "city": "서대문구",
+  "short": "서대문",
+  "place": "남가좌동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 13,
+  "existing_same_place": [
+   "door-wont-open"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-mapo-gongdeok-key-stuck-cylinder",
+  "region": "seoul-mapo",
+  "city": "마포구",
+  "short": "마포",
+  "place": "공덕동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 8,
+  "existing_same_place": [
+   "child-pet-locked"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-yangcheon-sinwol-humidity-winter",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신월동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 13,
+  "existing_same_place": [
+   "before-call-prep",
+   "door-wont-open",
+   "elderly-parents-door",
+   "entrance-security-check",
+   "key-stuck-cylinder",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-gangseo-balsan-moving-reset",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "발산동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 11,
+  "existing_same_place": [
+   "handle-loose",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-guro-oryu-smart-home-connect",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "오류동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 8,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "lost-key"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-geumcheon-doksan-password-family-manage",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "독산동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 13,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "broken-key-inside",
+   "delivery-locked-out",
+   "elderly-parents-door",
+   "landlord-tenant-check",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yangpyeong-door-wont-open",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "양평동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 16,
+  "existing_same_place": [
+   "mailbox-locker-key",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-dongjak-sangdo-cold-wave-battery",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "상도동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 11,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "elderly-parents-door",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-gwanak-sillim-identity-check-guide",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "신림동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 10,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "before-call-prep",
+   "delivery-locked-out",
+   "door-slam-noise",
+   "fingerprint-fail",
+   "gate-iron-door"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-seocho-jamwon-auxiliary-lock",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "잠원동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 10,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "delivery-locked-out",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-gangnam-apgujeong-summer-heat-door",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "압구정동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 11,
+  "existing_same_place": [
+   "entrance-security-check"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-songpa-sincheon-malfunction-alarm",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "신천동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 10,
+  "existing_same_place": [
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-gangdong-amsa-key-stuck-cylinder",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "암사동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 12,
+  "existing_same_place": [
+   "guest-temp-password"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "gimpo-gurae-humidity-winter",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "구래동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 3,
+  "existing_same_place": [
+   "identity-check-guide",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "anseong-seokjeong-password-family-manage",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "석정동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 5,
+  "existing_same_place": [
+   "choose-locksmith",
+   "hinge-closer"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "gwangju-gyeongan-lost-key",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "경안동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 5,
+  "existing_same_place": [
+   "humidity-winter",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "paju-geumchon-identity-check-guide",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "금촌동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 2,
+  "existing_same_place": [
+   "",
+   "replace-cost"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "uijeongbu-howon-lost-key",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "호원동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 7,
+  "existing_same_place": [
+   "battery-dead",
+   "door-wont-open"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "icheon-jeungpo-child-pet-locked",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "증포동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 4,
+  "existing_same_place": [
+   "",
+   "student-share-house"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "yeoju-yeoheung-before-call-prep",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "여흥동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 3,
+  "existing_same_place": [
+   "child-pet-locked",
+   "choose-locksmith"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "hanam-pungsan-summer-heat-door",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "풍산동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 3,
+  "existing_same_place": [
+   "room-door-locked-inside",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "pocheon-seondan-holiday-return",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "선단동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 5,
+  "existing_same_place": [
+   "door-wont-open",
+   "moving-reset"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "yangpyeong-gangsang-landlord-tenant-check",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "강상면",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 8,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "holiday-return"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "yangju-goeup-shop-office-lock",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "고읍동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 4,
+  "existing_same_place": [
+   "child-pet-locked",
+   "door-slam-noise"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "uiwang-poil-old-door-frame",
+  "region": "uiwang",
+  "city": "의왕시",
+  "short": "의왕",
+  "place": "포일동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 4,
+  "existing_same_place": [
+   "malfunction-alarm",
+   "moving-reset"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "gwangmyeong-haan-broken-key-inside",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "하안동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 9,
+  "existing_same_place": [
+   "password-family-manage",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "guri-gyomun-lost-key",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "교문동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 2,
+  "existing_same_place": [
+   "mailbox-locker-key",
+   "moving-reset"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "dongducheon-jihaeng-student-share-house",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "지행동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 9,
+  "existing_same_place": [
+   "key-stuck-cylinder",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "gwacheon-burim-card-tag-lost",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "부림동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 6,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "moving-reset"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "gapyeong-cheongpyeong-delivery-locked-out",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "청평면",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 6,
+  "existing_same_place": [
+   "humidity-winter",
+   "student-share-house"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "yeoncheon-yeoncheon-door-slam-noise",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "연천읍",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 7,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "holiday-return"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "goyang-janghang-replace-cost",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "장항동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 11,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "key-stuck-cylinder",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "namyangju-pyeongnae-broken-key-inside",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "평내동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 14,
+  "existing_same_place": [
+   "choose-locksmith",
+   "delivery-locked-out",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "bucheon-sosa-door-slam-noise",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "소사동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 12,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "humidity-winter",
+   "lost-key"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "ansan-wa-moving-reset",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "와동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 10,
+  "existing_same_place": [
+   "child-pet-locked",
+   "password-family-manage",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "siheung-eunhaeng-old-door-frame",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "은행동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 12,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "delivery-locked-out",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-jongno-changsin-install-measure",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "창신동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 17,
+  "existing_same_place": [
+   "late-night-call"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-jung-hoehyeon-forgot-password",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "회현동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 15,
+  "existing_same_place": [
+   "child-pet-locked"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-yongsan-cheongpa-guest-temp-password",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "청파동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 18,
+  "existing_same_place": [
+   "moving-reset"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-seongdong-seongsu-battery-dead",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "성수동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 20,
+  "existing_same_place": [
+   "no-damage-opening"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-gwangjin-jayang-lost-key",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "자양동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 19,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "door-wont-open",
+   "moving-reset"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-dongdaemun-dapsipri-identity-check-guide",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "답십리동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 1,
+  "existing_same_place": [
+   "deadbolt-stuck"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-jungnang-junghwa-student-share-house",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "중화동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 19,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "card-tag-lost",
+   "holiday-return"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-seongbuk-bomun-summer-heat-door",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "보문동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 19,
+  "existing_same_place": [
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-gangbuk-mia-forgot-password",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "미아동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 18,
+  "existing_same_place": [
+   "install-measure",
+   "lost-key",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-dobong-banghak-shop-office-lock",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "방학동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 17,
+  "existing_same_place": [
+   "card-tag-lost",
+   "key-stuck-cylinder",
+   "oneroom-officetel",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-nowon-wolgye-gate-iron-door",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "월계동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 16,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "delivery-locked-out",
+   "forgot-password"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-eunpyeong-yeokchon-identity-check-guide",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "역촌동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 20,
+  "existing_same_place": [
+   "forgot-password"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-seodaemun-bukgajwa-delivery-locked-out",
+  "region": "seoul-seodaemun",
+  "city": "서대문구",
+  "short": "서대문",
+  "place": "북가좌동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 20,
+  "existing_same_place": [
+   "smart-home-connect"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-mapo-dohwa-room-door-locked-inside",
+  "region": "seoul-mapo",
+  "city": "마포구",
+  "short": "마포",
+  "place": "도화동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 15,
+  "existing_same_place": [
+   "install-measure"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-yangcheon-sinjeong-shop-office-lock",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신정동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 20,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "elderly-parents-door",
+   "hinge-closer",
+   "lost-key",
+   "malfunction-alarm",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-gangseo-gonghang-child-pet-locked",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "공항동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 18,
+  "existing_same_place": [
+   "choose-locksmith"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-guro-sugung-broken-key-inside",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "수궁동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 15,
+  "existing_same_place": [
+   "after-opening-checklist"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-geumcheon-siheung-gate-iron-door",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "시흥동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 20,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "delivery-locked-out",
+   "fingerprint-fail",
+   "identity-check-guide",
+   "oneroom-officetel",
+   "student-share-house"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-singil-broken-key-inside",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "신길동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 3,
+  "existing_same_place": [
+   "moving-reset"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-dongjak-heukseok-deadbolt-stuck",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "흑석동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 18,
+  "existing_same_place": [
+   "lost-key",
+   "malfunction-alarm",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "seoul-gwanak-namhyeon-move-in-out-lock",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "남현동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 17,
+  "existing_same_place": [
+   "handle-loose",
+   "hinge-closer",
+   "humidity-winter",
+   "key-stuck-cylinder",
+   "lost-key",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "seoul-seocho-banpo-mailbox-locker-key",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "반포동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 17,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "no-damage-opening",
+   "replace-cost"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "seoul-gangnam-cheongdam-choose-locksmith",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "청담동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 18,
+  "existing_same_place": [
+   "child-pet-locked"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "seoul-songpa-bangi-room-door-locked-inside",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "방이동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 17,
+  "existing_same_place": [
+   "smart-home-connect"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "seoul-gangdong-cheonho-cold-wave-battery",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "천호동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 19,
+  "existing_same_place": [
+   "battery-dead"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "gimpo-masan-auxiliary-lock",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "마산동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 10,
+  "existing_same_place": [
+   "moving-reset",
+   "password-family-manage"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "anseong-dangwang-key-stuck-cylinder",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "당왕동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 12,
+  "existing_same_place": [
+   "card-tag-lost",
+   "forgot-password"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "gwangju-songjeong-room-door-locked-inside",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "송정동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 12,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "lost-key"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "paju-gyoha-choose-locksmith",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "교하동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 9,
+  "existing_same_place": [
+   "",
+   "card-tag-lost"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "uijeongbu-jangam-student-share-house",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "장암동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 14,
+  "existing_same_place": [
+   "broken-key-inside",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "icheon-gwango-gate-iron-door",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "관고동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 11,
+  "existing_same_place": [
+   "",
+   "deadbolt-stuck"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "yeoju-jungang-holiday-return",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "중앙동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 10,
+  "existing_same_place": [
+   "choose-locksmith",
+   "late-night-call"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "hanam-wirye-oneroom-officetel",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "위례동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 10,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "pocheon-pocheon-battery-dead",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "포천동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 12,
+  "existing_same_place": [
+   "choose-locksmith",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "yangpyeong-gangha-summer-heat-door",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "강하면",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 15,
+  "existing_same_place": [
+   "card-tag-lost",
+   "humidity-winter"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "yangju-samsung-deadbolt-stuck",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "삼숭동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 11,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "replace-cost"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "uiwang-ojeon-after-opening-checklist",
+  "region": "uiwang",
+  "city": "의왕시",
+  "short": "의왕",
+  "place": "오전동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 11,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "forgot-password"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "gwangmyeong-soha-mailbox-locker-key",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "소하동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 16,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "guri-sutaek-forgot-password",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "수택동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 9,
+  "existing_same_place": [
+   "move-in-out-lock",
+   "old-door-frame"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "dongducheon-songnae-oneroom-officetel",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "송내동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 16,
+  "existing_same_place": [
+   "broken-key-inside",
+   "replace-cost"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "gwacheon-wonmun-malfunction-alarm",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "원문동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 13,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "gapyeong-seorak-door-wont-open",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "설악면",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 13,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "gate-iron-door"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "yeoncheon-cheongsan-hinge-closer",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "청산면",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 14,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "install-measure"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "goyang-siksa-mailbox-locker-key",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "식사동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 18,
+  "existing_same_place": [
+   "child-pet-locked",
+   "cold-wave-battery",
+   "student-share-house"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "namyangju-hopyeong-move-in-out-lock",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "호평동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 1,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "child-pet-locked",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "bucheon-yeokgok-holiday-return",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "역곡동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 19,
+  "existing_same_place": [
+   "door-slam-noise",
+   "hinge-closer",
+   "student-share-house"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "ansan-wongok-deadbolt-stuck",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "원곡동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 17,
+  "existing_same_place": [
+   "identity-check-guide",
+   "lost-key",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "siheung-daeya-landlord-tenant-check",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "대야동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 19,
+  "existing_same_place": [
+   "door-wont-open",
+   "forgot-password",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-jongno-sungin-identity-check-guide",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "숭인동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 4,
+  "existing_same_place": [
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-jung-myeong-gate-iron-door",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "명동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 2,
+  "existing_same_place": [
+   "deadbolt-stuck"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-yongsan-hyochang-delivery-locked-out",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "효창동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 5,
+  "existing_same_place": [
+   "forgot-password"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-seongdong-eungbong-no-damage-opening",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "응봉동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 7,
+  "existing_same_place": [
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-gwangjin-guui-malfunction-alarm",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "구의동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 6,
+  "existing_same_place": [
+   "landlord-tenant-check",
+   "lost-key"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-dongdaemun-jangan-mailbox-locker-key",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "장안동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 8,
+  "existing_same_place": [
+   "late-night-call"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-jungnang-muk-hinge-closer",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "묵동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 6,
+  "existing_same_place": [
+   "child-pet-locked",
+   "door-slam-noise",
+   "install-measure"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-seongbuk-seokgwan-cold-wave-battery",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "석관동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 6,
+  "existing_same_place": [
+   "door-wont-open"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-gangbuk-beon-battery-dead",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "번동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 5,
+  "existing_same_place": [
+   "hinge-closer",
+   "student-share-house"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-dobong-dobong-summer-heat-door",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "도봉동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 4,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "holiday-return",
+   "password-family-manage",
+   "replace-cost"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-nowon-sanggye-moving-reset",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "상계동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 3,
+  "existing_same_place": [
+   "battery-dead",
+   "child-pet-locked",
+   "cold-wave-battery",
+   "forgot-password"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-eunpyeong-sinsa-landlord-tenant-check",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "신사동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 7,
+  "existing_same_place": [
+   "holiday-return"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-seodaemun-chunghyeon-battery-dead",
+  "region": "seoul-seodaemun",
+  "city": "서대문구",
+  "short": "서대문",
+  "place": "충현동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 7,
+  "existing_same_place": [
+   "replace-cost"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-mapo-yonggang-guest-temp-password",
+  "region": "seoul-mapo",
+  "city": "마포구",
+  "short": "마포",
+  "place": "용강동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 2,
+  "existing_same_place": [
+   "student-share-house"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-yangcheon-mok-mailbox-locker-key",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 7,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose",
+   "identity-check-guide",
+   "late-night-call",
+   "move-in-out-lock",
+   "old-door-frame",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-gangseo-banghwa-after-opening-checklist",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "방화동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 5,
+  "existing_same_place": [
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-guro-hang-room-door-locked-inside",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "항동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 2,
+  "existing_same_place": [
+   "hinge-closer"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-geumcheon-gasan-forgot-password",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "가산동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 7,
+  "existing_same_place": [
+   "before-call-prep",
+   "choose-locksmith",
+   "deadbolt-stuck",
+   "door-slam-noise",
+   "install-measure",
+   "no-damage-opening",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-daerim-old-door-frame",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "대림동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 10,
+  "existing_same_place": [
+   "gate-iron-door"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-dongjak-sadang-install-measure",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "사당동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 5,
+  "existing_same_place": [
+   "handle-loose",
+   "landlord-tenant-check",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-gwanak-bongcheon-gate-iron-door",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 4,
+  "existing_same_place": [
+   "forgot-password",
+   "humidity-winter",
+   "identity-check-guide",
+   "landlord-tenant-check",
+   "late-night-call",
+   "password-family-manage",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-seocho-bangbae-hinge-closer",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "방배동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 4,
+  "existing_same_place": [
+   "entrance-security-check",
+   "mailbox-locker-key",
+   "moving-reset"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-gangnam-samseong-guest-temp-password",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "삼성동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 5,
+  "existing_same_place": [
+   "door-wont-open"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-songpa-ogeum-fingerprint-fail",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "오금동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 4,
+  "existing_same_place": [
+   "gate-iron-door"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-gangdong-seongnae-after-opening-checklist",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "성내동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 6,
+  "existing_same_place": [
+   "deadbolt-stuck"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "gimpo-unyang-replace-cost",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "운양동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 17,
+  "existing_same_place": [
+   "forgot-password",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "anseong-ayang-door-wont-open",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "아양동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 19,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "gwangju-ssangnyeong-delivery-locked-out",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "쌍령동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 19,
+  "existing_same_place": [
+   "forgot-password",
+   "holiday-return"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "paju-munsan-key-stuck-cylinder",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "문산읍",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 16,
+  "existing_same_place": [
+   "late-night-call",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "uijeongbu-singok-smart-home-connect",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "신곡동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 1,
+  "existing_same_place": [
+   "entrance-security-check",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "icheon-songjeong-broken-key-inside",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "송정동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 18,
+  "existing_same_place": [
+   "",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "yeoju-ohak-summer-heat-door",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "오학동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 17,
+  "existing_same_place": [
+   "forgot-password",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "hanam-gamil-forgot-password",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "감일동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 17,
+  "existing_same_place": [
+   "moving-reset",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "pocheon-gunnae-deadbolt-stuck",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "군내면",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 19,
+  "existing_same_place": [
+   "lost-key",
+   "moving-reset"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "yangpyeong-yangseo-auxiliary-lock",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "양서면",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 2,
+  "existing_same_place": [
+   "malfunction-alarm",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "yangju-baekseok-malfunction-alarm",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "백석읍",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 18,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "entrance-security-check"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "uiwang-gocheon-install-measure",
+  "region": "uiwang",
+  "city": "의왕시",
+  "short": "의왕",
+  "place": "고천동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 18,
+  "existing_same_place": [
+   "hinge-closer",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "gwangmyeong-gwangmyeong-gate-iron-door",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "광명동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 3,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "guri-galmae-identity-check-guide",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "갈매동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 16,
+  "existing_same_place": [
+   "humidity-winter",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "dongducheon-bosan-no-damage-opening",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "보산동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 3,
+  "existing_same_place": [
+   "handle-loose",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "gwacheon-jungang-guest-temp-password",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "중앙동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 20,
+  "existing_same_place": [
+   "replace-cost",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "gapyeong-sang-smart-home-connect",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "상면",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 20,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "yeoncheon-baekhak-broken-key-inside",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "백학면",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 1,
+  "existing_same_place": [
+   "landlord-tenant-check",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "goyang-pung-entrance-security-check",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "풍동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 5,
+  "existing_same_place": [
+   "moving-reset",
+   "old-door-frame",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "namyangju-geumgok-no-damage-opening",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "금곡동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 8,
+  "existing_same_place": [
+   "before-call-prep",
+   "old-door-frame",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "bucheon-songnae-student-share-house",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "송내동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 6,
+  "existing_same_place": [
+   "broken-key-inside",
+   "key-stuck-cylinder",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "ansan-bono-malfunction-alarm",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "본오동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 4,
+  "existing_same_place": [
+   "handle-loose",
+   "humidity-winter",
+   "install-measure"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "siheung-sincheon-fingerprint-fail",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "신천동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 6,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "delivery-locked-out",
+   "student-share-house"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "seoul-jongno-ihwa-cold-wave-battery",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "이화동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 11,
+  "existing_same_place": [
+   "identity-check-guide"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "seoul-jung-euljiro-entrance-security-check",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "을지로동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 9,
+  "existing_same_place": [
+   "hinge-closer"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "seoul-yongsan-bogwang-student-share-house",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "보광동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 12,
+  "existing_same_place": [
+   "smart-home-connect"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "seoul-seongdong-majang-broken-key-inside",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "마장동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 14,
+  "existing_same_place": [
+   "gate-iron-door"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-gwangjin-gwangjang-before-call-prep",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "광장동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 13,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "student-share-house"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-dongdaemun-yongsin-elderly-parents-door",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "용신동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 15,
+  "existing_same_place": [
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-jungnang-mangu-broken-key-inside",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "망우동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 13,
+  "existing_same_place": [
+   "mailbox-locker-key",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-seongbuk-jangwi-landlord-tenant-check",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "장위동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 13,
+  "existing_same_place": [
+   "no-damage-opening"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-gangbuk-suyu-smart-home-connect",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "수유동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 12,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "identity-check-guide"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-dobong-chang-auxiliary-lock",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "창동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 11,
+  "existing_same_place": [
+   "before-call-prep",
+   "cold-wave-battery",
+   "deadbolt-stuck",
+   "late-night-call",
+   "old-door-frame"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-nowon-junggye-entrance-security-check",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "중계동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 10,
+  "existing_same_place": [
+   "humidity-winter",
+   "late-night-call",
+   "replace-cost",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-eunpyeong-jeungsan-password-family-manage",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "증산동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 14,
+  "existing_same_place": [
+   "door-slam-noise"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-seodaemun-cheonyeon-child-pet-locked",
+  "region": "seoul-seodaemun",
+  "city": "서대문구",
+  "short": "서대문",
+  "place": "천연동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 14,
+  "existing_same_place": [
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-mapo-daeheung-lost-key",
+  "region": "seoul-mapo",
+  "city": "마포구",
+  "short": "마포",
+  "place": "대흥동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 9,
+  "existing_same_place": [
+   "broken-key-inside"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-yangcheon-sinwol-door-wont-open",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신월동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 14,
+  "existing_same_place": [
+   "before-call-prep",
+   "elderly-parents-door",
+   "entrance-security-check",
+   "humidity-winter",
+   "key-stuck-cylinder",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-gangseo-yeomchang-smart-doorlock-choose",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "염창동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 12,
+  "existing_same_place": [
+   "password-family-manage",
+   "replace-cost"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-guro-sindorim-before-call-prep",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "신도림동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 9,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-geumcheon-doksan-landlord-tenant-check",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "독산동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 14,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "broken-key-inside",
+   "delivery-locked-out",
+   "elderly-parents-door",
+   "password-family-manage",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yeongdeungpo-key-stuck-cylinder",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "영등포동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 17,
+  "existing_same_place": [
+   "forgot-password",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-dongjak-daebang-malfunction-alarm",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "대방동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 12,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-gwanak-sillim-before-call-prep",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "신림동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 11,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "delivery-locked-out",
+   "door-slam-noise",
+   "fingerprint-fail",
+   "gate-iron-door",
+   "identity-check-guide"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-seocho-yangjae-oneroom-officetel",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "양재동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 11,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "student-share-house"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-gangnam-daechi-replace-cost",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "대치동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 12,
+  "existing_same_place": [
+   "before-call-prep"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-songpa-garak-battery-dead",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "가락동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 11,
+  "existing_same_place": [
+   "hinge-closer"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "seoul-gangdong-gil-landlord-tenant-check",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "길동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 13,
+  "existing_same_place": [
+   "holiday-return"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "gimpo-pungmu-guest-temp-password",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "풍무동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 4,
+  "existing_same_place": [
+   "child-pet-locked",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "anseong-daedeok-smart-home-connect",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "대덕면",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 6,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "gwangju-taejeon-landlord-tenant-check",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "태전동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 6,
+  "existing_same_place": [
+   "handle-loose",
+   "late-night-call"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "paju-jori-shop-office-lock",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "조리읍",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 3,
+  "existing_same_place": [
+   "child-pet-locked",
+   "old-door-frame"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "uijeongbu-yonghyeon-cold-wave-battery",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "용현동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 8,
+  "existing_same_place": [
+   "moving-reset",
+   "student-share-house"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "icheon-bubal-handle-loose",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "부발읍",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 5,
+  "existing_same_place": [
+   "",
+   "password-family-manage"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "yeoju-gannam-battery-dead",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "가남읍",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 4,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "gate-iron-door"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "hanam-deokpung-card-tag-lost",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "덕풍동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 4,
+  "existing_same_place": [
+   "key-stuck-cylinder",
+   "old-door-frame"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "pocheon-sinbuk-elderly-parents-door",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "신북면",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 6,
+  "existing_same_place": [
+   "key-stuck-cylinder",
+   "lost-key"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "yangpyeong-okcheon-gate-iron-door",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "옥천면",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 9,
+  "existing_same_place": [
+   "key-stuck-cylinder",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "yangju-gwangjeok-moving-reset",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "광적면",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 5,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "late-night-call"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "uiwang-bugok-shop-office-lock",
+  "region": "uiwang",
+  "city": "의왕시",
+  "short": "의왕",
+  "place": "부곡동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 5,
+  "existing_same_place": [
+   "mailbox-locker-key",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "gwangmyeong-iljik-choose-locksmith",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "일직동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 10,
+  "existing_same_place": [
+   "guest-temp-password",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "guri-toppyeong-choose-locksmith",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "토평동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 3,
+  "existing_same_place": [
+   "broken-key-inside",
+   "delivery-locked-out"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "dongducheon-sangpae-late-night-call",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "상패동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 10,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "door-wont-open"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "gwacheon-galhyeon-fingerprint-fail",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "갈현동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 7,
+  "existing_same_place": [
+   "shop-office-lock",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "gapyeong-jojong-moving-reset",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "조종면",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 7,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "before-call-prep"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "yeoncheon-gunnam-elderly-parents-door",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "군남면",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 8,
+  "existing_same_place": [
+   "before-call-prep",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "goyang-juyeop-shop-office-lock",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "주엽동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 12,
+  "existing_same_place": [
+   "before-call-prep",
+   "replace-cost",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "namyangju-wabu-gate-iron-door",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "와부읍",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 15,
+  "existing_same_place": [
+   "card-tag-lost",
+   "move-in-out-lock",
+   "old-door-frame"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "bucheon-wonjong-humidity-winter",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "원종동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 13,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "card-tag-lost",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "ansan-sa-auxiliary-lock",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "사동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 11,
+  "existing_same_place": [
+   "door-wont-open",
+   "holiday-return",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "siheung-mokgam-smart-home-connect",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "목감동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 13,
+  "existing_same_place": [
+   "child-pet-locked",
+   "cold-wave-battery",
+   "replace-cost"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-jongno-sajik-hinge-closer",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "사직동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 18,
+  "existing_same_place": [
+   "battery-dead"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-jung-pil-fingerprint-fail",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "필동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 16,
+  "existing_same_place": [
+   "mailbox-locker-key"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-yongsan-seobinggo-room-door-locked-inside",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "서빙고동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 19,
+  "existing_same_place": [
+   "guest-temp-password"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-seongdong-sageun-smart-doorlock-choose",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "사근동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 1,
+  "existing_same_place": [
+   "choose-locksmith"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-gwangjin-hwayang-key-stuck-cylinder",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "화양동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 20,
+  "existing_same_place": [
+   "humidity-winter",
+   "identity-check-guide"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-dongdaemun-jegi-moving-reset",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "제기동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 2,
+  "existing_same_place": [
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-jungnang-sinnae-entrance-security-check",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "신내동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 20,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "forgot-password"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-seongbuk-jongam-balcony-sliding-lock",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "종암동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 20,
+  "existing_same_place": [
+   "mailbox-locker-key"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-gangbuk-ui-move-in-out-lock",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "우이동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 19,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "broken-key-inside"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-dobong-ssangmun-balcony-sliding-lock",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "쌍문동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 18,
+  "existing_same_place": [
+   "broken-key-inside",
+   "gate-iron-door",
+   "hinge-closer",
+   "landlord-tenant-check",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-nowon-hagye-smart-home-connect",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "하계동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 17,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "choose-locksmith",
+   "door-wont-open"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-eunpyeong-susaek-handle-loose",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "수색동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 1,
+  "existing_same_place": [
+   "no-damage-opening"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-seodaemun-bugahyeon-deadbolt-stuck",
+  "region": "seoul-seodaemun",
+  "city": "서대문구",
+  "short": "서대문",
+  "place": "북아현동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 1,
+  "existing_same_place": [
+   "summer-heat-door"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-mapo-yeomri-entrance-security-check",
+  "region": "seoul-mapo",
+  "city": "마포구",
+  "short": "마포",
+  "place": "염리동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 16,
+  "existing_same_place": [
+   "moving-reset"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-yangcheon-sinjeong-malfunction-alarm",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신정동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 1,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "elderly-parents-door",
+   "hinge-closer",
+   "lost-key",
+   "shop-office-lock",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-gangseo-deungchon-summer-heat-door",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "등촌동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 19,
+  "existing_same_place": [
+   "entrance-security-check",
+   "humidity-winter"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-guro-guro-holiday-return",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "구로동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 16,
+  "existing_same_place": [
+   "child-pet-locked",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-geumcheon-siheung-student-share-house",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "시흥동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 1,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "delivery-locked-out",
+   "fingerprint-fail",
+   "gate-iron-door",
+   "identity-check-guide",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yeouido-balcony-sliding-lock",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "여의도동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 4,
+  "existing_same_place": [
+   "old-door-frame",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-dongjak-sindaebang-battery-dead",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "신대방동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 19,
+  "existing_same_place": [
+   "install-measure",
+   "late-night-call"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-gwanak-namhyeon-room-door-locked-inside",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "남현동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 18,
+  "existing_same_place": [
+   "handle-loose",
+   "hinge-closer",
+   "humidity-winter",
+   "key-stuck-cylinder",
+   "lost-key",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-seocho-naegok-door-slam-noise",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "내곡동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 18,
+  "existing_same_place": [
+   "holiday-return",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-gangnam-yeoksam-smart-home-connect",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "역삼동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 19,
+  "existing_same_place": [
+   "battery-dead"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-songpa-munjeong-broken-key-inside",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "문정동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 18,
+  "existing_same_place": [
+   "entrance-security-check"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-gangdong-dunchon-late-night-call",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "둔촌동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 20,
+  "existing_same_place": [
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "gimpo-sau-door-wont-open",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "사우동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 11,
+  "existing_same_place": [
+   "gate-iron-door",
+   "old-door-frame"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "anseong-miyang-mailbox-locker-key",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "미양면",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 13,
+  "existing_same_place": [
+   "gate-iron-door",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "gwangju-opo-battery-dead",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "오포읍",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 13,
+  "existing_same_place": [
+   "gate-iron-door",
+   "late-night-call"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "paju-paju-entrance-security-check",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "파주읍",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 10,
+  "existing_same_place": [
+   "gate-iron-door",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "uijeongbu-minrak-install-measure",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "민락동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 15,
+  "existing_same_place": [
+   "malfunction-alarm",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "icheon-janghowon-late-night-call",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "장호원읍",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 12,
+  "existing_same_place": [
+   "gate-iron-door",
+   "old-door-frame"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "yeoju-jeomdong-handle-loose",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "점동면",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 11,
+  "existing_same_place": [
+   "old-door-frame",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "hanam-sinjang-balcony-sliding-lock",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "신장동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 11,
+  "existing_same_place": [
+   "handle-loose",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "pocheon-gasan-fingerprint-fail",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "가산면",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 13,
+  "existing_same_place": [
+   "before-call-prep",
+   "old-door-frame"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "yangpyeong-seojong-deadbolt-stuck",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "서종면",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 16,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "yangju-jangheung-late-night-call",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "장흥면",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 12,
+  "existing_same_place": [
+   "",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "uiwang-cheonggye-humidity-winter",
+  "region": "uiwang",
+  "city": "의왕시",
+  "short": "의왕",
+  "place": "청계동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 12,
+  "existing_same_place": [
+   "gate-iron-door",
+   "identity-check-guide"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "gwangmyeong-hakon-holiday-return",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "학온동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 17,
+  "existing_same_place": [
+   "broken-key-inside",
+   "cold-wave-battery"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "guri-acheon-door-slam-noise",
+  "region": "guri",
+  "city": "구리시",
+  "short": "구리",
+  "place": "아천동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 10,
+  "existing_same_place": [
+   "guest-temp-password",
+   "late-night-call"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "dongducheon-gwangam-smart-doorlock-choose",
+  "region": "dongducheon",
+  "city": "동두천시",
+  "short": "동두천",
+  "place": "광암동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 17,
+  "existing_same_place": [
+   "battery-dead",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "gwacheon-munwon-auxiliary-lock",
+  "region": "gwacheon",
+  "city": "과천시",
+  "short": "과천",
+  "place": "문원동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 14,
+  "existing_same_place": [
+   "door-slam-noise",
+   "moving-reset"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "gapyeong-buk-balcony-sliding-lock",
+  "region": "gapyeong",
+  "city": "가평군",
+  "short": "가평",
+  "place": "북면",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 14,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "forgot-password"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "yeoncheon-misan-mailbox-locker-key",
+  "region": "yeoncheon",
+  "city": "연천군",
+  "short": "연천",
+  "place": "미산면",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 15,
+  "existing_same_place": [
+   "door-slam-noise",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "goyang-daehwa-elderly-parents-door",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "대화동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 19,
+  "existing_same_place": [
+   "battery-dead",
+   "mailbox-locker-key",
+   "password-family-manage"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "namyangju-jinjeop-card-tag-lost",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "진접읍",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 2,
+  "existing_same_place": [
+   "install-measure",
+   "moving-reset",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "bucheon-ojeong-handle-loose",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "오정동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 20,
+  "existing_same_place": [
+   "install-measure",
+   "late-night-call",
+   "student-share-house"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "ansan-i-battery-dead",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "이동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 18,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "holiday-return",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "siheung-janggok-oneroom-officetel",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "장곡동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 20,
+  "existing_same_place": [
+   "battery-dead",
+   "door-slam-noise",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-jongno-muak-password-family-manage",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "무악동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 5,
+  "existing_same_place": [
+   "install-measure"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-jung-jungrim-key-stuck-cylinder",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "중림동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 3,
+  "existing_same_place": [
+   "before-call-prep"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-yongsan-wonhyoro-humidity-winter",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "원효로동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 6,
+  "existing_same_place": [
+   "handle-loose"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-seongdong-songjeong-holiday-return",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "송정동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 8,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-gwangjin-gunja-old-door-frame",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "군자동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 7,
+  "existing_same_place": [
+   "choose-locksmith",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-dongdaemun-cheongryangri-choose-locksmith",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "청량리동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 9,
+  "existing_same_place": [
+   "battery-dead",
+   "replace-cost"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-jungnang-myeonmok-deadbolt-stuck",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "면목동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 7,
+  "existing_same_place": [
+   "card-tag-lost",
+   "gate-iron-door",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-seongbuk-wolgok-humidity-winter",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "월곡동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 7,
+  "existing_same_place": [
+   "entrance-security-check"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-gangbuk-samyang-holiday-return",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "삼양동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 6,
+  "existing_same_place": [
+   "choose-locksmith",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-dobong-banghak-oneroom-officetel",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "방학동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 5,
+  "existing_same_place": [
+   "card-tag-lost",
+   "key-stuck-cylinder",
+   "shop-office-lock",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-nowon-gongreung-humidity-winter",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "공릉동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 4,
+  "existing_same_place": [
+   "handle-loose",
+   "lost-key",
+   "student-share-house"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-eunpyeong-jingwan-door-wont-open",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "진관동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 8,
+  "existing_same_place": [
+   "deadbolt-stuck"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-seodaemun-sinchon-elderly-parents-door",
+  "region": "seoul-seodaemun",
+  "city": "서대문구",
+  "short": "서대문",
+  "place": "신촌동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 8,
+  "existing_same_place": [
+   "landlord-tenant-check",
+   "mailbox-locker-key"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-mapo-seogyo-card-tag-lost",
+  "region": "seoul-mapo",
+  "city": "마포구",
+  "short": "마포",
+  "place": "서교동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 3,
+  "existing_same_place": [
+   "humidity-winter"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-yangcheon-mok-old-door-frame",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 8,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose",
+   "identity-check-guide",
+   "late-night-call",
+   "mailbox-locker-key",
+   "move-in-out-lock",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-gangseo-hwagok-battery-dead",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "화곡동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 6,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-guro-garibong-fingerprint-fail",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "가리봉동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 3,
+  "existing_same_place": [
+   "door-wont-open",
+   "late-night-call"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-geumcheon-gasan-deadbolt-stuck",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "가산동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 8,
+  "existing_same_place": [
+   "before-call-prep",
+   "choose-locksmith",
+   "door-slam-noise",
+   "forgot-password",
+   "install-measure",
+   "no-damage-opening",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-dangsan-holiday-return",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "당산동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 11,
+  "existing_same_place": [
+   "battery-dead",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-dongjak-noryangjin-shop-office-lock",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "노량진동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 6,
+  "existing_same_place": [
+   "broken-key-inside",
+   "card-tag-lost",
+   "student-share-house"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-gwanak-bongcheon-late-night-call",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 5,
+  "existing_same_place": [
+   "forgot-password",
+   "gate-iron-door",
+   "humidity-winter",
+   "identity-check-guide",
+   "landlord-tenant-check",
+   "password-family-manage",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-seocho-seocho-after-opening-checklist",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "서초동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 5,
+  "existing_same_place": [
+   "card-tag-lost",
+   "no-damage-opening",
+   "password-family-manage"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-gangnam-dogok-identity-check-guide",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "도곡동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 6,
+  "existing_same_place": [
+   "delivery-locked-out"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-songpa-seokchon-auxiliary-lock",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "석촌동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 5,
+  "existing_same_place": [
+   "no-damage-opening"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-gangdong-gangil-moving-reset",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "강일동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 7,
+  "existing_same_place": [
+   "forgot-password",
+   "replace-cost"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "gimpo-geolpo-fingerprint-fail",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "걸포동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 18,
+  "existing_same_place": [
+   "door-slam-noise",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "anseong-bogae-balcony-sliding-lock",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "보개면",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 20,
+  "existing_same_place": [
+   "broken-key-inside",
+   "identity-check-guide"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "gwangju-gonjiam-smart-doorlock-choose",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "곤지암읍",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 20,
+  "existing_same_place": [
+   "gate-iron-door",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "paju-beobwon-child-pet-locked",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "법원읍",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 17,
+  "existing_same_place": [
+   "choose-locksmith",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "uijeongbu-nogyang-child-pet-locked",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "녹양동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 2,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "humidity-winter"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "icheon-majang-move-in-out-lock",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "마장면",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 19,
+  "existing_same_place": [
+   "choose-locksmith",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "yeoju-daesin-room-door-locked-inside",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "대신면",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 18,
+  "existing_same_place": [
+   "old-door-frame",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "hanam-changu-no-damage-opening",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "창우동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 18,
+  "existing_same_place": [
+   "battery-dead",
+   "gate-iron-door"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "pocheon-ildong-smart-doorlock-choose",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "일동면",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 20,
+  "existing_same_place": [
+   "install-measure",
+   "late-night-call"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "yangpyeong-yongmun-replace-cost",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "용문면",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 3,
+  "existing_same_place": [
+   "gate-iron-door",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "yangju-nammyeon-guest-temp-password",
+  "region": "yangju",
+  "city": "양주시",
+  "short": "양주",
+  "place": "남면",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 19,
+  "existing_same_place": [
+   "",
+   "after-opening-checklist"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "uiwang-hagui-no-damage-opening",
+  "region": "uiwang",
+  "city": "의왕시",
+  "short": "의왕",
+  "place": "학의동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 19,
+  "existing_same_place": [
+   "child-pet-locked",
+   "cold-wave-battery"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "goyang-tanhyeon-no-damage-opening",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "탄현동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 6,
+  "existing_same_place": [
+   "battery-dead",
+   "humidity-winter",
+   "lost-key"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "namyangju-onam-late-night-call",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "오남읍",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 9,
+  "existing_same_place": [
+   "child-pet-locked",
+   "gate-iron-door",
+   "old-door-frame"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "bucheon-gogang-smart-doorlock-choose",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "고강동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 7,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "cold-wave-battery",
+   "door-wont-open"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "ansan-wolpi-guest-temp-password",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "월피동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 5,
+  "existing_same_place": [
+   "child-pet-locked",
+   "forgot-password",
+   "humidity-winter"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "siheung-neunggok-forgot-password",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "능곡동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 7,
+  "existing_same_place": [
+   "",
+   "battery-dead"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "seoul-jongno-gyonam-card-tag-lost",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "교남동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 12,
+  "existing_same_place": [
+   "summer-heat-door"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "seoul-jung-dasan-handle-loose",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "다산동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 10,
+  "existing_same_place": [
+   "auxiliary-lock"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "seoul-yongsan-yongmun-balcony-sliding-lock",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "용문동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 13,
+  "existing_same_place": [
+   "entrance-security-check"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "seoul-seongdong-yongdap-shop-office-lock",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "용답동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 15,
+  "existing_same_place": [
+   "hinge-closer"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "seoul-gwangjin-junggok-after-opening-checklist",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "중곡동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 14,
+  "existing_same_place": [
+   "handle-loose",
+   "replace-cost"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "seoul-dongdaemun-hoegi-delivery-locked-out",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "회기동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 16,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-jungnang-sangbong-fingerprint-fail",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "상봉동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 14,
+  "existing_same_place": [
+   "broken-key-inside",
+   "guest-temp-password",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-seongbuk-seongbuk-oneroom-officetel",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "성북동",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 14,
+  "existing_same_place": [
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-gangbuk-songjung-gate-iron-door",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "송중동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 13,
+  "existing_same_place": [
+   "guest-temp-password",
+   "install-measure"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-dobong-dobong-fingerprint-fail",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "도봉동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 12,
+  "existing_same_place": [
+   "holiday-return",
+   "password-family-manage",
+   "replace-cost",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-nowon-wolgye-after-opening-checklist",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "월계동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 11,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "forgot-password",
+   "gate-iron-door"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-eunpyeong-galhyeon-old-door-frame",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "갈현동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 15,
+  "existing_same_place": [
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-seodaemun-yeonhui-smart-doorlock-choose",
+  "region": "seoul-seodaemun",
+  "city": "서대문구",
+  "short": "서대문",
+  "place": "연희동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 15,
+  "existing_same_place": [
+   "oneroom-officetel",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-mapo-hapjeong-replace-cost",
+  "region": "seoul-mapo",
+  "city": "마포구",
+  "short": "마포",
+  "place": "합정동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 10,
+  "existing_same_place": [
+   "choose-locksmith"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-yangcheon-sinwol-key-stuck-cylinder",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신월동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 15,
+  "existing_same_place": [
+   "before-call-prep",
+   "door-wont-open",
+   "elderly-parents-door",
+   "entrance-security-check",
+   "humidity-winter",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-gangseo-gayang-hinge-closer",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "가양동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 13,
+  "existing_same_place": [
+   "card-tag-lost",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-guro-gocheok-lost-key",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "고척동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 10,
+  "existing_same_place": [
+   "holiday-return",
+   "old-door-frame"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-geumcheon-doksan-delivery-locked-out",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "독산동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 15,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "broken-key-inside",
+   "elderly-parents-door",
+   "landlord-tenant-check",
+   "password-family-manage",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-dorim-child-pet-locked",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "도림동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 18,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "choose-locksmith"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-dongjak-sangdo-elderly-parents-door",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "상도동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 13,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "deadbolt-stuck",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-gwanak-sillim-fingerprint-fail",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "신림동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 12,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "before-call-prep",
+   "delivery-locked-out",
+   "door-slam-noise",
+   "gate-iron-door",
+   "identity-check-guide"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-seocho-jamwon-delivery-locked-out",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "잠원동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 12,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "cold-wave-battery",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-gangnam-gaepo-deadbolt-stuck",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "개포동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 13,
+  "existing_same_place": [
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-songpa-songpa-gate-iron-door",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "송파동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 12,
+  "existing_same_place": [
+   "handle-loose"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-gangdong-sangil-child-pet-locked",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "상일동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 14,
+  "existing_same_place": [
+   "malfunction-alarm",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "gimpo-gochon-old-door-frame",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "고촌읍",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 5,
+  "existing_same_place": [
+   "hinge-closer",
+   "holiday-return"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "anseong-geumgwang-entrance-security-check",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "금광면",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 7,
+  "existing_same_place": [
+   "no-damage-opening",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "gwangju-chowol-key-stuck-cylinder",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "초월읍",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 7,
+  "existing_same_place": [
+   "child-pet-locked",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "paju-tanhyeon-hinge-closer",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "탄현면",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 4,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "moving-reset"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "uijeongbu-ganeung-move-in-out-lock",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "가능동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 9,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "icheon-sindun-room-door-locked-inside",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "신둔면",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 6,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "yeoju-bukne-old-door-frame",
+  "region": "yeoju",
+  "city": "여주시",
+  "short": "여주",
+  "place": "북내면",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 5,
+  "existing_same_place": [
+   "key-stuck-cylinder",
+   "password-family-manage"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "hanam-cheonhyeon-password-family-manage",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "천현동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 5,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "pocheon-yeongjung-malfunction-alarm",
+  "region": "pocheon",
+  "city": "포천시",
+  "short": "포천",
+  "place": "영중면",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 7,
+  "existing_same_place": [
+   "door-slam-noise",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "yangpyeong-jipyeong-choose-locksmith",
+  "region": "yangpyeong",
+  "city": "양평군",
+  "short": "양평",
+  "place": "지평면",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 10,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "humidity-winter"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "goyang-deogi-move-in-out-lock",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "덕이동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 13,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "deadbolt-stuck",
+   "moving-reset"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "namyangju-hwado-door-wont-open",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "화도읍",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 16,
+  "existing_same_place": [
+   "forgot-password",
+   "gate-iron-door",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "bucheon-okgil-cold-wave-battery",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "옥길동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 14,
+  "existing_same_place": [
+   "lost-key",
+   "moving-reset",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "ansan-seongpo-summer-heat-door",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "성포동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 12,
+  "existing_same_place": [
+   "forgot-password",
+   "hinge-closer",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "siheung-wolgot-delivery-locked-out",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "월곶동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 14,
+  "existing_same_place": [
+   "",
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "seoul-jongno-hyehwa-summer-heat-door",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "혜화동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 19,
+  "existing_same_place": [
+   "door-slam-noise",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "seoul-jung-sindang-smart-home-connect",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "신당동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 17,
+  "existing_same_place": [
+   "door-wont-open",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "seoul-yongsan-itaewon-auxiliary-lock",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "이태원동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 20,
+  "existing_same_place": [
+   "lost-key",
+   "old-door-frame"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "seoul-seongdong-wangsipri-after-opening-checklist",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "왕십리동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 2,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "seoul-gwangjin-neung-shop-office-lock",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "능동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 1,
+  "existing_same_place": [
+   "entrance-security-check",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "seoul-dongdaemun-hwigyeong-no-damage-opening",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "휘경동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 3,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-jungnang-junghwa-auxiliary-lock",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "중화동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 1,
+  "existing_same_place": [
+   "card-tag-lost",
+   "holiday-return",
+   "student-share-house"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-seongbuk-gireum-malfunction-alarm",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "길음동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 1,
+  "existing_same_place": [
+   "oneroom-officetel",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-gangbuk-insu-smart-doorlock-choose",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "인수동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 20,
+  "existing_same_place": [
+   "late-night-call",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-dobong-chang-cold-wave-battery",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "창동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 19,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "before-call-prep",
+   "deadbolt-stuck",
+   "late-night-call",
+   "old-door-frame"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-nowon-sanggye-forgot-password",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "상계동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 18,
+  "existing_same_place": [
+   "battery-dead",
+   "child-pet-locked",
+   "cold-wave-battery",
+   "moving-reset"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-eunpyeong-gusan-before-call-prep",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "구산동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 2,
+  "existing_same_place": [
+   "balcony-sliding-lock"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-seodaemun-hongje-move-in-out-lock",
+  "region": "seoul-seodaemun",
+  "city": "서대문구",
+  "short": "서대문",
+  "place": "홍제동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 2,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-mapo-mangwon-install-measure",
+  "region": "seoul-mapo",
+  "city": "마포구",
+  "short": "마포",
+  "place": "망원동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 17,
+  "existing_same_place": [
+   "password-family-manage"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-yangcheon-sinjeong-elderly-parents-door",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "신정동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 2,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "hinge-closer",
+   "lost-key",
+   "malfunction-alarm",
+   "shop-office-lock",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-gangseo-magok-balcony-sliding-lock",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "마곡동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 20,
+  "existing_same_place": [
+   "oneroom-officetel",
+   "student-share-house"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-guro-gaebong-identity-check-guide",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "개봉동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 17,
+  "existing_same_place": [
+   "guest-temp-password",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-geumcheon-siheung-cold-wave-battery",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "시흥동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 2,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "fingerprint-fail",
+   "gate-iron-door",
+   "identity-check-guide",
+   "oneroom-officetel",
+   "student-share-house"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-mullae-moving-reset",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "문래동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 5,
+  "existing_same_place": [
+   "forgot-password",
+   "handle-loose"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-dongjak-heukseok-lost-key",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "흑석동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 20,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "malfunction-alarm",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-gwanak-namhyeon-handle-loose",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "남현동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 19,
+  "existing_same_place": [
+   "hinge-closer",
+   "humidity-winter",
+   "key-stuck-cylinder",
+   "lost-key",
+   "move-in-out-lock",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-seocho-banpo-no-damage-opening",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "반포동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 19,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "mailbox-locker-key",
+   "replace-cost"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-gangnam-irwon-lost-key",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "일원동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 20,
+  "existing_same_place": [
+   "old-door-frame"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-songpa-pungnap-delivery-locked-out",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "풍납동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 19,
+  "existing_same_place": [
+   "balcony-sliding-lock"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-gangdong-myeongil-password-family-manage",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "명일동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 1,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "gimpo-tongjin-after-opening-checklist",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "통진읍",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 12,
+  "existing_same_place": [
+   "before-call-prep",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "anseong-iljuk-hinge-closer",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "일죽면",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 14,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "holiday-return"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "gwangju-toechon-identity-check-guide",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "퇴촌면",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 14,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "paju-wollong-install-measure",
+  "region": "paju",
+  "city": "파주시",
+  "short": "파주",
+  "place": "월롱면",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 11,
+  "existing_same_place": [
+   "mailbox-locker-key",
+   "old-door-frame"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "uijeongbu-songsan-hinge-closer",
+  "region": "uijeongbu",
+  "city": "의정부시",
+  "short": "의정부",
+  "place": "송산동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 16,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "forgot-password"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "icheon-baeksa-student-share-house",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "백사면",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 13,
+  "existing_same_place": [
+   "gate-iron-door",
+   "holiday-return"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "goyang-haengsin-card-tag-lost",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "행신동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 20,
+  "existing_same_place": [
+   "door-wont-open",
+   "forgot-password",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "namyangju-jingeon-mailbox-locker-key",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "진건읍",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 3,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "replace-cost",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "bucheon-beombak-before-call-prep",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "범박동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 1,
+  "existing_same_place": [
+   "battery-dead",
+   "elderly-parents-door",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "ansan-daebu-replace-cost",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "대부동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 19,
+  "existing_same_place": [
+   "gate-iron-door",
+   "hinge-closer",
+   "late-night-call"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "siheung-jeongwang-door-wont-open",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "정왕동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 1,
+  "existing_same_place": [
+   "broken-key-inside",
+   "holiday-return",
+   "student-share-house"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "seoul-jongno-pyeongchang-late-night-call",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "평창동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 6,
+  "existing_same_place": [
+   "broken-key-inside",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "seoul-jung-hwanghak-door-slam-noise",
+  "region": "seoul-jung",
+  "city": "중구",
+  "short": "서울 중구",
+  "place": "황학동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 4,
+  "existing_same_place": [
+   "holiday-return",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "seoul-yongsan-hannam-moving-reset",
+  "region": "seoul-yongsan",
+  "city": "용산구",
+  "short": "용산",
+  "place": "한남동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 7,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "seoul-seongdong-haengdang-door-wont-open",
+  "region": "seoul-seongdong",
+  "city": "성동구",
+  "short": "성동",
+  "place": "행당동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 9,
+  "existing_same_place": [
+   "move-in-out-lock",
+   "password-family-manage"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "seoul-gwangjin-jayang-door-wont-open",
+  "region": "seoul-gwangjin",
+  "city": "광진구",
+  "short": "광진",
+  "place": "자양동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 8,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "lost-key",
+   "moving-reset"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "seoul-dongdaemun-imun-room-door-locked-inside",
+  "region": "seoul-dongdaemun",
+  "city": "동대문구",
+  "short": "동대문",
+  "place": "이문동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 10,
+  "existing_same_place": [
+   "handle-loose",
+   "password-family-manage"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "seoul-jungnang-muk-child-pet-locked",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "묵동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 8,
+  "existing_same_place": [
+   "door-slam-noise",
+   "hinge-closer",
+   "install-measure"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "seoul-seongbuk-donam-replace-cost",
+  "region": "seoul-seongbuk",
+  "city": "성북구",
+  "short": "성북",
+  "place": "돈암동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 8,
+  "existing_same_place": [
+   "door-slam-noise",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "seoul-gangbuk-mia-lost-key",
+  "region": "seoul-gangbuk",
+  "city": "강북구",
+  "short": "강북",
+  "place": "미아동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 7,
+  "existing_same_place": [
+   "forgot-password",
+   "install-measure",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "seoul-dobong-ssangmun-broken-key-inside",
+  "region": "seoul-dobong",
+  "city": "도봉구",
+  "short": "도봉",
+  "place": "쌍문동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 6,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "gate-iron-door",
+   "hinge-closer",
+   "landlord-tenant-check",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-nowon-junggye-replace-cost",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "중계동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 5,
+  "existing_same_place": [
+   "entrance-security-check",
+   "humidity-winter",
+   "late-night-call",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-eunpyeong-daejo-card-tag-lost",
+  "region": "seoul-eunpyeong",
+  "city": "은평구",
+  "short": "은평",
+  "place": "대조동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 9,
+  "existing_same_place": [
+   "after-opening-checklist"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-seodaemun-hongeun-mailbox-locker-key",
+  "region": "seoul-seodaemun",
+  "city": "서대문구",
+  "short": "서대문",
+  "place": "홍은동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 9,
+  "existing_same_place": [
+   "gate-iron-door",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-mapo-yeonnam-door-slam-noise",
+  "region": "seoul-mapo",
+  "city": "마포구",
+  "short": "마포",
+  "place": "연남동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 4,
+  "existing_same_place": [
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-yangcheon-mok-late-night-call",
+  "region": "seoul-yangcheon",
+  "city": "양천구",
+  "short": "양천",
+  "place": "목동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 9,
+  "existing_same_place": [
+   "battery-dead",
+   "handle-loose",
+   "identity-check-guide",
+   "mailbox-locker-key",
+   "move-in-out-lock",
+   "old-door-frame",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-gangseo-balsan-handle-loose",
+  "region": "seoul-gangseo",
+  "city": "강서구",
+  "short": "강서",
+  "place": "발산동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 7,
+  "existing_same_place": [
+   "moving-reset",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-guro-oryu-auxiliary-lock",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "오류동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 4,
+  "existing_same_place": [
+   "lost-key",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-geumcheon-gasan-no-damage-opening",
+  "region": "seoul-geumcheon",
+  "city": "금천구",
+  "short": "금천",
+  "place": "가산동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 9,
+  "existing_same_place": [
+   "before-call-prep",
+   "choose-locksmith",
+   "deadbolt-stuck",
+   "door-slam-noise",
+   "forgot-password",
+   "install-measure",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-yeongdeungpo-yangpyeong-smart-home-connect",
+  "region": "seoul-yeongdeungpo",
+  "city": "영등포구",
+  "short": "영등포",
+  "place": "양평동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 12,
+  "existing_same_place": [
+   "door-wont-open",
+   "mailbox-locker-key"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-dongjak-sadang-landlord-tenant-check",
+  "region": "seoul-dongjak",
+  "city": "동작구",
+  "short": "동작",
+  "place": "사당동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 7,
+  "existing_same_place": [
+   "handle-loose",
+   "install-measure",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-gwanak-bongcheon-password-family-manage",
+  "region": "seoul-gwanak",
+  "city": "관악구",
+  "short": "관악",
+  "place": "봉천동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 6,
+  "existing_same_place": [
+   "forgot-password",
+   "gate-iron-door",
+   "humidity-winter",
+   "identity-check-guide",
+   "landlord-tenant-check",
+   "late-night-call",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-seocho-bangbae-entrance-security-check",
+  "region": "seoul-seocho",
+  "city": "서초구",
+  "short": "서초",
+  "place": "방배동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 6,
+  "existing_same_place": [
+   "hinge-closer",
+   "mailbox-locker-key",
+   "moving-reset"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-gangnam-suseo-before-call-prep",
+  "region": "seoul-gangnam",
+  "city": "강남구",
+  "short": "강남",
+  "place": "수서동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 7,
+  "existing_same_place": [
+   "after-opening-checklist"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-songpa-geoyeo-door-wont-open",
+  "region": "seoul-songpa",
+  "city": "송파구",
+  "short": "송파",
+  "place": "거여동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 6,
+  "existing_same_place": [
+   "identity-check-guide"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "seoul-gangdong-godeok-install-measure",
+  "region": "seoul-gangdong",
+  "city": "강동구",
+  "short": "강동",
+  "place": "고덕동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 8,
+  "existing_same_place": [
+   "child-pet-locked",
+   "choose-locksmith"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "gimpo-yangchon-door-slam-noise",
+  "region": "gimpo",
+  "city": "김포시",
+  "short": "김포",
+  "place": "양촌읍",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 19,
+  "existing_same_place": [
+   "install-measure",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "anseong-jugsan-oneroom-officetel",
+  "region": "anseong",
+  "city": "안성시",
+  "short": "안성",
+  "place": "죽산면",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 1,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "install-measure"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "goyang-wonheung-balcony-sliding-lock",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "원흥동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 7,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "entrance-security-check",
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "namyangju-dasan-child-pet-locked",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "다산동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 10,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "forgot-password",
+   "no-damage-opening",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "bucheon-jungdong-humidity-winter",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "중동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 8,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "late-night-call",
+   "password-family-manage",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "ansan-gojan-forgot-password",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "고잔동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 6,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "fingerprint-fail",
+   "guest-temp-password",
+   "humidity-winter"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "siheung-baegot-cold-wave-battery",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "배곧동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 8,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "choose-locksmith",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "goyang-samsong-handle-loose",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "삼송동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 14,
+  "existing_same_place": [
+   "before-call-prep",
+   "gate-iron-door",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "namyangju-dasan-no-damage-opening",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "다산동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 17,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "child-pet-locked",
+   "forgot-password",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "bucheon-jungdong-late-night-call",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "중동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 15,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "humidity-winter",
+   "password-family-manage",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "ansan-gojan-fingerprint-fail",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "고잔동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 13,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "forgot-password",
+   "guest-temp-password",
+   "humidity-winter"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "siheung-eunhaeng-shop-office-lock",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "은행동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 15,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "delivery-locked-out",
+   "old-door-frame"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "goyang-jichuk-guest-temp-password",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "지축동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 1,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "landlord-tenant-check",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "namyangju-byeollae-gate-iron-door",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "별내동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 4,
+  "existing_same_place": [
+   "battery-dead",
+   "elderly-parents-door",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "bucheon-sangdong-malfunction-alarm",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "상동",
+  "topic": "malfunction-alarm",
+  "topic_desc": "도어락 오작동·경고음·모터 소리만 나는 경우",
+  "photo": 2,
+  "existing_same_place": [
+   "forgot-password",
+   "handle-loose",
+   "password-family-manage"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "ansan-choji-guest-temp-password",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "초지동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 20,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "balcony-sliding-lock",
+   "delivery-locked-out"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "siheung-daeya-door-wont-open",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "대야동",
+  "topic": "door-wont-open",
+  "topic_desc": "현관문 안 열림 원인별 확인",
+  "photo": 2,
+  "existing_same_place": [
+   "forgot-password",
+   "landlord-tenant-check",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "goyang-ilsan-password-family-manage",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "일산동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 8,
+  "existing_same_place": [
+   "late-night-call",
+   "lost-key",
+   "shop-office-lock",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "namyangju-pyeongnae-choose-locksmith",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "평내동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 11,
+  "existing_same_place": [
+   "broken-key-inside",
+   "delivery-locked-out",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "bucheon-simgok-student-share-house",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "심곡동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 9,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "hinge-closer",
+   "old-door-frame"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "ansan-seonbu-smart-home-connect",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "선부동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 7,
+  "existing_same_place": [
+   "forgot-password",
+   "identity-check-guide",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "siheung-sincheon-student-share-house",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "신천동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 9,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "delivery-locked-out",
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "goyang-hwajeong-landlord-tenant-check",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "화정동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 15,
+  "existing_same_place": [
+   "entrance-security-check",
+   "install-measure",
+   "key-stuck-cylinder",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "namyangju-hopyeong-balcony-sliding-lock",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "호평동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 18,
+  "existing_same_place": [
+   "child-pet-locked",
+   "move-in-out-lock",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "bucheon-sosa-delivery-locked-out",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "소사동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 16,
+  "existing_same_place": [
+   "door-slam-noise",
+   "humidity-winter",
+   "lost-key"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "ansan-wa-password-family-manage",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "와동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 14,
+  "existing_same_place": [
+   "child-pet-locked",
+   "moving-reset",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "siheung-mokgam-cold-wave-battery",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "목감동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 16,
+  "existing_same_place": [
+   "child-pet-locked",
+   "replace-cost",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "goyang-baekseok-install-measure",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "백석동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 2,
+  "existing_same_place": [
+   "choose-locksmith",
+   "oneroom-officetel",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "namyangju-geumgok-old-door-frame",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "금곡동",
+  "topic": "old-door-frame",
+  "topic_desc": "오래된 문·문틀 처짐·경첩 문제로 안 열릴 때",
+  "photo": 5,
+  "existing_same_place": [
+   "before-call-prep",
+   "no-damage-opening",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "bucheon-yeokgok-door-slam-noise",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "역곡동",
+  "topic": "door-slam-noise",
+  "topic_desc": "문 닫을 때 쿵 소리·삐걱임·뻑뻑함",
+  "photo": 3,
+  "existing_same_place": [
+   "hinge-closer",
+   "holiday-return",
+   "student-share-house"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "ansan-wongok-identity-check-guide",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "원곡동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 1,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "lost-key",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "siheung-janggok-elderly-parents-door",
+  "region": "siheung",
+  "city": "시흥시",
+  "short": "시흥",
+  "place": "장곡동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 3,
+  "existing_same_place": [
+   "battery-dead",
+   "door-slam-noise",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "goyang-madu-entrance-security-check",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "마두동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 9,
+  "existing_same_place": [
+   "humidity-winter",
+   "oneroom-officetel",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "namyangju-wabu-card-tag-lost",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "와부읍",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 12,
+  "existing_same_place": [
+   "gate-iron-door",
+   "move-in-out-lock",
+   "old-door-frame"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "bucheon-songnae-broken-key-inside",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "송내동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 10,
+  "existing_same_place": [
+   "key-stuck-cylinder",
+   "shop-office-lock",
+   "student-share-house"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "ansan-bono-handle-loose",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "본오동",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 8,
+  "existing_same_place": [
+   "humidity-winter",
+   "install-measure",
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "goyang-janghang-key-stuck-cylinder",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "장항동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 16,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "replace-cost",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "namyangju-jinjeop-oneroom-officetel",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "진접읍",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 19,
+  "existing_same_place": [
+   "card-tag-lost",
+   "install-measure",
+   "moving-reset"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "bucheon-wonjong-elderly-parents-door",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "원종동",
+  "topic": "elderly-parents-door",
+  "topic_desc": "부모님 집 도어락 점검·고령자가 쓰기 편한 설정",
+  "photo": 17,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "card-tag-lost",
+   "humidity-winter"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "ansan-sa-holiday-return",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "사동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 15,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "door-wont-open",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "goyang-siksa-cold-wave-battery",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "식사동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 3,
+  "existing_same_place": [
+   "child-pet-locked",
+   "mailbox-locker-key",
+   "student-share-house"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "namyangju-onam-child-pet-locked",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "오남읍",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 6,
+  "existing_same_place": [
+   "gate-iron-door",
+   "late-night-call",
+   "old-door-frame"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "bucheon-ojeong-install-measure",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "오정동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 4,
+  "existing_same_place": [
+   "handle-loose",
+   "late-night-call",
+   "student-share-house"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "ansan-i-move-in-out-lock",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "이동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 2,
+  "existing_same_place": [
+   "battery-dead",
+   "elderly-parents-door",
+   "holiday-return"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "goyang-pung-shop-office-lock",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "풍동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 10,
+  "existing_same_place": [
+   "entrance-security-check",
+   "moving-reset",
+   "old-door-frame"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "namyangju-hwado-forgot-password",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "화도읍",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 13,
+  "existing_same_place": [
+   "door-wont-open",
+   "gate-iron-door",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "bucheon-gogang-after-opening-checklist",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "고강동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 11,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "door-wont-open",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "ansan-wolpi-humidity-winter",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "월피동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 9,
+  "existing_same_place": [
+   "child-pet-locked",
+   "forgot-password",
+   "guest-temp-password"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-juyeop-summer-heat-door",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "주엽동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 17,
+  "existing_same_place": [
+   "before-call-prep",
+   "replace-cost",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "namyangju-toegyewon-moving-reset",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "퇴계원읍",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 20,
+  "existing_same_place": [
+   "install-measure",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "bucheon-okgil-lost-key",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "옥길동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 18,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "moving-reset",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "ansan-seongpo-room-door-locked-inside",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "성포동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 16,
+  "existing_same_place": [
+   "forgot-password",
+   "hinge-closer",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-daehwa-mailbox-locker-key",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "대화동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 4,
+  "existing_same_place": [
+   "battery-dead",
+   "elderly-parents-door",
+   "password-family-manage"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "namyangju-jingeon-replace-cost",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "진건읍",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 7,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "mailbox-locker-key",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "bucheon-beombak-key-stuck-cylinder",
+  "region": "bucheon",
+  "city": "부천시",
+  "short": "부천",
+  "place": "범박동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 5,
+  "existing_same_place": [
+   "battery-dead",
+   "before-call-prep",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "ansan-daebu-hinge-closer",
+  "region": "ansan",
+  "city": "안산시",
+  "short": "안산",
+  "place": "대부동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 3,
+  "existing_same_place": [
+   "gate-iron-door",
+   "late-night-call",
+   "replace-cost"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-tanhyeon-battery-dead",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "탄현동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 11,
+  "existing_same_place": [
+   "humidity-winter",
+   "lost-key",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-ilsan-shop-office-lock",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "일산동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 18,
+  "existing_same_place": [
+   "late-night-call",
+   "lost-key",
+   "password-family-manage",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-deogi-deadbolt-stuck",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "덕이동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 5,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "move-in-out-lock",
+   "moving-reset"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-hwajeong-entrance-security-check",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "화정동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 12,
+  "existing_same_place": [
+   "install-measure",
+   "key-stuck-cylinder",
+   "landlord-tenant-check",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-haengsin-smart-doorlock-choose",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "행신동",
+  "topic": "smart-doorlock-choose",
+  "topic_desc": "지문·카드 등 스마트 도어락 고르는 법",
+  "photo": 19,
+  "existing_same_place": [
+   "card-tag-lost",
+   "door-wont-open",
+   "forgot-password"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-wonheung-auxiliary-lock",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "원흥동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 6,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "entrance-security-check",
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-samsong-before-call-prep",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "삼송동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 13,
+  "existing_same_place": [
+   "gate-iron-door",
+   "handle-loose",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-jichuk-landlord-tenant-check",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "지축동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 20,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "guest-temp-password",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-30"
+ }
+]

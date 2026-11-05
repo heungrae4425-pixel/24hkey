@@ -1,0 +1,324 @@
+[
+ {
+  "slug": "seoul-nowon-hagye-choose-locksmith",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "하계동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 2,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "door-wont-open",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-nowon-gongreung-student-share-house",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "공릉동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 9,
+  "existing_same_place": [
+   "handle-loose",
+   "humidity-winter",
+   "lost-key"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-nowon-wolgye-gate-iron-door",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "월계동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 16,
+  "existing_same_place": [
+   "after-opening-checklist",
+   "delivery-locked-out",
+   "forgot-password"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-nowon-sanggye-moving-reset",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "상계동",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 3,
+  "existing_same_place": [
+   "battery-dead",
+   "child-pet-locked",
+   "cold-wave-battery",
+   "forgot-password"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-nowon-junggye-entrance-security-check",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "중계동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 10,
+  "existing_same_place": [
+   "humidity-winter",
+   "late-night-call",
+   "replace-cost",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-nowon-hagye-smart-home-connect",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "하계동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 17,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "choose-locksmith",
+   "door-wont-open"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-nowon-gongreung-humidity-winter",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "공릉동",
+  "topic": "humidity-winter",
+  "topic_desc": "장마·겨울 결로·습기로 인한 오작동",
+  "photo": 4,
+  "existing_same_place": [
+   "handle-loose",
+   "lost-key",
+   "student-share-house"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-nowon-wolgye-after-opening-checklist",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "월계동",
+  "topic": "after-opening-checklist",
+  "topic_desc": "개방 후 점검·재발 방지",
+  "photo": 11,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "forgot-password",
+   "gate-iron-door"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-nowon-sanggye-forgot-password",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "상계동",
+  "topic": "forgot-password",
+  "topic_desc": "비밀번호 분실·가족이 바꾼 번호",
+  "photo": 18,
+  "existing_same_place": [
+   "battery-dead",
+   "child-pet-locked",
+   "cold-wave-battery",
+   "moving-reset"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-nowon-junggye-replace-cost",
+  "region": "seoul-nowon",
+  "city": "노원구",
+  "short": "노원",
+  "place": "중계동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 5,
+  "existing_same_place": [
+   "entrance-security-check",
+   "humidity-winter",
+   "late-night-call",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "namyangju-jingeon-mailbox-locker-key",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "진건읍",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 3,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "replace-cost",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "namyangju-jingeon-replace-cost",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "진건읍",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 7,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "mailbox-locker-key",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "namyangju-jinjeop-card-tag-lost",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "진접읍",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 2,
+  "existing_same_place": [
+   "install-measure",
+   "moving-reset",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "namyangju-jinjeop-oneroom-officetel",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "진접읍",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 19,
+  "existing_same_place": [
+   "card-tag-lost",
+   "install-measure",
+   "moving-reset"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "namyangju-toegyewon-summer-heat-door",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "퇴계원읍",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 20,
+  "existing_same_place": [
+   "install-measure",
+   "moving-reset"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "namyangju-toegyewon-moving-reset",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "퇴계원읍",
+  "topic": "moving-reset",
+  "topic_desc": "이사 후 도어락 초기화·비밀번호 재설정",
+  "photo": 20,
+  "existing_same_place": [
+   "install-measure",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "namyangju-pyeongnae-broken-key-inside",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "평내동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 14,
+  "existing_same_place": [
+   "choose-locksmith",
+   "delivery-locked-out",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "namyangju-pyeongnae-choose-locksmith",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "평내동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 11,
+  "existing_same_place": [
+   "broken-key-inside",
+   "delivery-locked-out",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "namyangju-hopyeong-move-in-out-lock",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "호평동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 1,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "child-pet-locked",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "namyangju-hopyeong-balcony-sliding-lock",
+  "region": "namyangju",
+  "city": "남양주시",
+  "short": "남양주",
+  "place": "호평동",
+  "topic": "balcony-sliding-lock",
+  "topic_desc": "베란다·미닫이·방문 잠금장치",
+  "photo": 18,
+  "existing_same_place": [
+   "child-pet-locked",
+   "move-in-out-lock",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-28"
+ }
+]

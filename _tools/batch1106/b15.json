@@ -1,0 +1,310 @@
+[
+ {
+  "slug": "seoul-jungnang-myeonmok-card-tag-lost",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "면목동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 5,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "gate-iron-door",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-jungnang-sangbong-guest-temp-password",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "상봉동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 12,
+  "existing_same_place": [
+   "broken-key-inside",
+   "fingerprint-fail",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-jungnang-junghwa-student-share-house",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "중화동",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 19,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "card-tag-lost",
+   "holiday-return"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-jungnang-muk-hinge-closer",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "묵동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 6,
+  "existing_same_place": [
+   "child-pet-locked",
+   "door-slam-noise",
+   "install-measure"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-jungnang-mangu-broken-key-inside",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "망우동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 13,
+  "existing_same_place": [
+   "mailbox-locker-key",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-jungnang-sinnae-entrance-security-check",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "신내동",
+  "topic": "entrance-security-check",
+  "topic_desc": "현관 방범 점검 요령(과장·불안 조장 금지)",
+  "photo": 20,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "forgot-password"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-jungnang-myeonmok-deadbolt-stuck",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "면목동",
+  "topic": "deadbolt-stuck",
+  "topic_desc": "데드볼트가 안 들어가거나 안 빠질 때",
+  "photo": 7,
+  "existing_same_place": [
+   "card-tag-lost",
+   "gate-iron-door",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-jungnang-sangbong-fingerprint-fail",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "상봉동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 14,
+  "existing_same_place": [
+   "broken-key-inside",
+   "guest-temp-password",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-jungnang-junghwa-auxiliary-lock",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "중화동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 1,
+  "existing_same_place": [
+   "card-tag-lost",
+   "holiday-return",
+   "student-share-house"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-jungnang-muk-child-pet-locked",
+  "region": "seoul-jungnang",
+  "city": "중랑구",
+  "short": "중랑",
+  "place": "묵동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 8,
+  "existing_same_place": [
+   "door-slam-noise",
+   "hinge-closer",
+   "install-measure"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "hanam-pungsan-summer-heat-door",
+  "region": "hanam",
+  "city": "하남시",
+  "short": "하남",
+  "place": "풍산동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 3,
+  "existing_same_place": [
+   "room-door-locked-inside",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "icheon-gwango-gate-iron-door",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "관고동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 11,
+  "existing_same_place": [
+   "",
+   "deadbolt-stuck"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "icheon-majang-move-in-out-lock",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "마장면",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 19,
+  "existing_same_place": [
+   "choose-locksmith",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "icheon-baeksa-student-share-house",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "백사면",
+  "topic": "student-share-house",
+  "topic_desc": "자취방·고시원·쉐어하우스 출입문",
+  "photo": 13,
+  "existing_same_place": [
+   "gate-iron-door",
+   "holiday-return"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "icheon-bubal-handle-loose",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "부발읍",
+  "topic": "handle-loose",
+  "topic_desc": "손잡이가 헐겁거나 헛돌 때",
+  "photo": 5,
+  "existing_same_place": [
+   "",
+   "password-family-manage"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "icheon-songjeong-broken-key-inside",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "송정동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 18,
+  "existing_same_place": [
+   "",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "icheon-sindun-room-door-locked-inside",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "신둔면",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 6,
+  "existing_same_place": [
+   "balcony-sliding-lock",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "icheon-janghowon-late-night-call",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "장호원읍",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 12,
+  "existing_same_place": [
+   "gate-iron-door",
+   "old-door-frame"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "icheon-jungri-before-call-prep",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "중리동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 17,
+  "existing_same_place": [
+   "",
+   "forgot-password"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "icheon-jeungpo-child-pet-locked",
+  "region": "icheon",
+  "city": "이천시",
+  "short": "이천",
+  "place": "증포동",
+  "topic": "child-pet-locked",
+  "topic_desc": "아이·반려동물이 안에 있을 때 잠긴 경우",
+  "photo": 4,
+  "existing_same_place": [
+   "",
+   "student-share-house"
+  ],
+  "date": "2026-11-10"
+ }
+]

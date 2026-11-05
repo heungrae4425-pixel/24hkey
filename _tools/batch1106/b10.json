@@ -1,0 +1,312 @@
+[
+ {
+  "slug": "seoul-guro-gaebong-guest-temp-password",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "개봉동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 1,
+  "existing_same_place": [
+   "identity-check-guide",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "seoul-guro-oryu-smart-home-connect",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "오류동",
+  "topic": "smart-home-connect",
+  "topic_desc": "도어락 알림·앱 연동이 안 될 때",
+  "photo": 8,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "lost-key"
+  ],
+  "date": "2026-11-09"
+ },
+ {
+  "slug": "seoul-guro-sugung-broken-key-inside",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "수궁동",
+  "topic": "broken-key-inside",
+  "topic_desc": "열쇠가 부러져 안에 박힌 경우",
+  "photo": 15,
+  "existing_same_place": [
+   "after-opening-checklist"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-guro-hang-room-door-locked-inside",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "항동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 2,
+  "existing_same_place": [
+   "hinge-closer"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "seoul-guro-sindorim-before-call-prep",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "신도림동",
+  "topic": "before-call-prep",
+  "topic_desc": "출장 요청 전 준비할 것(사진·위치·상태)",
+  "photo": 9,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-16"
+ },
+ {
+  "slug": "seoul-guro-guro-holiday-return",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "구로동",
+  "topic": "holiday-return",
+  "topic_desc": "명절·여행 다녀온 뒤 문이 안 열릴 때",
+  "photo": 16,
+  "existing_same_place": [
+   "child-pet-locked",
+   "key-stuck-cylinder"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "seoul-guro-garibong-fingerprint-fail",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "가리봉동",
+  "topic": "fingerprint-fail",
+  "topic_desc": "지문 인식이 잘 안 될 때",
+  "photo": 3,
+  "existing_same_place": [
+   "door-wont-open",
+   "late-night-call"
+  ],
+  "date": "2026-11-21"
+ },
+ {
+  "slug": "seoul-guro-gocheok-lost-key",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "고척동",
+  "topic": "lost-key",
+  "topic_desc": "열쇠 분실·문 잠그고 나온 경우",
+  "photo": 10,
+  "existing_same_place": [
+   "holiday-return",
+   "old-door-frame"
+  ],
+  "date": "2026-11-23"
+ },
+ {
+  "slug": "seoul-guro-gaebong-identity-check-guide",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "개봉동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 17,
+  "existing_same_place": [
+   "guest-temp-password",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-25"
+ },
+ {
+  "slug": "seoul-guro-oryu-auxiliary-lock",
+  "region": "seoul-guro",
+  "city": "구로구",
+  "short": "구로",
+  "place": "오류동",
+  "topic": "auxiliary-lock",
+  "topic_desc": "보조키 잠금·걸쇠 걸림",
+  "photo": 4,
+  "existing_same_place": [
+   "lost-key",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-27"
+ },
+ {
+  "slug": "goyang-ilsan-password-family-manage",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "일산동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 8,
+  "existing_same_place": [
+   "late-night-call",
+   "lost-key",
+   "shop-office-lock",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "goyang-ilsan-shop-office-lock",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "일산동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 18,
+  "existing_same_place": [
+   "late-night-call",
+   "lost-key",
+   "password-family-manage",
+   "smart-doorlock-choose"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-janghang-replace-cost",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "장항동",
+  "topic": "replace-cost",
+  "topic_desc": "도어락 교체 전 확인할 것·비용 안내 방식",
+  "photo": 11,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "key-stuck-cylinder",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-10"
+ },
+ {
+  "slug": "goyang-janghang-key-stuck-cylinder",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "장항동",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 16,
+  "existing_same_place": [
+   "delivery-locked-out",
+   "replace-cost",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-29"
+ },
+ {
+  "slug": "goyang-juyeop-shop-office-lock",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "주엽동",
+  "topic": "shop-office-lock",
+  "topic_desc": "상가·사무실 도어락·출입문",
+  "photo": 12,
+  "existing_same_place": [
+   "before-call-prep",
+   "replace-cost",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "goyang-juyeop-summer-heat-door",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "주엽동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 17,
+  "existing_same_place": [
+   "before-call-prep",
+   "replace-cost",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-jichuk-guest-temp-password",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "지축동",
+  "topic": "guest-temp-password",
+  "topic_desc": "손님·가사도우미·돌봄 인력에게 임시 비밀번호 쓰는 법",
+  "photo": 1,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "landlord-tenant-check",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-28"
+ },
+ {
+  "slug": "goyang-jichuk-landlord-tenant-check",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "지축동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 20,
+  "existing_same_place": [
+   "cold-wave-battery",
+   "guest-temp-password",
+   "summer-heat-door"
+  ],
+  "date": "2026-11-30"
+ },
+ {
+  "slug": "goyang-tanhyeon-no-damage-opening",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "탄현동",
+  "topic": "no-damage-opening",
+  "topic_desc": "비파손 개방이란 무엇인지 설명",
+  "photo": 6,
+  "existing_same_place": [
+   "battery-dead",
+   "humidity-winter",
+   "lost-key"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "goyang-tanhyeon-battery-dead",
+  "region": "goyang",
+  "city": "고양시",
+  "short": "고양",
+  "place": "탄현동",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 11,
+  "existing_same_place": [
+   "humidity-winter",
+   "lost-key",
+   "no-damage-opening"
+  ],
+  "date": "2026-11-30"
+ }
+]

@@ -1,0 +1,293 @@
+[
+ {
+  "slug": "seoul-jongno-buam-move-in-out-lock",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "부암동",
+  "topic": "move-in-out-lock",
+  "topic_desc": "입주·퇴거 때 도어락 확인할 것",
+  "photo": 3,
+  "existing_same_place": [
+   "after-opening-checklist"
+  ],
+  "date": "2026-11-06"
+ },
+ {
+  "slug": "seoul-jongno-samcheong-mailbox-locker-key",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "삼청동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 10,
+  "existing_same_place": [
+   "malfunction-alarm"
+  ],
+  "date": "2026-11-08"
+ },
+ {
+  "slug": "seoul-jongno-changsin-install-measure",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "창신동",
+  "topic": "install-measure",
+  "topic_desc": "도어락 설치 전 문 두께·보조키 확인",
+  "photo": 17,
+  "existing_same_place": [
+   "late-night-call"
+  ],
+  "date": "2026-11-11"
+ },
+ {
+  "slug": "seoul-jongno-sungin-identity-check-guide",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "숭인동",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 4,
+  "existing_same_place": [
+   "fingerprint-fail"
+  ],
+  "date": "2026-11-13"
+ },
+ {
+  "slug": "seoul-jongno-ihwa-cold-wave-battery",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "이화동",
+  "topic": "cold-wave-battery",
+  "topic_desc": "한파에 도어락 반응이 느리거나 꺼질 때",
+  "photo": 11,
+  "existing_same_place": [
+   "identity-check-guide"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "seoul-jongno-sajik-hinge-closer",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "사직동",
+  "topic": "hinge-closer",
+  "topic_desc": "문이 덜 닫힘·도어클로저·경첩 점검",
+  "photo": 18,
+  "existing_same_place": [
+   "battery-dead"
+  ],
+  "date": "2026-11-18"
+ },
+ {
+  "slug": "seoul-jongno-muak-password-family-manage",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "무악동",
+  "topic": "password-family-manage",
+  "topic_desc": "비밀번호 주기적 변경·가족 공유 관리",
+  "photo": 5,
+  "existing_same_place": [
+   "install-measure"
+  ],
+  "date": "2026-11-20"
+ },
+ {
+  "slug": "seoul-jongno-gyonam-card-tag-lost",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "교남동",
+  "topic": "card-tag-lost",
+  "topic_desc": "카드키·태그·리모컨 분실",
+  "photo": 12,
+  "existing_same_place": [
+   "summer-heat-door"
+  ],
+  "date": "2026-11-22"
+ },
+ {
+  "slug": "seoul-jongno-hyehwa-summer-heat-door",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "혜화동",
+  "topic": "summer-heat-door",
+  "topic_desc": "여름 열기·습기로 문이 뻑뻑할 때",
+  "photo": 19,
+  "existing_same_place": [
+   "door-slam-noise",
+   "oneroom-officetel"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "seoul-jongno-pyeongchang-late-night-call",
+  "region": "seoul-jongno",
+  "city": "종로구",
+  "short": "종로",
+  "place": "평창동",
+  "topic": "late-night-call",
+  "topic_desc": "한밤·새벽에 문이 안 열릴 때 전화 요령",
+  "photo": 6,
+  "existing_same_place": [
+   "broken-key-inside",
+   "move-in-out-lock"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "gwangju-namhansanseong-oneroom-officetel",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "남한산성면",
+  "topic": "oneroom-officetel",
+  "topic_desc": "원룸·오피스텔 출입문 잠김",
+  "photo": 18,
+  "existing_same_place": [
+   "broken-key-inside"
+  ],
+  "date": "2026-11-07"
+ },
+ {
+  "slug": "gwangju-songjeong-room-door-locked-inside",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "송정동",
+  "topic": "room-door-locked-inside",
+  "topic_desc": "방문·화장실 문이 안에서 잠겼을 때",
+  "photo": 12,
+  "existing_same_place": [
+   "auxiliary-lock",
+   "lost-key"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "gwangju-ssangnyeong-delivery-locked-out",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "쌍령동",
+  "topic": "delivery-locked-out",
+  "topic_desc": "택배·쓰레기 버리러 나왔다가 잠긴 경우",
+  "photo": 19,
+  "existing_same_place": [
+   "forgot-password",
+   "holiday-return"
+  ],
+  "date": "2026-11-14"
+ },
+ {
+  "slug": "gwangju-opo-battery-dead",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "오포읍",
+  "topic": "battery-dead",
+  "topic_desc": "도어락 배터리 방전·번호판 꺼짐",
+  "photo": 13,
+  "existing_same_place": [
+   "gate-iron-door",
+   "late-night-call"
+  ],
+  "date": "2026-11-19"
+ },
+ {
+  "slug": "gwangju-chowol-key-stuck-cylinder",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "초월읍",
+  "topic": "key-stuck-cylinder",
+  "topic_desc": "열쇠가 안 돌아가거나 안 빠질 때",
+  "photo": 7,
+  "existing_same_place": [
+   "child-pet-locked",
+   "elderly-parents-door"
+  ],
+  "date": "2026-11-24"
+ },
+ {
+  "slug": "gwangju-taejeon-landlord-tenant-check",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "태전동",
+  "topic": "landlord-tenant-check",
+  "topic_desc": "임대인·임차인이 도어락 문제를 정리할 때 확인할 것(법적 단정 금지)",
+  "photo": 6,
+  "existing_same_place": [
+   "handle-loose",
+   "late-night-call"
+  ],
+  "date": "2026-11-17"
+ },
+ {
+  "slug": "gwangju-toechon-identity-check-guide",
+  "region": "gwangju",
+  "city": "광주시",
+  "short": "경기 광주",
+  "place": "퇴촌면",
+  "topic": "identity-check-guide",
+  "topic_desc": "문 열기 전 신분 확인 절차 설명",
+  "photo": 14,
+  "existing_same_place": [
+   "elderly-parents-door",
+   "room-door-locked-inside"
+  ],
+  "date": "2026-11-26"
+ },
+ {
+  "slug": "gwangmyeong-gwangmyeong-gate-iron-door",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "광명동",
+  "topic": "gate-iron-door",
+  "topic_desc": "대문·철문·공동 출입문",
+  "photo": 3,
+  "existing_same_place": [
+   "deadbolt-stuck",
+   "landlord-tenant-check"
+  ],
+  "date": "2026-11-15"
+ },
+ {
+  "slug": "gwangmyeong-soha-mailbox-locker-key",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "소하동",
+  "topic": "mailbox-locker-key",
+  "topic_desc": "우편함·사물함 열쇠 문제",
+  "photo": 16,
+  "existing_same_place": [
+   "fingerprint-fail",
+   "shop-office-lock"
+  ],
+  "date": "2026-11-12"
+ },
+ {
+  "slug": "gwangmyeong-iljik-choose-locksmith",
+  "region": "gwangmyeong",
+  "city": "광명시",
+  "short": "광명",
+  "place": "일직동",
+  "topic": "choose-locksmith",
+  "topic_desc": "열쇠집 고르는 기준·전화할 때 물어볼 것",
+  "photo": 10,
+  "existing_same_place": [
+   "guest-temp-password",
+   "smart-home-connect"
+  ],
+  "date": "2026-11-17"
+ }
+]

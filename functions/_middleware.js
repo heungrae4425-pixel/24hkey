@@ -284,15 +284,89 @@ async function postsTab(ctx, url, d) {
     ], "아직 글이 없습니다")}</div>`;
 }
 
+// ---------------- 페이지 조회 ----------------
+// 기간(오늘·어제·7일·30일·직접 날짜)과 종류(전체·블로그·지역·기타)를 골라 사람이 본 페이지를 조회수 순으로 보여 줍니다.
+async function pagesTab(ctx, url, d) {
+  const today = kstDay();
+  const P = url.searchParams;
+  const range = ["today", "yesterday", "7", "30", "day"].includes(P.get("range")) ? P.get("range") : "7";
+  let from, to;
+  if (range === "today") from = to = today;
+  else if (range === "yesterday") from = to = kstDay(1);
+  else if (range === "day") { from = to = /^\d{4}-\d{2}-\d{2}$/.test(P.get("day") || "") ? P.get("day") : today; }
+  else { from = kstDay(Number(range) - 1); to = today; }
+  const kind = ["all", "blog", "region", "etc"].includes(P.get("kind")) ? P.get("kind") : "all";
+  const qtext = (P.get("q") || "").trim().slice(0, 60);
+
+  const [{ posts, regions }, rows, landRows, callRows] = await Promise.all([
+    blogData(ctx, url),
+    d.prepare("SELECT path, SUM(n) n, COUNT(DISTINCT day) days FROM hits WHERE day BETWEEN ? AND ? GROUP BY path").bind(from, to).all().then((r) => r.results),
+    d.prepare("SELECT landing path, COUNT(*) v FROM visits WHERE kind = 'person' AND day BETWEEN ? AND ? GROUP BY landing").bind(from, to).all().then((r) => r.results),
+    d.prepare("SELECT page path, SUM(n) c FROM events WHERE kind = 'call' AND day BETWEEN ? AND ? GROUP BY page").bind(from, to).all().then((r) => r.results),
+  ]);
+  const title = {};
+  posts.forEach((p) => { title["/blog/" + p.slug] = p.title; });
+  regions.forEach((r) => { title["/" + r.slug] = r.name + " 지역 페이지"; });
+  Object.assign(title, { "/": "홈", "/blog/": "블로그 목록", "/blog": "블로그 목록" });
+  const norm = (p) => (p || "").replace(/\.html$/, "").replace(/\/index$/, "/");
+  const land = {}, call = {};
+  landRows.forEach((r) => { land[norm(r.path)] = (land[norm(r.path)] || 0) + r.v; });
+  callRows.forEach((r) => { call[norm(r.path)] = (call[norm(r.path)] || 0) + r.c; });
+  const regionSet = new Set(regions.map((r) => "/" + r.slug));
+  const typeOf = (p) => (p.startsWith("/blog/") && p.length > 6 && !p.startsWith("/blog/page/") ? "blog" : regionSet.has(p) ? "region" : "etc");
+
+  let list = rows.map((r) => ({ ...r, path: norm(r.path) }))
+    .map((r) => ({ ...r, type: typeOf(r.path), t: title[r.path] || "", land: land[r.path] || 0, call: call[r.path] || 0 }));
+  const total = list.reduce((a, r) => a + r.n, 0);
+  const cnt = { blog: 0, region: 0, etc: 0 };
+  list.forEach((r) => { cnt[r.type] += r.n; });
+  const viewedBlog = new Set(list.filter((r) => r.type === "blog").map((r) => r.path));
+  if (kind !== "all") list = list.filter((r) => r.type === kind);
+  if (qtext) list = list.filter((r) => r.path.includes(qtext) || r.t.includes(qtext));
+  list.sort((a, b) => b.n - a.n || a.path.localeCompare(b.path));
+
+  const link = (o) => { const q = new URLSearchParams({ tab: "pages", range, kind, ...(range === "day" ? { day: from } : {}), ...(qtext ? { q: qtext } : {}), ...o }); return "/admin?" + q; };
+  const rBtn = (k, label) => `<a class="pill ${range === k ? "on" : ""}" href="${link({ range: k })}">${label}</a>`;
+  const kBtn = (k, label, n) => `<a class="pill ${kind === k ? "on" : ""}" href="${link({ kind: k })}">${label} <b>${n}</b></a>`;
+  const shown = list.slice(0, 500);
+  const label = { blog: "블로그", region: "지역", etc: "기타" };
+
+  return `
+    <div class="card">
+      <div class="pills">${rBtn("today", "오늘")}${rBtn("yesterday", "어제")}${rBtn("7", "최근 7일")}${rBtn("30", "최근 30일")}
+        <form method="get" action="/admin" class="inl"><input type="hidden" name="tab" value="pages"><input type="hidden" name="range" value="day"><input type="hidden" name="kind" value="${kind}">
+          <input type="date" name="day" value="${range === "day" ? from : ""}" max="${today}" onchange="this.form.submit()"></form></div>
+      <div class="pills" style="margin-top:10px">${kBtn("all", "전체", total)}${kBtn("blog", "블로그 글", cnt.blog)}${kBtn("region", "지역 페이지", cnt.region)}${kBtn("etc", "기타", cnt.etc)}
+        <form method="get" action="/admin" class="inl"><input type="hidden" name="tab" value="pages"><input type="hidden" name="range" value="${range}"><input type="hidden" name="kind" value="${kind}">${range === "day" ? `<input type="hidden" name="day" value="${from}">` : ""}
+          <input name="q" value="${esc(qtext)}" placeholder="주소·제목 검색"><button>검색</button></form></div>
+      <p class="muted" style="margin-top:10px">${from === to ? from : from + " ~ " + to} · 조회 ${total}회 · 페이지 ${rows.length}개 · 사람이 본 것만 셉니다 (봇·해외·관리자 제외)</p>
+    </div>
+    <div class="card"><h2>조회한 페이지 (${list.length}${list.length > 500 ? ", 상위 500개만 표시" : ""})</h2>${table(shown, [
+      { t: "종류", f: (r) => label[r.type] },
+      { t: "페이지", f: (r) => `<a href="${esc(r.path)}" target="_blank">${esc(r.t || r.path)}</a>${r.t ? `<div class="muted">${esc(r.path)}</div>` : ""}` },
+      { t: "조회", k: "n", n: 1 },
+      { t: "첫 방문", f: (r) => r.land || "", n: 1 },
+      { t: "전화", f: (r) => r.call ? `<b class="accent">${r.call}</b>` : "", n: 1 },
+      { t: "조회한 날", k: "days", n: 1 },
+    ], "이 기간에 조회 기록이 없습니다")}
+    <p class="muted" style="margin-top:8px">첫 방문: 이 페이지로 처음 들어온 방문자 수 · 전화: 이 페이지에서 누른 전화 버튼 수</p></div>
+    ${kind === "blog" || kind === "all" ? `<div class="card"><h2>이 기간에 조회가 없는 블로그 글 <span class="muted">(${posts.filter((p) => !viewedBlog.has("/blog/" + p.slug)).length}편)</span></h2>
+      <p class="muted">검색이나 다른 페이지에서 아직 들어오지 않은 글입니다. 최근 글부터 30편만 표시합니다.</p>
+      ${table(posts.filter((p) => !viewedBlog.has("/blog/" + p.slug)).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 30),
+        [{ t: "날짜", k: "date" }, { t: "제목", f: (p) => `<a href="/blog/${esc(p.slug)}" target="_blank">${esc(p.title)}</a>` }], "모든 글이 조회됐습니다")}</div>` : ""}`;
+}
+
 async function dashboard(ctx, url, d) {
   const today = kstDay();
   let day = url.searchParams.get("day") || today;
   if (!/^\d{4}-\d{2}-\d{2}$/.test(day)) day = today;
-  const tab = url.searchParams.get("tab") === "posts" ? "posts" : "stats";
+  const tab = ["posts", "pages"].includes(url.searchParams.get("tab")) ? url.searchParams.get("tab") : "stats";
 
   let body;
   if (tab === "posts") {
     body = await postsTab(ctx, url, d);
+  } else if (tab === "pages" && d) {
+    body = await pagesTab(ctx, url, d);
   } else if (!d) {
     body = `<div class="card warn">트래픽 기록용 D1 데이터베이스가 연결되지 않았습니다. Pages 설정 → 바인딩에서 D1(변수 이름 <b>DB</b>)을 연결하세요.</div>`;
   } else {
@@ -366,7 +440,7 @@ async function dashboard(ctx, url, d) {
 
   return page("관리자", `
     <div class="top"><h1>24시출장열쇠 관리자</h1><div><a href="/" target="_blank">사이트 보기</a> · <a href="/admin/logout">로그아웃</a></div></div>
-    <nav class="tabs"><a href="/admin" class="${tab === "stats" ? "on" : ""}">방문 통계</a><a href="/admin?tab=posts" class="${tab === "posts" ? "on" : ""}">블로그 글 현황</a></nav>
+    <nav class="tabs"><a href="/admin" class="${tab === "stats" ? "on" : ""}">방문 통계</a><a href="/admin?tab=pages" class="${tab === "pages" ? "on" : ""}">📄 페이지 조회</a><a href="/admin?tab=posts" class="${tab === "posts" ? "on" : ""}">블로그 글 현황</a></nav>
     ${body}`);
 }
 
@@ -409,6 +483,8 @@ a.bar.sel span{background:var(--red)}a.bar:hover span{opacity:.75}
 .hb-n{text-align:right;font-weight:700}
 .hchart{display:flex;align-items:flex-end;gap:3px;height:140px}.hbar{flex:1;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center}
 .hbar span{width:100%;background:var(--ink);border-radius:2px 2px 0 0;min-height:2px}.hbar em{font-style:normal;font-size:.68rem;color:var(--muted);height:14px;margin-top:3px}
+.pills{display:flex;flex-wrap:wrap;gap:6px;align-items:center}.pill{border:1px solid var(--line);border-radius:999px;padding:5px 12px;text-decoration:none;font-weight:700;font-size:.9rem;background:#faf9f6}.pill.on{background:var(--ink);color:#fff;border-color:var(--ink)}.pill b{font-weight:800;margin-left:2px}
+.inl{display:flex;gap:6px;align-items:center}.inl input{padding:6px 10px;border:1px solid var(--line);border-radius:8px;font-size:.9rem}.inl button{padding:6px 12px}
 .chips{display:flex;flex-wrap:wrap;gap:6px}.chip{border:1px solid var(--line);background:#faf9f6;border-radius:999px;padding:3px 10px;font-size:.88rem}
 </style></head><body>${body}</body></html>`;
 }

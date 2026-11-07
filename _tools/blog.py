@@ -172,7 +172,8 @@ def card(out, place, photo, w, h, shift=0.5, bright=0.62, quality=84, tags=()):
 # ── 페이지 ───────────────────────────────────────────────
 def with_base(page):
     # blog/ 폴더 안 페이지도 루트 기준으로 링크가 맞도록
-    return page.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<base href="/">', 1)
+    page = page.replace('<meta charset="utf-8">', '<meta charset="utf-8">\n<base href="/">', 1)
+    return page.replace("</head>", f'<link rel="alternate" type="application/rss+xml" title="{NAME} 블로그" href="{SITE}/rss.xml">\n</head>', 1)
 
 
 def article_ld(p):
@@ -278,6 +279,37 @@ def add_to_sitemap(posts):
     write("sitemap.xml", sm.replace("</urlset>", add + "</urlset>"))
 
 
+def rss_date(d):
+    y, m, dd = map(int, d.split("-"))
+    kst = datetime.timezone(datetime.timedelta(hours=9))
+    return datetime.datetime(y, m, dd, 8, 0, tzinfo=kst).strftime("%a, %d %b %Y %H:%M:%S +0900")
+
+
+def write_rss(posts, limit=50):
+    # 네이버 서치어드바이저 제출용 RSS (공개된 글 최신 50편, 매일 예약 공개 빌드 때 같이 갱신)
+    items = "".join(
+        f"""  <item>
+    <title>{e(p['title'])}</title>
+    <link>{SITE}/blog/{p['slug']}</link>
+    <guid isPermaLink="true">{SITE}/blog/{p['slug']}</guid>
+    <description>{e(p['desc'])}</description>
+    <pubDate>{rss_date(p['date'])}</pubDate>
+  </item>
+""" for p in posts[:limit])
+    last = f"  <lastBuildDate>{rss_date(posts[0]['date'])}</lastBuildDate>\n" if posts else ""
+    write("rss.xml", f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>{NAME} 블로그</title>
+  <link>{SITE}/blog/</link>
+  <atom:link href="{SITE}/rss.xml" rel="self" type="application/rss+xml"/>
+  <description>서울 · 경기 출장 열쇠, 현관문 개방, 도어락 수리 · 설치 · 교체 정보</description>
+  <language>ko</language>
+{last}{items}</channel>
+</rss>
+""")
+
+
 def load_posts():
     pdir = os.path.join(ROOT, "_posts")
     posts = (parse(os.path.join(pdir, f)) for f in os.listdir(pdir) if f.endswith(".txt"))
@@ -306,6 +338,7 @@ def main():
                  quality=(82, 86, 80, 84, 83)[k % 5], tags=("비파손 개방 전문", "개방 실패시 무료"))
     build_index(posts)
     add_to_sitemap(posts)
+    write_rss(posts)
     # 관리자 화면용 글 목록 (서버에서만 읽음, 외부 접근은 차단)
     write("blog/posts.json", json.dumps({
         "posts": [{k: p[k] for k in ("slug", "title", "date", "region", "place")} for p in posts],

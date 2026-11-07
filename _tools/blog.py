@@ -285,8 +285,24 @@ def rss_date(d):
     return datetime.datetime(y, m, dd, 8, 0, tzinfo=kst).strftime("%a, %d %b %Y %H:%M:%S +0900")
 
 
-def write_rss(posts, limit=50):
-    # 네이버 서치어드바이저 제출용 RSS (공개된 글 최신 50편, 매일 예약 공개 빌드 때 같이 갱신)
+def rss_pick(posts, batch=50, fresh_days=2):
+    # 최근 fresh_days 일 안에 공개된 새 글 전부 + 그 이전 글 batch 편
+    # 이전 글은 오래된 것부터 차례로, 한국 날짜가 바뀔 때마다 다음 batch 편으로 돌아간다 (날짜는 원래 공개일 그대로)
+    today = datetime.date.fromisoformat(TODAY)
+    cut = (today - datetime.timedelta(days=fresh_days - 1)).isoformat()
+    fresh = [p for p in posts if p["date"] >= cut]
+    old = [p for p in posts if p["date"] < cut][::-1]
+    if len(old) <= batch:
+        return fresh + old[::-1]
+    rounds = -(-len(old) // batch)
+    start = (today.toordinal() % rounds) * batch
+    pick = old[start:start + batch]
+    pick += old[:batch - len(pick)]
+    return fresh + sorted(pick, key=lambda p: (p["date"], p["slug"]), reverse=True)
+
+
+def write_rss(posts):
+    # 네이버 서치어드바이저 제출용 RSS (매일 예약 공개 빌드 때 같이 갱신)
     items = "".join(
         f"""  <item>
     <title>{e(p['title'])}</title>
@@ -295,7 +311,7 @@ def write_rss(posts, limit=50):
     <description>{e(p['desc'])}</description>
     <pubDate>{rss_date(p['date'])}</pubDate>
   </item>
-""" for p in posts[:limit])
+""" for p in rss_pick(posts))
     last = f"  <lastBuildDate>{rss_date(posts[0]['date'])}</lastBuildDate>\n" if posts else ""
     write("rss.xml", f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">

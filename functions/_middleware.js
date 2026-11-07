@@ -87,7 +87,7 @@ function keyword(ref) {
 }
 
 const BOT_UA = /bot|crawl|spider|slurp|preview|monitor|curl|wget|python|httpx|okhttp|java\/|go-http|node-fetch|axios|scrapy|headless|phantom|puppeteer|playwright|lighthouse|yeti|daumoa|facebookexternalhit|bingpreview|ahrefs|semrush|mj12|dotbot|petalbot|bytespider|gptbot|claudebot|ccbot|perplexity/i;
-const DC_ORG = /amazon|aws|google|microsoft|azure|digitalocean|ovh|hetzner|linode|akamai|alibaba|aliyun|tencent|oracle|vultr|choopa|contabo|leaseweb|m247|datacamp|cdn77|scaleway|ionos|hostinger|colocrossing|psychz|servers\.com|g-core|gcore|cloudflare|fastly|hostwinds|kamatera|zenlayer|cogent|ucloud|huawei|baidu|byteplus|bytedance|data ?cent|hosting|server|cloud|vps/i;
+const DC_ORG = /amazon|aws|google|microsoft|azure|digitalocean|ovh|hetzner|linode|akamai|alibaba|aliyun|tencent|oracle|vultr|choopa|contabo|leaseweb|m247|datacamp|cdn77|scaleway|ionos|hostinger|colocrossing|psychz|servers\.com|g-core|gcore|cloudflare|fastly|hostwinds|kamatera|zenlayer|cogent|ucloud|huawei|baidu|byteplus|bytedance|data ?cent|hosting|server|cloud|vps|idc\b/i;
 function botName(ua) {
   const m = ua.match(/([A-Za-z][\w.-]*?(?:bot|crawler|spider))\b/i) || ua.match(/(Yeti|Daumoa|facebookexternalhit|HeadlessChrome|python-requests|curl|Wget|Go-http-client|okhttp|Lighthouse)/i);
   return m ? m[1] : "기타 자동 프로그램";

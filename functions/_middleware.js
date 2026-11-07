@@ -372,7 +372,7 @@ async function dashboard(ctx, url, d) {
   } else {
     const from14 = kstDay(13);
     const q = (sql, ...b) => d.prepare(sql).bind(...b).all().then((r) => r.results);
-    const [vDays, hDays, cDays, mDays, geoR, geoC, devs, hours, refs, kws, pages, calls, callPages, bDays, botOrgs, lands] = await Promise.all([
+    const [vDays, hDays, cDays, mDays, geoR, geoC, devs, hours, refs, kws, pages, calls, callPages, bDays, botOrgs, lands, personOrgs] = await Promise.all([
       q("SELECT day, COUNT(*) v FROM visits WHERE kind = 'person' AND day >= ? GROUP BY day", from14),
       q("SELECT day, SUM(n) h FROM hits WHERE day >= ? GROUP BY day", from14),
       q("SELECT day, SUM(n) c FROM events WHERE kind = 'call' AND day >= ? GROUP BY day", from14),
@@ -389,6 +389,7 @@ async function dashboard(ctx, url, d) {
       q("SELECT day, COUNT(*) b FROM visits WHERE kind != 'person' AND day >= ? GROUP BY day", from14),
       q("SELECT CASE WHEN kind = 'foreign' THEN '해외 접속 · ' || COALESCE(NULLIF(country, ''), '?') ELSE COALESCE(NULLIF(org, ''), '알 수 없음') END org, COUNT(*) v FROM visits WHERE kind != 'person' AND day = ? GROUP BY 1 ORDER BY v DESC LIMIT 12", day),
       q("SELECT landing, COUNT(*) v FROM visits WHERE kind = 'person' AND day = ? GROUP BY landing ORDER BY v DESC LIMIT 15", day),
+      q("SELECT COALESCE(NULLIF(org, ''), '알 수 없음') org, COUNT(*) v FROM visits WHERE kind = 'person' AND day = ? GROUP BY 1 ORDER BY v DESC LIMIT 12", day),
     ]);
     const mk = (rows, k) => Object.fromEntries(rows.map((r) => [r.day, r[k]]));
     const V = mk(vDays, "v"), H = mk(hDays, "h"), C = mk(cDays, "c"), M = mk(mDays, "m"), B = mk(bDays, "b");
@@ -426,6 +427,7 @@ async function dashboard(ctx, url, d) {
       <div class="card"><h2>전화 버튼 클릭 (페이지별)</h2>${table(callPages, [{ t: "페이지", f: (r) => link(r.page) }, { t: "클릭", k: "n", n: 1 }], "아직 전화 클릭이 없습니다")}</div>
       <div class="card"><h2>유입 경로</h2>${hbars(refs, "ref", "v")}</div>
       <div class="card"><h2>처음 들어온 페이지</h2>${table(lands, [{ t: "페이지", f: (r) => link(r.landing) }, { t: "방문자", k: "v", n: 1 }])}</div>
+      <div class="card"><h2>방문자 통신사·접속 회사</h2><p class="muted">SK브로드밴드·KT·LG유플러스 같은 통신사면 사람일 가능성이 큽니다. 처음 보는 회사 이름이 많으면 자동 프로그램일 수 있습니다.</p>${hbars(personOrgs, "org", "v")}</div>
       <div class="card"><h2>기기</h2>${hbars(devs, "device", "v")}</div>
       <div class="card"><h2>시간대별 방문자</h2><div class="hchart">${hourBars}</div></div>
       <div class="card"><h2>많이 본 페이지</h2>${table(pages, [{ t: "페이지", f: (r) => link(r.path) }, { t: "조회", k: "n", n: 1 }])}</div>
